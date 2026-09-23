@@ -1,0 +1,14 @@
+name: prithvi-ref-assessment
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - geopandas
+  - shapely
+  - fiona
+  - pyogrio
+  - gdal
+  - pandas
+  - pyproj
+  - matplotlib
+  - pip

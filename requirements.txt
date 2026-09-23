@@ -1,0 +1,10 @@
+# GDAL-linked packages (geopandas, fiona, pyogrio) are more reliably
+# installed via conda-forge (see environment.yml) than pip, especially on
+# macOS. This file is a best-effort pip fallback.
+geopandas
+shapely
+fiona
+pyogrio
+pandas
+pyproj
+matplotlib

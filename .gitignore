@@ -1,0 +1,37 @@
+# Data: track directory structure only, never contents.
+# Raw source data and generated outputs are preserved on disk but not
+# committed (geodatabases/shapefiles are large, and raw data should never
+# live only inside git history).
+#
+# Order matters: a file can't be un-ignored if its parent directory is
+# itself ignored, so directories are explicitly un-ignored before .gitkeep
+# is re-included within them.
+data/raw/**
+!data/raw/**/
+!data/raw/**/.gitkeep
+
+data/processed/**
+!data/processed/**/
+!data/processed/**/.gitkeep
+
+outputs/**
+!outputs/**/
+!outputs/**/.gitkeep
+
+# Source documentation (reports, FGDC/RTF metadata, certification forms) is
+# often large binary content shipped by data providers -- same reasoning as
+# raw data above: preserved on disk, tracked by structure, not committed.
+docs/source_docs/**
+!docs/source_docs/**/
+!docs/source_docs/**/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+*.egg-info/
+
+# OS
+.DS_Store
