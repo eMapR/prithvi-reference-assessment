@@ -17,17 +17,23 @@ in the same year, consistent with the same-year overlap investigation
 (97% of R6 same-year overlap is the documented "pancake" pattern: multiple
 legitimate attributions at the same footprint).
 
-Outputs (outputs/qa/):
-  ads_r6_subregion_year_dca_pixels.csv            -- A (primary)
-  ads_r6_subregion_dca_pixels_allyears.csv        -- B (primary)
-  ads_r6_subregion_year_pixels_summary_dca.csv    -- C (primary)
-  ads_r6_multilabel_qa_dca.csv                    -- D (primary)
-  ads_r6_subregion_year_damagetype_pixels.csv     -- A (secondary)
-  ads_r6_subregion_damagetype_pixels_allyears.csv -- B (secondary)
-  ads_r6_subregion_year_pixels_summary_damagetype.csv -- C (secondary)
-  ads_r6_multilabel_qa_damagetype.csv             -- D (secondary)
+Outputs (outputs/qa/) -- names as actually written by write_products() below,
+prefix is "ads_r6_subregion_year_dca" (primary) / "ads_r6_subregion_year_damagetype" (secondary):
+  ads_r6_subregion_year_dca_pixels.csv                 -- A (primary)
+  ads_r6_subregion_year_dca_pixels_allyears.csv        -- B (primary)
+  ads_r6_subregion_year_dca_pixels_summary.csv         -- C (primary)
+  ads_r6_subregion_year_dca_multilabel_qa.csv          -- D (primary)
+  ads_r6_subregion_year_damagetype_pixels.csv          -- A (secondary)
+  ads_r6_subregion_year_damagetype_pixels_allyears.csv -- B (secondary)
+  ads_r6_subregion_year_damagetype_pixels_summary.csv  -- C (secondary)
+  ads_r6_subregion_year_damagetype_multilabel_qa.csv   -- D (secondary)
   ads_r6_zero_pixel_polygons.csv
   ads_r6_rasterize_metadata.json
+
+(The further-reshaped whiteboard-style spatial-prevalence summary tables --
+ads_r6_dca_subregion_class_summary.csv,
+ads_r6_dca_subregion_year_class_summary.csv, and the damagetype equivalents
+-- are produced separately by src/build_pixel_summary_tables.py, not here.)
 """
 
 import json

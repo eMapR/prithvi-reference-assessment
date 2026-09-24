@@ -9,17 +9,23 @@ Two SEPARATE, independent products:
   PRIMARY:   subregion x year x DCA_COMMON_NAME  (causal agent)
   SECONDARY: subregion x year x DAMAGE_TYPE      (damage type)
 
-Outputs (outputs/qa/):
-  ads_r10_subregion_year_dca_pixels.csv            -- A (primary)
-  ads_r10_subregion_dca_pixels_allyears.csv        -- B (primary)
-  ads_r10_subregion_year_pixels_summary_dca.csv    -- C (primary)
-  ads_r10_multilabel_qa_dca.csv                    -- D (primary)
-  ads_r10_subregion_year_damagetype_pixels.csv     -- A (secondary)
-  ads_r10_subregion_damagetype_pixels_allyears.csv -- B (secondary)
-  ads_r10_subregion_year_pixels_summary_damagetype.csv -- C (secondary)
-  ads_r10_multilabel_qa_damagetype.csv             -- D (secondary)
+Outputs (outputs/qa/) -- names as actually written by write_products() below,
+prefix is "ads_r10_subregion_year_dca" (primary) / "ads_r10_subregion_year_damagetype" (secondary):
+  ads_r10_subregion_year_dca_pixels.csv                 -- A (primary)
+  ads_r10_subregion_year_dca_pixels_allyears.csv        -- B (primary)
+  ads_r10_subregion_year_dca_pixels_summary.csv         -- C (primary)
+  ads_r10_subregion_year_dca_multilabel_qa.csv          -- D (primary)
+  ads_r10_subregion_year_damagetype_pixels.csv          -- A (secondary)
+  ads_r10_subregion_year_damagetype_pixels_allyears.csv -- B (secondary)
+  ads_r10_subregion_year_damagetype_pixels_summary.csv  -- C (secondary)
+  ads_r10_subregion_year_damagetype_multilabel_qa.csv   -- D (secondary)
   ads_r10_zero_pixel_polygons.csv
   ads_r10_rasterize_metadata.json
+
+(The further-reshaped whiteboard-style spatial-prevalence summary tables --
+ads_r10_dca_subregion_class_summary.csv,
+ads_r10_dca_subregion_year_class_summary.csv, and the damagetype equivalents
+-- are produced separately by src/build_pixel_summary_tables.py, not here.)
 """
 
 import json

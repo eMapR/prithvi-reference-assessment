@@ -29,6 +29,26 @@ apparent prevalence is reduced because another valid attribution shares
 that pixel. The percentages are NOT normalized to sum to 100% and this
 table does NOT represent attribution composition (share of a fixed total).
 
+IMPORTANT -- what the denominator means differs between the two tables:
+
+  - {prefix}_subregion_year_class_summary.csv (per subregion-year): the
+    denominator is that single year's unique attributed-pixel count within
+    the subregion. This is unambiguous spatial prevalence -- a physical
+    pixel is counted at most once in that year's total.
+
+  - {prefix}_subregion_class_summary.csv (all-years): the denominator SUMS
+    each subregion-year's unique attributed-pixel count ACROSS YEARS. A
+    single physical pixel that was legitimately attributed in more than one
+    year (expected -- ADS is a repeated annual survey, and NCCN/GLKN can
+    both re-flag the same ground in a later assessment) contributes once to
+    that sum for EACH year it was attributed in. The all-years denominator
+    is therefore a count of ATTRIBUTED PIXEL-YEARS, not a deduplicated count
+    of unique physical pixels across the whole time series -- the all-years
+    spatial_prevalence_pct is "the percentage of attributed pixel-years
+    carrying this native class," not "the percentage of physical ground
+    ever attributed as this class." The calculation itself is unchanged;
+    this is a documentation clarification of what it already measures.
+
 No diversity scores, no ranking, no focal-area selection -- descriptive only.
 """
 
@@ -49,18 +69,23 @@ def build_summary(long_csv, multilabel_csv, prefix, subregion_cols):
     ).reset_index()
     allyears["area_ha"] = (allyears["pixel_count"] * 0.09).round(4)
 
-    denom_allyears = ml_df.groupby(subregion_cols)["attributed_pixels"].sum().rename("_unique_attributed_pixels")
+    # Denominator = SUM of each year's unique attributed-pixel count, i.e.
+    # attributed PIXEL-YEARS, not a single deduplicated pixel count across
+    # the whole time series -- see module docstring "IMPORTANT" note above.
+    denom_allyears = ml_df.groupby(subregion_cols)["attributed_pixels"].sum().rename("_attributed_pixel_years")
     allyears = allyears.merge(denom_allyears, on=subregion_cols, how="left")
     allyears["spatial_prevalence_pct"] = (
-        100 * allyears["pixel_count"] / allyears["_unique_attributed_pixels"]
+        100 * allyears["pixel_count"] / allyears["_attributed_pixel_years"]
     ).round(3)
-    allyears = allyears.drop(columns=["_unique_attributed_pixels"])
+    allyears = allyears.drop(columns=["_attributed_pixel_years"])
     allyears = allyears.sort_values(subregion_cols + ["pixel_count"], ascending=[True] * len(subregion_cols) + [False])
     allyears = allyears[subregion_cols + ["native_class", "pixel_count", "area_ha", "spatial_prevalence_pct"]]
     out1 = QA_DIR / f"{prefix}_subregion_class_summary.csv"
     allyears.to_csv(out1, index=False)
 
     # --- subregion x year x class summary (temporal structure) ---
+    # Denominator here is a single year's unique attributed-pixel count --
+    # unambiguous spatial prevalence, no pixel-year summing involved.
     denom_year = ml_df.set_index(subregion_cols + ["year"])["attributed_pixels"].rename("_unique_attributed_pixels")
     yearclass = long_df.merge(denom_year.reset_index(), on=subregion_cols + ["year"], how="left")
     yearclass["spatial_prevalence_pct"] = (
