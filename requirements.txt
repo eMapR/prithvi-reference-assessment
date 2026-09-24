@@ -5,6 +5,7 @@ geopandas
 shapely
 fiona
 pyogrio
+rasterio
 pandas
 pyproj
 pyarrow

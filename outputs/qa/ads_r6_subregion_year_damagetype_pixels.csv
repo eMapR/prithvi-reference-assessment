@@ -1,0 +1,1325 @@
+subregion,subregion_name,year,native_class,pixel_count,area_ha
+1,Coast Range,1997,Branch flagging,280,25.2
+1,Coast Range,1997,Crown Dieback,28,2.52
+1,Coast Range,1997,Crown Discoloration,10495,944.55
+1,Coast Range,1997,Defoliation,9219,829.71
+1,Coast Range,1997,Main stem Broken or Uprooted,3462,311.58
+1,Coast Range,1997,Mortality,80045,7204.05
+1,Coast Range,1997,No Data,80,7.2
+1,Coast Range,1998,Branch flagging,1711,153.99
+1,Coast Range,1998,Crown Dieback,2463,221.67
+1,Coast Range,1998,Crown Discoloration,590,53.1
+1,Coast Range,1998,Defoliation,92604,8334.36
+1,Coast Range,1998,Main stem Broken or Uprooted,80,7.2
+1,Coast Range,1998,Mortality,59205,5328.45
+1,Coast Range,1998,No damage,121,10.89
+1,Coast Range,1998,Topkill,42,3.78
+1,Coast Range,1999,Crown Dieback,514,46.26
+1,Coast Range,1999,Crown Discoloration,905,81.45
+1,Coast Range,1999,Defoliation,1627,146.43
+1,Coast Range,1999,Main stem Broken or Uprooted,182,16.38
+1,Coast Range,1999,Mortality,73177,6585.93
+1,Coast Range,1999,No damage,1487,133.83
+1,Coast Range,1999,Topkill,303,27.27
+1,Coast Range,2000,Branch flagging,454,40.86
+1,Coast Range,2000,Crown Discoloration,1406,126.54
+1,Coast Range,2000,Defoliation,447,40.23
+1,Coast Range,2000,Main stem Broken or Uprooted,1470,132.3
+1,Coast Range,2000,Mortality,166074,14946.66
+1,Coast Range,2001,Branch flagging,606,54.54
+1,Coast Range,2001,Crown Dieback,12178,1096.02
+1,Coast Range,2001,Crown Discoloration,377,33.93
+1,Coast Range,2001,Defoliation,41927,3773.43
+1,Coast Range,2001,Main stem Broken or Uprooted,595,53.55
+1,Coast Range,2001,Mortality,200067,18006.03
+1,Coast Range,2002,Branch flagging,2351,211.59
+1,Coast Range,2002,Crown Dieback,16186,1456.74
+1,Coast Range,2002,Crown Discoloration,275,24.75
+1,Coast Range,2002,Defoliation,414842,37335.78
+1,Coast Range,2002,Main stem Broken or Uprooted,2968,267.12
+1,Coast Range,2002,Mortality,346914,31222.26
+1,Coast Range,2002,Other Damage,364,32.76
+1,Coast Range,2003,Branch flagging,1092,98.28
+1,Coast Range,2003,Defoliation,1344980,121048.2
+1,Coast Range,2003,Main stem Broken or Uprooted,1677,150.93
+1,Coast Range,2003,Mortality,511021,45991.89
+1,Coast Range,2003,Other Damage,21,1.89
+1,Coast Range,2003,Topkill,829,74.61
+1,Coast Range,2004,Branch flagging,1497,134.73
+1,Coast Range,2004,Crown Dieback,96,8.64
+1,Coast Range,2004,Crown Discoloration,730,65.7
+1,Coast Range,2004,Defoliation,29867,2688.03
+1,Coast Range,2004,Main stem Broken or Uprooted,59,5.31
+1,Coast Range,2004,Mortality,447991,40319.19
+1,Coast Range,2004,Other Damage,291,26.19
+1,Coast Range,2004,Topkill,136,12.24
+1,Coast Range,2005,Branch flagging,6907,621.63
+1,Coast Range,2005,Crown Dieback,38383,3454.47
+1,Coast Range,2005,Crown Discoloration,1762,158.58
+1,Coast Range,2005,Defoliation,52723,4745.07
+1,Coast Range,2005,Main stem Broken or Uprooted,77,6.93
+1,Coast Range,2005,Mortality,679194,61127.46
+1,Coast Range,2005,Topkill,158,14.22
+1,Coast Range,2006,Branch flagging,4089,368.01
+1,Coast Range,2006,Crown Dieback,3493,314.37
+1,Coast Range,2006,Crown Discoloration,2121,190.89
+1,Coast Range,2006,Defoliation,1593,143.37
+1,Coast Range,2006,Main stem Broken or Uprooted,1531,137.79
+1,Coast Range,2006,Mortality,911359,82022.31
+1,Coast Range,2006,Other Damage,649,58.41
+1,Coast Range,2006,Topkill,819,73.71
+1,Coast Range,2007,Branch flagging,8495,764.55
+1,Coast Range,2007,Crown Dieback,3512,316.08
+1,Coast Range,2007,Crown Discoloration,3201,288.09
+1,Coast Range,2007,Defoliation,1894,170.46
+1,Coast Range,2007,Main stem Broken or Uprooted,37281,3355.29
+1,Coast Range,2007,Mortality,602198,54197.82
+1,Coast Range,2007,Other Damage,126,11.34
+1,Coast Range,2007,Topkill,441,39.69
+1,Coast Range,2008,Branch flagging,6078,547.02
+1,Coast Range,2008,Crown Dieback,6408,576.72
+1,Coast Range,2008,Crown Discoloration,1987,178.83
+1,Coast Range,2008,Defoliation,11035,993.15
+1,Coast Range,2008,Main stem Broken or Uprooted,200194,18017.46
+1,Coast Range,2008,Mortality,761031,68492.79
+1,Coast Range,2008,Other Damage,45,4.05
+1,Coast Range,2008,Topkill,299,26.91
+1,Coast Range,2009,Branch flagging,9092,818.28
+1,Coast Range,2009,Crown Dieback,3688,331.92
+1,Coast Range,2009,Crown Discoloration,442,39.78
+1,Coast Range,2009,Defoliation,13418,1207.62
+1,Coast Range,2009,Main stem Broken or Uprooted,10109,909.81
+1,Coast Range,2009,Mortality,1322623,119036.07
+1,Coast Range,2009,Other Damage,295,26.55
+1,Coast Range,2009,Topkill,30,2.7
+1,Coast Range,2010,Branch flagging,4847,436.23
+1,Coast Range,2010,Crown Dieback,3710,333.9
+1,Coast Range,2010,Crown Discoloration,940,84.6
+1,Coast Range,2010,Defoliation,1736,156.24
+1,Coast Range,2010,Main stem Broken or Uprooted,3132,281.88
+1,Coast Range,2010,Mortality,518437,46659.33
+1,Coast Range,2010,Other Damage,1013,91.17
+1,Coast Range,2010,Topkill,80,7.2
+1,Coast Range,2011,Branch flagging,4386,394.74
+1,Coast Range,2011,Crown Dieback,250,22.5
+1,Coast Range,2011,Crown Discoloration,799,71.91
+1,Coast Range,2011,Defoliation,3250,292.5
+1,Coast Range,2011,Main stem Broken or Uprooted,1005,90.45
+1,Coast Range,2011,Mortality,538084,48427.56
+1,Coast Range,2011,Other Damage,727,65.43
+1,Coast Range,2011,Topkill,97,8.73
+1,Coast Range,2012,Branch flagging,4006,360.54
+1,Coast Range,2012,Crown Dieback,135,12.15
+1,Coast Range,2012,Crown Discoloration,5738,516.42
+1,Coast Range,2012,Defoliation,17950,1615.5
+1,Coast Range,2012,Main stem Broken or Uprooted,1786,160.74
+1,Coast Range,2012,Mortality,523316,47098.44
+1,Coast Range,2012,Other Damage,559,50.31
+1,Coast Range,2012,Topkill,36,3.24
+1,Coast Range,2013,Branch flagging,3713,334.17
+1,Coast Range,2013,Crown Dieback,17980,1618.2
+1,Coast Range,2013,Crown Discoloration,3176,285.84
+1,Coast Range,2013,Defoliation,52163,4694.67
+1,Coast Range,2013,Main stem Broken or Uprooted,91,8.19
+1,Coast Range,2013,Mortality,468029,42122.61
+1,Coast Range,2013,Other Damage,20,1.8
+1,Coast Range,2013,Topkill,120,10.8
+1,Coast Range,2014,Branch flagging,3128,281.52
+1,Coast Range,2014,Crown Dieback,41422,3727.98
+1,Coast Range,2014,Crown Discoloration,1569,141.21
+1,Coast Range,2014,Defoliation,121785,10960.65
+1,Coast Range,2014,Main stem Broken or Uprooted,434,39.06
+1,Coast Range,2014,Mortality,558872,50298.48
+1,Coast Range,2014,Other Damage,46,4.14
+1,Coast Range,2015,Branch flagging,5281,475.29
+1,Coast Range,2015,Crown Dieback,2298,206.82
+1,Coast Range,2015,Crown Discoloration,775,69.75
+1,Coast Range,2015,Defoliation,22674,2040.66
+1,Coast Range,2015,Mortality,423805,38142.45
+1,Coast Range,2015,Other Damage,462,41.58
+1,Coast Range,2016,Branch flagging,3187,286.83
+1,Coast Range,2016,Crown Dieback,6464,581.76
+1,Coast Range,2016,Crown Discoloration,455,40.95
+1,Coast Range,2016,Defoliation,13163,1184.67
+1,Coast Range,2016,Main stem Broken or Uprooted,179,16.11
+1,Coast Range,2016,Mortality,308169,27735.21
+1,Coast Range,2016,Other Damage,2922,262.98
+1,Coast Range,2016,Topkill,2432,218.88
+1,Coast Range,2017,Branch flagging,4474,402.66
+1,Coast Range,2017,Crown Dieback,378,34.02
+1,Coast Range,2017,Defoliation,13113,1180.17
+1,Coast Range,2017,Defoliation 50-75% of leaves defoliated,630,56.7
+1,Coast Range,2017,Defoliation < 50% of leaves defoliated,105,9.45
+1,Coast Range,2017,Defoliation > 75% of leaves defoliated,496,44.64
+1,Coast Range,2017,Main stem Broken or Uprooted,179,16.11
+1,Coast Range,2017,Mortality,269713,24274.17
+1,Coast Range,2017,Other Damage,5324,479.16
+1,Coast Range,2017,Other Damage (known),238,21.42
+1,Coast Range,2017,Topkill,237,21.33
+1,Coast Range,2018,Crown Dieback,7434,669.06
+1,Coast Range,2018,Crown Discoloration,83,7.47
+1,Coast Range,2018,Defoliation 50-75% of leaves defoliated,2096084,188647.56
+1,Coast Range,2018,Defoliation < 50% of leaves defoliated,2869,258.21
+1,Coast Range,2018,Defoliation > 75% of leaves defoliated,130130,11711.7
+1,Coast Range,2018,Main stem Broken or Uprooted,19,1.71
+1,Coast Range,2018,Mortality,632213,56899.17
+1,Coast Range,2018,Topkill,485,43.65
+1,Coast Range,2018,Unknown Damage,299,26.91
+1,Coast Range,2019,Branch Breakage,21941,1974.69
+1,Coast Range,2019,Crown Dieback,7676,690.84
+1,Coast Range,2019,Crown Discoloration,2461,221.49
+1,Coast Range,2019,Defoliation 50-75% of leaves defoliated,47922,4312.98
+1,Coast Range,2019,Defoliation < 50% of leaves defoliated,18009,1620.81
+1,Coast Range,2019,Defoliation > 75% of leaves defoliated,26014,2341.26
+1,Coast Range,2019,Main stem Broken or Uprooted,5616,505.44
+1,Coast Range,2019,Mortality,409835,36885.15
+1,Coast Range,2019,Topkill,771,69.39
+1,Coast Range,2019,Unknown Damage,662,59.58
+1,Coast Range,2020,Defoliation 50-75% of leaves defoliated,1746,157.14
+1,Coast Range,2020,Defoliation < 50% of leaves defoliated,194,17.46
+1,Coast Range,2020,Defoliation > 75% of leaves defoliated,68,6.12
+1,Coast Range,2020,Mortality,52947,4765.23
+1,Coast Range,2020,Unknown Damage,21,1.89
+1,Coast Range,2021,Branch Breakage,16,1.44
+1,Coast Range,2021,Crown Dieback,70,6.3
+1,Coast Range,2021,Crown Discoloration,919314,82738.26
+1,Coast Range,2021,Defoliation 50-75% of leaves defoliated,1989,179.01
+1,Coast Range,2021,Defoliation < 50% of leaves defoliated,2496,224.64
+1,Coast Range,2021,Defoliation > 75% of leaves defoliated,1123,101.07
+1,Coast Range,2021,Main stem Broken or Uprooted,111,9.99
+1,Coast Range,2021,Mortality,475267,42774.03
+1,Coast Range,2021,Topkill,5590,503.1
+1,Coast Range,2022,Crown Dieback,386,34.74
+1,Coast Range,2022,Defoliation 50-75% of leaves defoliated,3306684,297601.56
+1,Coast Range,2022,Defoliation < 50% of leaves defoliated,512,46.08
+1,Coast Range,2022,Defoliation > 75% of leaves defoliated,216666,19499.94
+1,Coast Range,2022,Mortality,448727,40385.43
+1,Coast Range,2022,No damage,150,13.5
+1,Coast Range,2022,Topkill,13220,1189.8
+1,Coast Range,2022,Unknown Damage,206,18.54
+1,Coast Range,2023,Crown Dieback,118,10.62
+1,Coast Range,2023,Crown Discoloration,32489,2924.01
+1,Coast Range,2023,Defoliation 50-75% of leaves defoliated,5598,503.82
+1,Coast Range,2023,Defoliation < 50% of leaves defoliated,106,9.54
+1,Coast Range,2023,Defoliation > 75% of leaves defoliated,754,67.86
+1,Coast Range,2023,Main stem Broken or Uprooted,514,46.26
+1,Coast Range,2023,Mortality,469815,42283.35
+1,Coast Range,2023,Topkill,5220,469.8
+1,Coast Range,2023,Unknown Damage,734,66.06
+1,Coast Range,2024,Crown Dieback,157,14.13
+1,Coast Range,2024,Crown Discoloration,11,0.99
+1,Coast Range,2024,Defoliation 50-75% of leaves defoliated,3113308,280197.72
+1,Coast Range,2024,Defoliation < 50% of leaves defoliated,1806,162.54
+1,Coast Range,2024,Defoliation > 75% of leaves defoliated,1378821,124093.89
+1,Coast Range,2024,Main stem Broken or Uprooted,9403,846.27
+1,Coast Range,2024,Mortality,255670,23010.3
+1,Coast Range,2024,Topkill,8288,745.92
+1,Coast Range,2024,Unknown Damage,339,30.51
+1,Coast Range,2025,Crown Dieback,17799,1601.91
+1,Coast Range,2025,Defoliation 50-75% of leaves defoliated,13935,1254.15
+1,Coast Range,2025,Defoliation < 50% of leaves defoliated,2079,187.11
+1,Coast Range,2025,Defoliation > 75% of leaves defoliated,18709,1683.81
+1,Coast Range,2025,Main stem Broken or Uprooted,327,29.43
+1,Coast Range,2025,Mortality,225198,20267.82
+1,Coast Range,2025,No damage,1732,155.88
+1,Coast Range,2025,Topkill,3487,313.83
+1,Coast Range,2025,Unknown Damage,302,27.18
+11,Blue Mountains,1997,Crown Discoloration,727,65.43
+11,Blue Mountains,1997,Defoliation,21775,1959.75
+11,Blue Mountains,1997,Mortality,116766,10508.94
+11,Blue Mountains,1997,No Data,25,2.25
+11,Blue Mountains,1998,Branch flagging,611,54.99
+11,Blue Mountains,1998,Defoliation,204018,18361.62
+11,Blue Mountains,1998,Mortality,175976,15837.84
+11,Blue Mountains,1998,No damage,169,15.21
+11,Blue Mountains,1998,Topkill,7,0.63
+11,Blue Mountains,1999,Branch flagging,19534,1758.06
+11,Blue Mountains,1999,Defoliation,144289,12986.01
+11,Blue Mountains,1999,Mortality,222805,20052.45
+11,Blue Mountains,1999,No damage,1023,92.07
+11,Blue Mountains,1999,Topkill,87,7.83
+11,Blue Mountains,2000,Branch flagging,5958,536.22
+11,Blue Mountains,2000,Crown Discoloration,4859,437.31
+11,Blue Mountains,2000,Defoliation,988872,88998.48
+11,Blue Mountains,2000,Main stem Broken or Uprooted,132,11.88
+11,Blue Mountains,2000,Mortality,187703,16893.27
+11,Blue Mountains,2000,Other Damage,68874,6198.66
+11,Blue Mountains,2001,Branch flagging,112449,10120.41
+11,Blue Mountains,2001,Crown Discoloration,2399,215.91
+11,Blue Mountains,2001,Defoliation,252714,22744.26
+11,Blue Mountains,2001,Mortality,223941,20154.69
+11,Blue Mountains,2002,Branch flagging,178682,16081.38
+11,Blue Mountains,2002,Defoliation,85268,7674.12
+11,Blue Mountains,2002,Main stem Broken or Uprooted,862,77.58
+11,Blue Mountains,2002,Mortality,607955,54715.95
+11,Blue Mountains,2002,Other Damage,122303,11007.27
+11,Blue Mountains,2003,Branch flagging,270679,24361.11
+11,Blue Mountains,2003,Defoliation,63047,5674.23
+11,Blue Mountains,2003,Main stem Broken or Uprooted,299,26.91
+11,Blue Mountains,2003,Mortality,1326956,119426.04
+11,Blue Mountains,2003,Topkill,562,50.58
+11,Blue Mountains,2004,Branch flagging,224508,20205.72
+11,Blue Mountains,2004,Defoliation,52860,4757.4
+11,Blue Mountains,2004,Mortality,1523410,137106.9
+11,Blue Mountains,2004,Other Damage,28063,2525.67
+11,Blue Mountains,2005,Branch flagging,281288,25315.92
+11,Blue Mountains,2005,Defoliation,12341,1110.69
+11,Blue Mountains,2005,Mortality,688548,61969.32
+11,Blue Mountains,2006,Branch flagging,181282,16315.38
+11,Blue Mountains,2006,Defoliation,174161,15674.49
+11,Blue Mountains,2006,Mortality,417543,37578.87
+11,Blue Mountains,2006,Other Damage,788,70.92
+11,Blue Mountains,2006,Topkill,21,1.89
+11,Blue Mountains,2007,Branch Breakage,468,42.12
+11,Blue Mountains,2007,Branch flagging,472898,42560.82
+11,Blue Mountains,2007,Crown Discoloration,8463,761.67
+11,Blue Mountains,2007,Defoliation,810239,72921.51
+11,Blue Mountains,2007,Mortality,561595,50543.55
+11,Blue Mountains,2007,Other Damage,6194,557.46
+11,Blue Mountains,2008,Branch flagging,390422,35137.98
+11,Blue Mountains,2008,Defoliation,233740,21036.6
+11,Blue Mountains,2008,Main stem Broken or Uprooted,11,0.99
+11,Blue Mountains,2008,Mortality,698767,62889.03
+11,Blue Mountains,2008,Other Damage,7751,697.59
+11,Blue Mountains,2009,Branch flagging,465825,41924.25
+11,Blue Mountains,2009,Defoliation,256154,23053.86
+11,Blue Mountains,2009,Mortality,634221,57079.89
+11,Blue Mountains,2009,Other Damage,91975,8277.75
+11,Blue Mountains,2009,Topkill,9,0.81
+11,Blue Mountains,2010,Branch flagging,400776,36069.84
+11,Blue Mountains,2010,Defoliation,612492,55124.28
+11,Blue Mountains,2010,Main stem Broken or Uprooted,9,0.81
+11,Blue Mountains,2010,Mortality,652407,58716.63
+11,Blue Mountains,2010,Other Damage,3778,340.02
+11,Blue Mountains,2011,Branch flagging,140675,12660.75
+11,Blue Mountains,2011,Crown Dieback,3299,296.91
+11,Blue Mountains,2011,Defoliation,2019811,181782.99
+11,Blue Mountains,2011,Mortality,343092,30878.28
+11,Blue Mountains,2011,Other Damage,49296,4436.64
+11,Blue Mountains,2012,Branch flagging,172516,15526.44
+11,Blue Mountains,2012,Crown Dieback,3995,359.55
+11,Blue Mountains,2012,Defoliation,819835,73785.15
+11,Blue Mountains,2012,Main stem Broken or Uprooted,106,9.54
+11,Blue Mountains,2012,Mortality,237262,21353.58
+11,Blue Mountains,2012,Other Damage,8699,782.91
+11,Blue Mountains,2013,Branch flagging,159222,14329.98
+11,Blue Mountains,2013,Crown Dieback,571,51.39
+11,Blue Mountains,2013,Defoliation,9133,821.97
+11,Blue Mountains,2013,Mortality,421005,37890.45
+11,Blue Mountains,2013,No damage,29,2.61
+11,Blue Mountains,2013,Other Damage,15515,1396.35
+11,Blue Mountains,2014,Branch flagging,371391,33425.19
+11,Blue Mountains,2014,Crown Dieback,395,35.55
+11,Blue Mountains,2014,Defoliation,21808,1962.72
+11,Blue Mountains,2014,Mortality,626714,56404.26
+11,Blue Mountains,2014,Other Damage,10834,975.06
+11,Blue Mountains,2015,Branch flagging,167225,15050.25
+11,Blue Mountains,2015,Defoliation,58563,5270.67
+11,Blue Mountains,2015,Mortality,1047631,94286.79
+11,Blue Mountains,2015,Other Damage,19591,1763.19
+11,Blue Mountains,2016,Branch flagging,128891,11600.19
+11,Blue Mountains,2016,Crown Dieback,148,13.32
+11,Blue Mountains,2016,Defoliation,8109,729.81
+11,Blue Mountains,2016,Mortality,1246572,112191.48
+11,Blue Mountains,2016,Other Damage,74651,6718.59
+11,Blue Mountains,2016,Topkill,4724,425.16
+11,Blue Mountains,2017,Branch flagging,114067,10266.03
+11,Blue Mountains,2017,Crown Dieback,334,30.06
+11,Blue Mountains,2017,Defoliation,7719,694.71
+11,Blue Mountains,2017,Mortality,1389823,125084.07
+11,Blue Mountains,2017,Other Damage,169687,15271.83
+11,Blue Mountains,2018,Crown Dieback,173,15.57
+11,Blue Mountains,2018,Defoliation 50-75% of leaves defoliated,70164,6314.76
+11,Blue Mountains,2018,Defoliation < 50% of leaves defoliated,14432,1298.88
+11,Blue Mountains,2018,Defoliation > 75% of leaves defoliated,39846,3586.14
+11,Blue Mountains,2018,Mortality,1752678,157741.02
+11,Blue Mountains,2018,Unknown Damage,4395,395.55
+11,Blue Mountains,2019,Crown Dieback,289,26.01
+11,Blue Mountains,2019,Defoliation 50-75% of leaves defoliated,40912,3682.08
+11,Blue Mountains,2019,Defoliation < 50% of leaves defoliated,22531,2027.79
+11,Blue Mountains,2019,Defoliation > 75% of leaves defoliated,54951,4945.59
+11,Blue Mountains,2019,Main stem Broken or Uprooted,252,22.68
+11,Blue Mountains,2019,Mortality,2081470,187332.3
+11,Blue Mountains,2019,Unknown Damage,2152,193.68
+11,Blue Mountains,2020,Defoliation 50-75% of leaves defoliated,12747,1147.23
+11,Blue Mountains,2020,Defoliation < 50% of leaves defoliated,11906,1071.54
+11,Blue Mountains,2020,Defoliation > 75% of leaves defoliated,5688,511.92
+11,Blue Mountains,2020,Mortality,1000272,90024.48
+11,Blue Mountains,2020,Topkill,9004,810.36
+11,Blue Mountains,2020,Unknown Damage,1603,144.27
+11,Blue Mountains,2021,Crown Dieback,6,0.54
+11,Blue Mountains,2021,Defoliation 50-75% of leaves defoliated,6552,589.68
+11,Blue Mountains,2021,Defoliation < 50% of leaves defoliated,42400,3816.0
+11,Blue Mountains,2021,Defoliation > 75% of leaves defoliated,8634,777.06
+11,Blue Mountains,2021,Mortality,784076,70566.84
+11,Blue Mountains,2021,Topkill,126,11.34
+11,Blue Mountains,2022,Branch flagging,2234,201.06
+11,Blue Mountains,2022,Crown Dieback,861,77.49
+11,Blue Mountains,2022,Defoliation 50-75% of leaves defoliated,11117,1000.53
+11,Blue Mountains,2022,Defoliation < 50% of leaves defoliated,13152,1183.68
+11,Blue Mountains,2022,Defoliation > 75% of leaves defoliated,5914,532.26
+11,Blue Mountains,2022,Mortality,2945297,265076.73
+11,Blue Mountains,2022,Topkill,474,42.66
+11,Blue Mountains,2023,Branch flagging,4470,402.3
+11,Blue Mountains,2023,Crown Dieback,1884,169.56
+11,Blue Mountains,2023,Defoliation 50-75% of leaves defoliated,80239,7221.51
+11,Blue Mountains,2023,Defoliation < 50% of leaves defoliated,36114,3250.26
+11,Blue Mountains,2023,Defoliation > 75% of leaves defoliated,22289,2006.01
+11,Blue Mountains,2023,Mortality,4058551,365269.59
+11,Blue Mountains,2023,Topkill,6282,565.38
+11,Blue Mountains,2023,Unknown Damage,682,61.38
+11,Blue Mountains,2024,Crown Dieback,455,40.95
+11,Blue Mountains,2024,Defoliation 50-75% of leaves defoliated,22930,2063.7
+11,Blue Mountains,2024,Defoliation < 50% of leaves defoliated,5693,512.37
+11,Blue Mountains,2024,Defoliation > 75% of leaves defoliated,34749,3127.41
+11,Blue Mountains,2024,Mortality,1141525,102737.25
+11,Blue Mountains,2024,Topkill,166,14.94
+11,Blue Mountains,2024,Unknown Damage,1286,115.74
+11,Blue Mountains,2025,Defoliation 50-75% of leaves defoliated,15240,1371.6
+11,Blue Mountains,2025,Defoliation < 50% of leaves defoliated,1485,133.65
+11,Blue Mountains,2025,Defoliation > 75% of leaves defoliated,28421,2557.89
+11,Blue Mountains,2025,Mortality,719858,64787.22
+11,Blue Mountains,2025,Unknown Damage,2251,202.59
+15,Northern Rockies,1997,Branch flagging,103,9.27
+15,Northern Rockies,1997,Crown Dieback,58,5.22
+15,Northern Rockies,1997,Crown Discoloration,546,49.14
+15,Northern Rockies,1997,Defoliation,1609031,144812.79
+15,Northern Rockies,1997,Main stem Broken or Uprooted,15495,1394.55
+15,Northern Rockies,1997,Mortality,84889,7640.01
+15,Northern Rockies,1997,No Data,693,62.37
+15,Northern Rockies,1998,Crown Dieback,7214,649.26
+15,Northern Rockies,1998,Defoliation,22025,1982.25
+15,Northern Rockies,1998,Mortality,91306,8217.54
+15,Northern Rockies,1998,No damage,95,8.55
+15,Northern Rockies,1998,Topkill,224,20.16
+15,Northern Rockies,1999,Branch flagging,1226,110.34
+15,Northern Rockies,1999,Crown Discoloration,378,34.02
+15,Northern Rockies,1999,Defoliation,20672,1860.48
+15,Northern Rockies,1999,Main stem Broken or Uprooted,136,12.24
+15,Northern Rockies,1999,Mortality,151401,13626.09
+15,Northern Rockies,1999,No damage,1932,173.88
+15,Northern Rockies,1999,Topkill,33,2.97
+15,Northern Rockies,2000,Branch flagging,300,27.0
+15,Northern Rockies,2000,Crown Dieback,50,4.5
+15,Northern Rockies,2000,Crown Discoloration,1173,105.57
+15,Northern Rockies,2000,Defoliation,9580,862.2
+15,Northern Rockies,2000,Mortality,223267,20094.03
+15,Northern Rockies,2000,Topkill,47,4.23
+15,Northern Rockies,2001,Branch flagging,725,65.25
+15,Northern Rockies,2001,Crown Dieback,132,11.88
+15,Northern Rockies,2001,Crown Discoloration,1778,160.02
+15,Northern Rockies,2001,Defoliation,16321,1468.89
+15,Northern Rockies,2001,Mortality,363677,32730.93
+15,Northern Rockies,2001,Other Damage,1051,94.59
+15,Northern Rockies,2001,Topkill,325,29.25
+15,Northern Rockies,2002,Branch flagging,3301,297.09
+15,Northern Rockies,2002,Defoliation,1965,176.85
+15,Northern Rockies,2002,Main stem Broken or Uprooted,157,14.13
+15,Northern Rockies,2002,Mortality,282077,25386.93
+15,Northern Rockies,2002,Other Damage,106,9.54
+15,Northern Rockies,2003,Branch flagging,52,4.68
+15,Northern Rockies,2003,Crown Dieback,111,9.99
+15,Northern Rockies,2003,Crown Discoloration,142,12.78
+15,Northern Rockies,2003,Defoliation,52726,4745.34
+15,Northern Rockies,2003,Main stem Broken or Uprooted,149,13.41
+15,Northern Rockies,2003,Mortality,1247127,112241.43
+15,Northern Rockies,2003,Other Damage,27522,2476.98
+15,Northern Rockies,2003,Topkill,5494,494.46
+15,Northern Rockies,2004,Crown Dieback,1502,135.18
+15,Northern Rockies,2004,Defoliation,11652,1048.68
+15,Northern Rockies,2004,Main stem Broken or Uprooted,258,23.22
+15,Northern Rockies,2004,Mortality,1281200,115308.0
+15,Northern Rockies,2004,Other Damage,847,76.23
+15,Northern Rockies,2004,Topkill,5302,477.18
+15,Northern Rockies,2005,Branch flagging,6210,558.9
+15,Northern Rockies,2005,Crown Dieback,764,68.76
+15,Northern Rockies,2005,Crown Discoloration,9,0.81
+15,Northern Rockies,2005,Defoliation,28236,2541.24
+15,Northern Rockies,2005,Mortality,1340786,120670.74
+15,Northern Rockies,2005,Other Damage,1882,169.38
+15,Northern Rockies,2005,Topkill,79,7.11
+15,Northern Rockies,2006,Crown Dieback,8,0.72
+15,Northern Rockies,2006,Defoliation,77630,6986.7
+15,Northern Rockies,2006,Mortality,328952,29605.68
+15,Northern Rockies,2006,Other Damage,6619,595.71
+15,Northern Rockies,2006,Topkill,37,3.33
+15,Northern Rockies,2007,Branch flagging,2973,267.57
+15,Northern Rockies,2007,Crown Dieback,220,19.8
+15,Northern Rockies,2007,Defoliation,8197,737.73
+15,Northern Rockies,2007,Main stem Broken or Uprooted,83,7.47
+15,Northern Rockies,2007,Mortality,575037,51753.33
+15,Northern Rockies,2007,Other Damage,13510,1215.9
+15,Northern Rockies,2008,Branch flagging,189,17.01
+15,Northern Rockies,2008,Defoliation,160493,14444.37
+15,Northern Rockies,2008,Main stem Broken or Uprooted,274,24.66
+15,Northern Rockies,2008,Mortality,309925,27893.25
+15,Northern Rockies,2008,Other Damage,15637,1407.33
+15,Northern Rockies,2008,Topkill,9,0.81
+15,Northern Rockies,2009,Branch flagging,19326,1739.34
+15,Northern Rockies,2009,Crown Dieback,547,49.23
+15,Northern Rockies,2009,Crown Discoloration,1999,179.91
+15,Northern Rockies,2009,Defoliation,169620,15265.8
+15,Northern Rockies,2009,Main stem Broken or Uprooted,83,7.47
+15,Northern Rockies,2009,Mortality,352996,31769.64
+15,Northern Rockies,2009,Other Damage,6656,599.04
+15,Northern Rockies,2009,Topkill,16,1.44
+15,Northern Rockies,2010,Branch flagging,2031,182.79
+15,Northern Rockies,2010,Crown Dieback,1209,108.81
+15,Northern Rockies,2010,Crown Discoloration,36,3.24
+15,Northern Rockies,2010,Defoliation,199476,17952.84
+15,Northern Rockies,2010,Main stem Broken or Uprooted,83,7.47
+15,Northern Rockies,2010,Mortality,428900,38601.0
+15,Northern Rockies,2010,Other Damage,16653,1498.77
+15,Northern Rockies,2011,Branch flagging,4858,437.22
+15,Northern Rockies,2011,Crown Dieback,308,27.72
+15,Northern Rockies,2011,Crown Discoloration,119,10.71
+15,Northern Rockies,2011,Defoliation,942415,84817.35
+15,Northern Rockies,2011,Mortality,147129,13241.61
+15,Northern Rockies,2011,Other Damage,3357,302.13
+15,Northern Rockies,2012,Branch flagging,8694,782.46
+15,Northern Rockies,2012,Crown Dieback,2462,221.58
+15,Northern Rockies,2012,Crown Discoloration,23,2.07
+15,Northern Rockies,2012,Defoliation,1082191,97397.19
+15,Northern Rockies,2012,Main stem Broken or Uprooted,1126,101.34
+15,Northern Rockies,2012,Mortality,200058,18005.22
+15,Northern Rockies,2012,Other Damage,2598,233.82
+15,Northern Rockies,2013,Branch flagging,8885,799.65
+15,Northern Rockies,2013,Crown Dieback,4859,437.31
+15,Northern Rockies,2013,Defoliation,348365,31352.85
+15,Northern Rockies,2013,Mortality,237644,21387.96
+15,Northern Rockies,2013,No damage,265,23.85
+15,Northern Rockies,2013,Other Damage,3173,285.57
+15,Northern Rockies,2013,Topkill,18,1.62
+15,Northern Rockies,2014,Branch flagging,3924,353.16
+15,Northern Rockies,2014,Crown Dieback,3244,291.96
+15,Northern Rockies,2014,Defoliation,269973,24297.57
+15,Northern Rockies,2014,Mortality,333527,30017.43
+15,Northern Rockies,2014,Other Damage,6758,608.22
+15,Northern Rockies,2015,Branch flagging,3546,319.14
+15,Northern Rockies,2015,Crown Dieback,637,57.33
+15,Northern Rockies,2015,Defoliation,125361,11282.49
+15,Northern Rockies,2015,Mortality,219534,19758.06
+15,Northern Rockies,2015,Other Damage,3879,349.11
+15,Northern Rockies,2016,Branch flagging,9662,869.58
+15,Northern Rockies,2016,Crown Dieback,1865,167.85
+15,Northern Rockies,2016,Defoliation,149897,13490.73
+15,Northern Rockies,2016,Main stem Broken or Uprooted,459,41.31
+15,Northern Rockies,2016,Mortality,459101,41319.09
+15,Northern Rockies,2016,Other Damage,11790,1061.1
+15,Northern Rockies,2016,Topkill,3493,314.37
+15,Northern Rockies,2017,Branch flagging,6883,619.47
+15,Northern Rockies,2017,Crown Dieback,1021,91.89
+15,Northern Rockies,2017,Defoliation,232892,20960.28
+15,Northern Rockies,2017,Mortality,620056,55805.04
+15,Northern Rockies,2017,Other Damage,185311,16677.99
+15,Northern Rockies,2017,Topkill,1064,95.76
+15,Northern Rockies,2018,Crown Dieback,42,3.78
+15,Northern Rockies,2018,Defoliation 50-75% of leaves defoliated,9495,854.55
+15,Northern Rockies,2018,Defoliation < 50% of leaves defoliated,1505,135.45
+15,Northern Rockies,2018,Defoliation > 75% of leaves defoliated,38258,3443.22
+15,Northern Rockies,2018,Mortality,448652,40378.68
+15,Northern Rockies,2018,Topkill,10962,986.58
+15,Northern Rockies,2018,Unknown Damage,70326,6329.34
+15,Northern Rockies,2019,Branch flagging,75,6.75
+15,Northern Rockies,2019,Crown Dieback,85362,7682.58
+15,Northern Rockies,2019,Defoliation 50-75% of leaves defoliated,6787,610.83
+15,Northern Rockies,2019,Defoliation < 50% of leaves defoliated,2849,256.41
+15,Northern Rockies,2019,Defoliation > 75% of leaves defoliated,10541,948.69
+15,Northern Rockies,2019,Mortality,511801,46062.09
+15,Northern Rockies,2019,Topkill,85723,7715.07
+15,Northern Rockies,2019,Unknown Damage,2169,195.21
+15,Northern Rockies,2020,Crown Dieback,181375,16323.75
+15,Northern Rockies,2020,Defoliation 50-75% of leaves defoliated,52626,4736.34
+15,Northern Rockies,2020,Defoliation < 50% of leaves defoliated,15945,1435.05
+15,Northern Rockies,2020,Defoliation > 75% of leaves defoliated,14807,1332.63
+15,Northern Rockies,2020,Mortality,904242,81381.78
+15,Northern Rockies,2020,Topkill,17893,1610.37
+15,Northern Rockies,2020,Unknown Damage,9550,859.5
+15,Northern Rockies,2021,Crown Dieback,2528,227.52
+15,Northern Rockies,2021,Defoliation 50-75% of leaves defoliated,28817,2593.53
+15,Northern Rockies,2021,Defoliation < 50% of leaves defoliated,6924,623.16
+15,Northern Rockies,2021,Defoliation > 75% of leaves defoliated,883,79.47
+15,Northern Rockies,2021,Mortality,409401,36846.09
+15,Northern Rockies,2021,Topkill,2973,267.57
+15,Northern Rockies,2021,Unknown Damage,1413,127.17
+15,Northern Rockies,2022,Crown Dieback,5162,464.58
+15,Northern Rockies,2022,Defoliation 50-75% of leaves defoliated,54069,4866.21
+15,Northern Rockies,2022,Defoliation < 50% of leaves defoliated,21212,1909.08
+15,Northern Rockies,2022,Defoliation > 75% of leaves defoliated,30358,2732.22
+15,Northern Rockies,2022,Mortality,470350,42331.5
+15,Northern Rockies,2022,Topkill,3559,320.31
+15,Northern Rockies,2022,Unknown Damage,385,34.65
+15,Northern Rockies,2023,Crown Dieback,142,12.78
+15,Northern Rockies,2023,Crown Discoloration,45889,4130.01
+15,Northern Rockies,2023,Defoliation 50-75% of leaves defoliated,6113,550.17
+15,Northern Rockies,2023,Defoliation < 50% of leaves defoliated,2697,242.73
+15,Northern Rockies,2023,Defoliation > 75% of leaves defoliated,4726,425.34
+15,Northern Rockies,2023,Mortality,287540,25878.6
+15,Northern Rockies,2023,Topkill,69685,6271.65
+15,Northern Rockies,2023,Unknown Damage,5034,453.06
+15,Northern Rockies,2024,Crown Dieback,1355,121.95
+15,Northern Rockies,2024,Defoliation 50-75% of leaves defoliated,42725,3845.25
+15,Northern Rockies,2024,Defoliation < 50% of leaves defoliated,545,49.05
+15,Northern Rockies,2024,Defoliation > 75% of leaves defoliated,79307,7137.63
+15,Northern Rockies,2024,Mortality,154856,13937.04
+15,Northern Rockies,2024,Topkill,18117,1630.53
+15,Northern Rockies,2024,Unknown Damage,1531,137.79
+15,Northern Rockies,2025,Crown Dieback,38,3.42
+15,Northern Rockies,2025,Defoliation 50-75% of leaves defoliated,10583,952.47
+15,Northern Rockies,2025,Defoliation < 50% of leaves defoliated,350,31.5
+15,Northern Rockies,2025,Defoliation > 75% of leaves defoliated,11811,1062.99
+15,Northern Rockies,2025,Mortality,53141,4782.69
+15,Northern Rockies,2025,Topkill,9330,839.7
+15,Northern Rockies,2025,Unknown Damage,486,43.74
+4,Cascades,1997,Branch flagging,5747,517.23
+4,Cascades,1997,Crown Discoloration,14771,1329.39
+4,Cascades,1997,Defoliation,49190,4427.1
+4,Cascades,1997,Main stem Broken or Uprooted,594,53.46
+4,Cascades,1997,Mortality,265620,23905.8
+4,Cascades,1998,Branch flagging,7533,677.97
+4,Cascades,1998,Crown Dieback,391,35.19
+4,Cascades,1998,Crown Discoloration,2094,188.46
+4,Cascades,1998,Defoliation,235740,21216.6
+4,Cascades,1998,Mortality,133148,11983.32
+4,Cascades,1998,No damage,379,34.11
+4,Cascades,1998,Topkill,6,0.54
+4,Cascades,1999,Branch flagging,11452,1030.68
+4,Cascades,1999,Crown Dieback,304,27.36
+4,Cascades,1999,Defoliation,72872,6558.48
+4,Cascades,1999,Main stem Broken or Uprooted,139,12.51
+4,Cascades,1999,Mortality,307084,27637.56
+4,Cascades,1999,No damage,4625,416.25
+4,Cascades,1999,Topkill,293,26.37
+4,Cascades,2000,Branch flagging,16784,1510.56
+4,Cascades,2000,Crown Discoloration,1496,134.64
+4,Cascades,2000,Defoliation,418712,37684.08
+4,Cascades,2000,Main stem Broken or Uprooted,391,35.19
+4,Cascades,2000,Mortality,237171,21345.39
+4,Cascades,2000,Other Damage,1008,90.72
+4,Cascades,2001,Branch flagging,76976,6927.84
+4,Cascades,2001,Crown Dieback,431,38.79
+4,Cascades,2001,Crown Discoloration,13499,1214.91
+4,Cascades,2001,Defoliation,349857,31487.13
+4,Cascades,2001,Main stem Broken or Uprooted,9,0.81
+4,Cascades,2001,Mortality,275892,24830.28
+4,Cascades,2001,Other Damage,5215,469.35
+4,Cascades,2002,Branch flagging,91835,8265.15
+4,Cascades,2002,Defoliation,184827,16634.43
+4,Cascades,2002,Main stem Broken or Uprooted,279,25.11
+4,Cascades,2002,Mortality,642423,57818.07
+4,Cascades,2002,Other Damage,1483,133.47
+4,Cascades,2003,Branch flagging,252964,22766.76
+4,Cascades,2003,Crown Dieback,19322,1738.98
+4,Cascades,2003,Defoliation,262764,23648.76
+4,Cascades,2003,Main stem Broken or Uprooted,426,38.34
+4,Cascades,2003,Mortality,1127526,101477.34
+4,Cascades,2003,Other Damage,57243,5151.87
+4,Cascades,2003,Topkill,469,42.21
+4,Cascades,2004,Branch flagging,108721,9784.89
+4,Cascades,2004,Crown Dieback,176,15.84
+4,Cascades,2004,Crown Discoloration,447,40.23
+4,Cascades,2004,Defoliation,210867,18978.03
+4,Cascades,2004,Main stem Broken or Uprooted,40,3.6
+4,Cascades,2004,Mortality,1078119,97030.71
+4,Cascades,2004,Other Damage,1325,119.25
+4,Cascades,2004,Topkill,170,15.3
+4,Cascades,2005,Branch flagging,127407,11466.63
+4,Cascades,2005,Crown Dieback,5611,504.99
+4,Cascades,2005,Crown Discoloration,328,29.52
+4,Cascades,2005,Defoliation,216883,19519.47
+4,Cascades,2005,Main stem Broken or Uprooted,56,5.04
+4,Cascades,2005,Mortality,1241194,111707.46
+4,Cascades,2005,Other Damage,666,59.94
+4,Cascades,2006,Branch Breakage,660,59.4
+4,Cascades,2006,Branch flagging,115331,10379.79
+4,Cascades,2006,Crown Dieback,497,44.73
+4,Cascades,2006,Crown Discoloration,1700,153.0
+4,Cascades,2006,Defoliation,388324,34949.16
+4,Cascades,2006,Mortality,1309111,117819.99
+4,Cascades,2006,Other Damage,5699,512.91
+4,Cascades,2006,Topkill,129,11.61
+4,Cascades,2007,Branch Breakage,334,30.06
+4,Cascades,2007,Branch flagging,212215,19099.35
+4,Cascades,2007,Crown Dieback,2853,256.77
+4,Cascades,2007,Crown Discoloration,348,31.32
+4,Cascades,2007,Defoliation,248389,22355.01
+4,Cascades,2007,Main stem Broken or Uprooted,2909,261.81
+4,Cascades,2007,Mortality,1503031,135272.79
+4,Cascades,2007,Other Damage,2276,204.84
+4,Cascades,2007,Topkill,200,18.0
+4,Cascades,2008,Branch flagging,276211,24858.99
+4,Cascades,2008,Crown Dieback,2709,243.81
+4,Cascades,2008,Crown Discoloration,30,2.7
+4,Cascades,2008,Defoliation,152411,13716.99
+4,Cascades,2008,Main stem Broken or Uprooted,6358,572.22
+4,Cascades,2008,Mortality,1402135,126192.15
+4,Cascades,2008,Other Damage,1562,140.58
+4,Cascades,2008,Topkill,57,5.13
+4,Cascades,2009,Branch flagging,266691,24002.19
+4,Cascades,2009,Crown Dieback,851,76.59
+4,Cascades,2009,Crown Discoloration,6876,618.84
+4,Cascades,2009,Defoliation,39549,3559.41
+4,Cascades,2009,Mortality,1574418,141697.62
+4,Cascades,2009,Other Damage,2838,255.42
+4,Cascades,2009,Topkill,26,2.34
+4,Cascades,2010,Branch flagging,451735,40656.15
+4,Cascades,2010,Crown Dieback,1013,91.17
+4,Cascades,2010,Crown Discoloration,162,14.58
+4,Cascades,2010,Defoliation,51602,4644.18
+4,Cascades,2010,Mortality,959622,86365.98
+4,Cascades,2010,Other Damage,1829,164.61
+4,Cascades,2010,Topkill,19,1.71
+4,Cascades,2011,Branch flagging,480150,43213.5
+4,Cascades,2011,Crown Dieback,380,34.2
+4,Cascades,2011,Defoliation,33779,3040.11
+4,Cascades,2011,Main stem Broken or Uprooted,186,16.74
+4,Cascades,2011,Mortality,732317,65908.53
+4,Cascades,2011,Other Damage,6795,611.55
+4,Cascades,2011,Topkill,9,0.81
+4,Cascades,2012,Branch flagging,290010,26100.9
+4,Cascades,2012,Crown Dieback,1223,110.07
+4,Cascades,2012,Crown Discoloration,1332,119.88
+4,Cascades,2012,Defoliation,66963,6026.67
+4,Cascades,2012,Main stem Broken or Uprooted,9,0.81
+4,Cascades,2012,Mortality,696623,62696.07
+4,Cascades,2012,Other Damage,12233,1100.97
+4,Cascades,2012,Topkill,17,1.53
+4,Cascades,2013,Branch flagging,181053,16294.77
+4,Cascades,2013,Crown Dieback,2838,255.42
+4,Cascades,2013,Crown Discoloration,109,9.81
+4,Cascades,2013,Defoliation,72256,6503.04
+4,Cascades,2013,Main stem Broken or Uprooted,148,13.32
+4,Cascades,2013,Mortality,669918,60292.62
+4,Cascades,2013,No damage,3925,353.25
+4,Cascades,2013,Other Damage,7738,696.42
+4,Cascades,2013,Topkill,114,10.26
+4,Cascades,2014,Branch flagging,125798,11321.82
+4,Cascades,2014,Crown Dieback,1861,167.49
+4,Cascades,2014,Crown Discoloration,2451,220.59
+4,Cascades,2014,Defoliation,31129,2801.61
+4,Cascades,2014,Mortality,517890,46610.1
+4,Cascades,2014,Other Damage,17926,1613.34
+4,Cascades,2015,Branch flagging,99870,8988.3
+4,Cascades,2015,Crown Dieback,1818,163.62
+4,Cascades,2015,Defoliation,88030,7922.7
+4,Cascades,2015,Mortality,465930,41933.7
+4,Cascades,2015,Other Damage,13650,1228.5
+4,Cascades,2016,Branch flagging,132709,11943.81
+4,Cascades,2016,Crown Dieback,8503,765.27
+4,Cascades,2016,Crown Discoloration,48,4.32
+4,Cascades,2016,Defoliation,34631,3116.79
+4,Cascades,2016,Mortality,450266,40523.94
+4,Cascades,2016,Other Damage,18493,1664.37
+4,Cascades,2016,Topkill,1864,167.76
+4,Cascades,2017,Branch flagging,129336,11640.24
+4,Cascades,2017,Crown Dieback,1575,141.75
+4,Cascades,2017,Crown Discoloration,20936,1884.24
+4,Cascades,2017,Defoliation,4571,411.39
+4,Cascades,2017,Defoliation > 75% of leaves defoliated,18,1.62
+4,Cascades,2017,Main stem Broken or Uprooted,62,5.58
+4,Cascades,2017,Mortality,410342,36930.78
+4,Cascades,2017,Other Damage,23538,2118.42
+4,Cascades,2017,Other Damage (known),1387,124.83
+4,Cascades,2017,Topkill,396,35.64
+4,Cascades,2018,Branch Breakage,4927,443.43
+4,Cascades,2018,Crown Dieback,1427,128.43
+4,Cascades,2018,Defoliation 50-75% of leaves defoliated,62630,5636.7
+4,Cascades,2018,Defoliation < 50% of leaves defoliated,9580,862.2
+4,Cascades,2018,Defoliation > 75% of leaves defoliated,19143,1722.87
+4,Cascades,2018,Main stem Broken or Uprooted,6,0.54
+4,Cascades,2018,Mortality,287453,25870.77
+4,Cascades,2018,Topkill,175,15.75
+4,Cascades,2018,Unknown Damage,2110,189.9
+4,Cascades,2019,Branch Breakage,3987,358.83
+4,Cascades,2019,Branch flagging,90,8.1
+4,Cascades,2019,Crown Dieback,1699,152.91
+4,Cascades,2019,Crown Discoloration,133,11.97
+4,Cascades,2019,Defoliation 50-75% of leaves defoliated,29513,2656.17
+4,Cascades,2019,Defoliation < 50% of leaves defoliated,1020,91.8
+4,Cascades,2019,Defoliation > 75% of leaves defoliated,23121,2080.89
+4,Cascades,2019,Main stem Broken or Uprooted,1162,104.58
+4,Cascades,2019,Mortality,502080,45187.2
+4,Cascades,2019,Topkill,1187,106.83
+4,Cascades,2019,Unknown Damage,35137,3162.33
+4,Cascades,2020,Crown Dieback,9,0.81
+4,Cascades,2020,Defoliation 50-75% of leaves defoliated,3837,345.33
+4,Cascades,2020,Defoliation < 50% of leaves defoliated,707,63.63
+4,Cascades,2020,Defoliation > 75% of leaves defoliated,1974,177.66
+4,Cascades,2020,Mortality,185090,16658.1
+4,Cascades,2020,Unknown Damage,2318,208.62
+4,Cascades,2021,Crown Dieback,19,1.71
+4,Cascades,2021,Crown Discoloration,44300,3987.0
+4,Cascades,2021,Defoliation 50-75% of leaves defoliated,16037,1443.33
+4,Cascades,2021,Defoliation < 50% of leaves defoliated,5456,491.04
+4,Cascades,2021,Defoliation > 75% of leaves defoliated,23636,2127.24
+4,Cascades,2021,Main stem Broken or Uprooted,493,44.37
+4,Cascades,2021,Mortality,340586,30652.74
+4,Cascades,2021,Topkill,14668,1320.12
+4,Cascades,2021,Unknown Damage,2055,184.95
+4,Cascades,2022,Crown Dieback,9373,843.57
+4,Cascades,2022,Defoliation 50-75% of leaves defoliated,45294,4076.46
+4,Cascades,2022,Defoliation < 50% of leaves defoliated,30861,2777.49
+4,Cascades,2022,Defoliation > 75% of leaves defoliated,264984,23848.56
+4,Cascades,2022,Main stem Broken or Uprooted,148,13.32
+4,Cascades,2022,Mortality,2041078,183697.02
+4,Cascades,2022,Topkill,5150,463.5
+4,Cascades,2023,Branch flagging,1750,157.5
+4,Cascades,2023,Crown Dieback,1068,96.12
+4,Cascades,2023,Crown Discoloration,9143,822.87
+4,Cascades,2023,Defoliation 50-75% of leaves defoliated,209754,18877.86
+4,Cascades,2023,Defoliation < 50% of leaves defoliated,44481,4003.29
+4,Cascades,2023,Defoliation > 75% of leaves defoliated,323844,29145.96
+4,Cascades,2023,Mortality,2089573,188061.57
+4,Cascades,2023,Topkill,10514,946.26
+4,Cascades,2023,Unknown Damage,254,22.86
+4,Cascades,2024,Branch flagging,324,29.16
+4,Cascades,2024,Crown Dieback,12304,1107.36
+4,Cascades,2024,Crown Discoloration,739,66.51
+4,Cascades,2024,Defoliation 50-75% of leaves defoliated,70003,6300.27
+4,Cascades,2024,Defoliation < 50% of leaves defoliated,8384,754.56
+4,Cascades,2024,Defoliation > 75% of leaves defoliated,78322,7048.98
+4,Cascades,2024,Main stem Broken or Uprooted,56,5.04
+4,Cascades,2024,Mortality,1128942,101604.78
+4,Cascades,2024,Topkill,10575,951.75
+4,Cascades,2024,Unknown Damage,156,14.04
+4,Cascades,2025,Crown Dieback,181,16.29
+4,Cascades,2025,Crown Discoloration,634,57.06
+4,Cascades,2025,Defoliation 50-75% of leaves defoliated,50191,4517.19
+4,Cascades,2025,Defoliation < 50% of leaves defoliated,3986,358.74
+4,Cascades,2025,Defoliation > 75% of leaves defoliated,1684,151.56
+4,Cascades,2025,Mortality,370797,33371.73
+4,Cascades,2025,Topkill,2310,207.9
+4,Cascades,2025,Unknown Damage,825,74.25
+77,North Cascades,1997,Branch flagging,5944,534.96
+77,North Cascades,1997,Crown Dieback,1811,162.99
+77,North Cascades,1997,Crown Discoloration,21281,1915.29
+77,North Cascades,1997,Defoliation,34227,3080.43
+77,North Cascades,1997,Main stem Broken or Uprooted,2634,237.06
+77,North Cascades,1997,Mortality,363315,32698.35
+77,North Cascades,1997,No Data,419,37.71
+77,North Cascades,1998,Branch flagging,2420,217.8
+77,North Cascades,1998,Crown Dieback,13548,1219.32
+77,North Cascades,1998,Defoliation,44743,4026.87
+77,North Cascades,1998,Mortality,189089,17018.01
+77,North Cascades,1998,No damage,585,52.65
+77,North Cascades,1998,Topkill,1241,111.69
+77,North Cascades,1999,Branch flagging,4047,364.23
+77,North Cascades,1999,Crown Discoloration,2064,185.76
+77,North Cascades,1999,Defoliation,1278,115.02
+77,North Cascades,1999,Main stem Broken or Uprooted,116,10.44
+77,North Cascades,1999,Mortality,314080,28267.2
+77,North Cascades,1999,No damage,2773,249.57
+77,North Cascades,1999,Topkill,299,26.91
+77,North Cascades,2000,Branch flagging,12693,1142.37
+77,North Cascades,2000,Crown Dieback,414,37.26
+77,North Cascades,2000,Crown Discoloration,12810,1152.9
+77,North Cascades,2000,Defoliation,17910,1611.9
+77,North Cascades,2000,Mortality,323195,29087.55
+77,North Cascades,2000,Topkill,18,1.62
+77,North Cascades,2001,Branch flagging,78897,7100.73
+77,North Cascades,2001,Crown Dieback,23261,2093.49
+77,North Cascades,2001,Crown Discoloration,4270,384.3
+77,North Cascades,2001,Defoliation,98112,8830.08
+77,North Cascades,2001,Main stem Broken or Uprooted,77,6.93
+77,North Cascades,2001,Mortality,634260,57083.4
+77,North Cascades,2001,Topkill,1935,174.15
+77,North Cascades,2002,Branch flagging,119054,10714.86
+77,North Cascades,2002,Crown Dieback,24834,2235.06
+77,North Cascades,2002,Defoliation,178220,16039.8
+77,North Cascades,2002,Main stem Broken or Uprooted,1529,137.61
+77,North Cascades,2002,Mortality,771737,69456.33
+77,North Cascades,2002,Other Damage,177,15.93
+77,North Cascades,2002,Topkill,428,38.52
+77,North Cascades,2003,Branch flagging,43450,3910.5
+77,North Cascades,2003,Crown Dieback,35175,3165.75
+77,North Cascades,2003,Defoliation,97493,8774.37
+77,North Cascades,2003,Mortality,1013804,91242.36
+77,North Cascades,2003,Other Damage,7275,654.75
+77,North Cascades,2003,Topkill,8482,763.38
+77,North Cascades,2004,Branch flagging,44058,3965.22
+77,North Cascades,2004,Crown Dieback,44732,4025.88
+77,North Cascades,2004,Defoliation,221932,19973.88
+77,North Cascades,2004,Main stem Broken or Uprooted,9,0.81
+77,North Cascades,2004,Mortality,1032191,92897.19
+77,North Cascades,2004,Other Damage,4014,361.26
+77,North Cascades,2004,Topkill,676,60.84
+77,North Cascades,2005,Branch flagging,52551,4729.59
+77,North Cascades,2005,Crown Dieback,124356,11192.04
+77,North Cascades,2005,Defoliation,747223,67250.07
+77,North Cascades,2005,Mortality,1351379,121624.11
+77,North Cascades,2005,Other Damage,8090,728.1
+77,North Cascades,2006,Branch flagging,82979,7468.11
+77,North Cascades,2006,Crown Dieback,71235,6411.15
+77,North Cascades,2006,Defoliation,1341637,120747.33
+77,North Cascades,2006,Main stem Broken or Uprooted,25,2.25
+77,North Cascades,2006,Mortality,939939,84594.51
+77,North Cascades,2006,Other Damage,5559,500.31
+77,North Cascades,2006,Topkill,1214,109.26
+77,North Cascades,2007,Branch flagging,74331,6689.79
+77,North Cascades,2007,Crown Dieback,126438,11379.42
+77,North Cascades,2007,Defoliation,1073520,96616.8
+77,North Cascades,2007,Main stem Broken or Uprooted,5918,532.62
+77,North Cascades,2007,Mortality,984755,88627.95
+77,North Cascades,2007,Other Damage,76078,6847.02
+77,North Cascades,2007,Topkill,8,0.72
+77,North Cascades,2008,Branch flagging,92094,8288.46
+77,North Cascades,2008,Crown Dieback,32426,2918.34
+77,North Cascades,2008,Defoliation,1829147,164623.23
+77,North Cascades,2008,Main stem Broken or Uprooted,12809,1152.81
+77,North Cascades,2008,Mortality,954506,85905.54
+77,North Cascades,2008,Other Damage,24600,2214.0
+77,North Cascades,2008,Topkill,35,3.15
+77,North Cascades,2009,Branch flagging,96186,8656.74
+77,North Cascades,2009,Crown Dieback,77812,7003.08
+77,North Cascades,2009,Crown Discoloration,141,12.69
+77,North Cascades,2009,Defoliation,1610923,144983.07
+77,North Cascades,2009,Main stem Broken or Uprooted,769,69.21
+77,North Cascades,2009,Mortality,1929321,173638.89
+77,North Cascades,2009,Other Damage,275777,24819.93
+77,North Cascades,2010,Branch flagging,63943,5754.87
+77,North Cascades,2010,Crown Dieback,1814,163.26
+77,North Cascades,2010,Defoliation,1336455,120280.95
+77,North Cascades,2010,Mortality,718134,64632.06
+77,North Cascades,2010,Other Damage,73399,6605.91
+77,North Cascades,2010,Topkill,8,0.72
+77,North Cascades,2011,Branch flagging,70352,6331.68
+77,North Cascades,2011,Crown Dieback,4693,422.37
+77,North Cascades,2011,Crown Discoloration,495,44.55
+77,North Cascades,2011,Defoliation,1326472,119382.48
+77,North Cascades,2011,Main stem Broken or Uprooted,803,72.27
+77,North Cascades,2011,Mortality,576944,51924.96
+77,North Cascades,2011,Other Damage,17722,1594.98
+77,North Cascades,2011,Topkill,26,2.34
+77,North Cascades,2012,Branch flagging,45782,4120.38
+77,North Cascades,2012,Crown Dieback,678,61.02
+77,North Cascades,2012,Crown Discoloration,21334,1920.06
+77,North Cascades,2012,Defoliation,1149813,103483.17
+77,North Cascades,2012,Main stem Broken or Uprooted,145,13.05
+77,North Cascades,2012,Mortality,807106,72639.54
+77,North Cascades,2012,Other Damage,13822,1243.98
+77,North Cascades,2013,Branch flagging,26400,2376.0
+77,North Cascades,2013,Crown Dieback,8463,761.67
+77,North Cascades,2013,Crown Discoloration,842,75.78
+77,North Cascades,2013,Defoliation,414924,37343.16
+77,North Cascades,2013,Mortality,483164,43484.76
+77,North Cascades,2013,No damage,148,13.32
+77,North Cascades,2013,Other Damage,20974,1887.66
+77,North Cascades,2013,Topkill,86,7.74
+77,North Cascades,2014,Branch flagging,36304,3267.36
+77,North Cascades,2014,Crown Dieback,22343,2010.87
+77,North Cascades,2014,Defoliation,153465,13811.85
+77,North Cascades,2014,Main stem Broken or Uprooted,1536,138.24
+77,North Cascades,2014,Mortality,492677,44340.93
+77,North Cascades,2014,Other Damage,100812,9073.08
+77,North Cascades,2015,Branch flagging,44219,3979.71
+77,North Cascades,2015,Crown Dieback,152,13.68
+77,North Cascades,2015,Defoliation,120128,10811.52
+77,North Cascades,2015,Mortality,262947,23665.23
+77,North Cascades,2015,Other Damage,8037,723.33
+77,North Cascades,2016,Branch flagging,91685,8251.65
+77,North Cascades,2016,Crown Dieback,3669,330.21
+77,North Cascades,2016,Crown Discoloration,2685,241.65
+77,North Cascades,2016,Defoliation,52657,4739.13
+77,North Cascades,2016,Main stem Broken or Uprooted,76,6.84
+77,North Cascades,2016,Mortality,412334,37110.06
+77,North Cascades,2016,Other Damage,18807,1692.63
+77,North Cascades,2016,Topkill,712,64.08
+77,North Cascades,2017,Branch flagging,90184,8116.56
+77,North Cascades,2017,Crown Dieback,1020,91.8
+77,North Cascades,2017,Crown Discoloration,19,1.71
+77,North Cascades,2017,Defoliation,12750,1147.5
+77,North Cascades,2017,Main stem Broken or Uprooted,83,7.47
+77,North Cascades,2017,Mortality,589237,53031.33
+77,North Cascades,2017,Other Damage,67784,6100.56
+77,North Cascades,2017,Topkill,8,0.72
+77,North Cascades,2018,Crown Dieback,77,6.93
+77,North Cascades,2018,Defoliation 50-75% of leaves defoliated,29594,2663.46
+77,North Cascades,2018,Defoliation < 50% of leaves defoliated,13491,1214.19
+77,North Cascades,2018,Defoliation > 75% of leaves defoliated,11045,994.05
+77,North Cascades,2018,Mortality,328897,29600.73
+77,North Cascades,2018,Topkill,3032,272.88
+77,North Cascades,2018,Unknown Damage,14422,1297.98
+77,North Cascades,2019,Crown Dieback,603,54.27
+77,North Cascades,2019,Defoliation 50-75% of leaves defoliated,56931,5123.79
+77,North Cascades,2019,Defoliation < 50% of leaves defoliated,4563,410.67
+77,North Cascades,2019,Defoliation > 75% of leaves defoliated,66199,5957.91
+77,North Cascades,2019,Main stem Broken or Uprooted,71,6.39
+77,North Cascades,2019,Mortality,553499,49814.91
+77,North Cascades,2019,Topkill,21,1.89
+77,North Cascades,2019,Unknown Damage,98982,8908.38
+77,North Cascades,2020,Crown Dieback,46,4.14
+77,North Cascades,2020,Defoliation 50-75% of leaves defoliated,10078,907.02
+77,North Cascades,2020,Defoliation < 50% of leaves defoliated,2752,247.68
+77,North Cascades,2020,Defoliation > 75% of leaves defoliated,2581,232.29
+77,North Cascades,2020,Mortality,197562,17780.58
+77,North Cascades,2020,Topkill,1138,102.42
+77,North Cascades,2020,Unknown Damage,6237,561.33
+77,North Cascades,2021,Crown Dieback,856,77.04
+77,North Cascades,2021,Crown Discoloration,9746,877.14
+77,North Cascades,2021,Defoliation 50-75% of leaves defoliated,39043,3513.87
+77,North Cascades,2021,Defoliation < 50% of leaves defoliated,14923,1343.07
+77,North Cascades,2021,Defoliation > 75% of leaves defoliated,11028,992.52
+77,North Cascades,2021,Mortality,500260,45023.4
+77,North Cascades,2021,Topkill,1622,145.98
+77,North Cascades,2021,Unknown Damage,158,14.22
+77,North Cascades,2022,Crown Dieback,2314,208.26
+77,North Cascades,2022,Crown Discoloration,620,55.8
+77,North Cascades,2022,Defoliation 50-75% of leaves defoliated,70416,6337.44
+77,North Cascades,2022,Defoliation < 50% of leaves defoliated,9201,828.09
+77,North Cascades,2022,Defoliation > 75% of leaves defoliated,61077,5496.93
+77,North Cascades,2022,Main stem Broken or Uprooted,251,22.59
+77,North Cascades,2022,Mortality,750620,67555.8
+77,North Cascades,2022,Topkill,3449,310.41
+77,North Cascades,2023,Crown Dieback,276,24.84
+77,North Cascades,2023,Crown Discoloration,22773,2049.57
+77,North Cascades,2023,Defoliation 50-75% of leaves defoliated,25346,2281.14
+77,North Cascades,2023,Defoliation < 50% of leaves defoliated,2193,197.37
+77,North Cascades,2023,Defoliation > 75% of leaves defoliated,16392,1475.28
+77,North Cascades,2023,Mortality,410519,36946.71
+77,North Cascades,2023,Topkill,4706,423.54
+77,North Cascades,2023,Unknown Damage,11182,1006.38
+77,North Cascades,2024,Crown Dieback,1263,113.67
+77,North Cascades,2024,Crown Discoloration,90,8.1
+77,North Cascades,2024,Defoliation 50-75% of leaves defoliated,255397,22985.73
+77,North Cascades,2024,Defoliation < 50% of leaves defoliated,34637,3117.33
+77,North Cascades,2024,Defoliation > 75% of leaves defoliated,115436,10389.24
+77,North Cascades,2024,Main stem Broken or Uprooted,131,11.79
+77,North Cascades,2024,Mortality,394180,35476.2
+77,North Cascades,2024,Topkill,1514,136.26
+77,North Cascades,2024,Unknown Damage,7821,703.89
+77,North Cascades,2025,Crown Dieback,1462,131.58
+77,North Cascades,2025,Defoliation 50-75% of leaves defoliated,351400,31626.0
+77,North Cascades,2025,Defoliation < 50% of leaves defoliated,138711,12483.99
+77,North Cascades,2025,Defoliation > 75% of leaves defoliated,241542,21738.78
+77,North Cascades,2025,Main stem Broken or Uprooted,1549,139.41
+77,North Cascades,2025,Mortality,191522,17236.98
+77,North Cascades,2025,Topkill,475,42.75
+77,North Cascades,2025,Unknown Damage,2976,267.84
+78,Klamath Mountains/California High North Coast Range,1997,Branch flagging,2579,232.11
+78,Klamath Mountains/California High North Coast Range,1997,Defoliation,825,74.25
+78,Klamath Mountains/California High North Coast Range,1997,Main stem Broken or Uprooted,105,9.45
+78,Klamath Mountains/California High North Coast Range,1997,Mortality,6406,576.54
+78,Klamath Mountains/California High North Coast Range,1998,Branch flagging,657,59.13
+78,Klamath Mountains/California High North Coast Range,1998,Defoliation,963,86.67
+78,Klamath Mountains/California High North Coast Range,1998,Mortality,1993,179.37
+78,Klamath Mountains/California High North Coast Range,1999,Branch flagging,303,27.27
+78,Klamath Mountains/California High North Coast Range,1999,Defoliation,56,5.04
+78,Klamath Mountains/California High North Coast Range,1999,Mortality,11639,1047.51
+78,Klamath Mountains/California High North Coast Range,1999,No damage,55,4.95
+78,Klamath Mountains/California High North Coast Range,1999,Topkill,764,68.76
+78,Klamath Mountains/California High North Coast Range,2000,Branch flagging,581,52.29
+78,Klamath Mountains/California High North Coast Range,2000,Defoliation,207,18.63
+78,Klamath Mountains/California High North Coast Range,2000,Mortality,16665,1499.85
+78,Klamath Mountains/California High North Coast Range,2000,Other Damage,33,2.97
+78,Klamath Mountains/California High North Coast Range,2001,Branch flagging,6958,626.22
+78,Klamath Mountains/California High North Coast Range,2001,Defoliation,452,40.68
+78,Klamath Mountains/California High North Coast Range,2001,Mortality,20237,1821.33
+78,Klamath Mountains/California High North Coast Range,2001,Other Damage,404,36.36
+78,Klamath Mountains/California High North Coast Range,2002,Branch flagging,9112,820.08
+78,Klamath Mountains/California High North Coast Range,2002,Defoliation,3615,325.35
+78,Klamath Mountains/California High North Coast Range,2002,Mortality,220694,19862.46
+78,Klamath Mountains/California High North Coast Range,2002,Topkill,36,3.24
+78,Klamath Mountains/California High North Coast Range,2003,Branch flagging,621,55.89
+78,Klamath Mountains/California High North Coast Range,2003,Crown Discoloration,1762,158.58
+78,Klamath Mountains/California High North Coast Range,2003,Defoliation,1489,134.01
+78,Klamath Mountains/California High North Coast Range,2003,Mortality,333912,30052.08
+78,Klamath Mountains/California High North Coast Range,2003,Other Damage,9,0.81
+78,Klamath Mountains/California High North Coast Range,2004,Branch flagging,8393,755.37
+78,Klamath Mountains/California High North Coast Range,2004,Mortality,204092,18368.28
+78,Klamath Mountains/California High North Coast Range,2004,Other Damage,80,7.2
+78,Klamath Mountains/California High North Coast Range,2005,Branch flagging,5532,497.88
+78,Klamath Mountains/California High North Coast Range,2005,Defoliation,870,78.3
+78,Klamath Mountains/California High North Coast Range,2005,Mortality,108074,9726.66
+78,Klamath Mountains/California High North Coast Range,2006,Branch flagging,8096,728.64
+78,Klamath Mountains/California High North Coast Range,2006,Defoliation,1631,146.79
+78,Klamath Mountains/California High North Coast Range,2006,Mortality,20352,1831.68
+78,Klamath Mountains/California High North Coast Range,2006,Other Damage,18,1.62
+78,Klamath Mountains/California High North Coast Range,2006,Topkill,1591,143.19
+78,Klamath Mountains/California High North Coast Range,2007,Branch flagging,28858,2597.22
+78,Klamath Mountains/California High North Coast Range,2007,Defoliation,1720,154.8
+78,Klamath Mountains/California High North Coast Range,2007,Main stem Broken or Uprooted,94,8.46
+78,Klamath Mountains/California High North Coast Range,2007,Mortality,33080,2977.2
+78,Klamath Mountains/California High North Coast Range,2007,Other Damage,1853,166.77
+78,Klamath Mountains/California High North Coast Range,2007,Topkill,147,13.23
+78,Klamath Mountains/California High North Coast Range,2008,Branch flagging,35995,3239.55
+78,Klamath Mountains/California High North Coast Range,2008,Crown Dieback,171,15.39
+78,Klamath Mountains/California High North Coast Range,2008,Crown Discoloration,435,39.15
+78,Klamath Mountains/California High North Coast Range,2008,Defoliation,9467,852.03
+78,Klamath Mountains/California High North Coast Range,2008,Main stem Broken or Uprooted,1074,96.66
+78,Klamath Mountains/California High North Coast Range,2008,Mortality,21863,1967.67
+78,Klamath Mountains/California High North Coast Range,2008,Other Damage,78,7.02
+78,Klamath Mountains/California High North Coast Range,2008,Topkill,251,22.59
+78,Klamath Mountains/California High North Coast Range,2009,Branch flagging,31085,2797.65
+78,Klamath Mountains/California High North Coast Range,2009,Crown Dieback,352,31.68
+78,Klamath Mountains/California High North Coast Range,2009,Defoliation,853,76.77
+78,Klamath Mountains/California High North Coast Range,2009,Mortality,11902,1071.18
+78,Klamath Mountains/California High North Coast Range,2009,Other Damage,150,13.5
+78,Klamath Mountains/California High North Coast Range,2009,Topkill,45,4.05
+78,Klamath Mountains/California High North Coast Range,2010,Branch flagging,27216,2449.44
+78,Klamath Mountains/California High North Coast Range,2010,Crown Dieback,198,17.82
+78,Klamath Mountains/California High North Coast Range,2010,Defoliation,594,53.46
+78,Klamath Mountains/California High North Coast Range,2010,Mortality,67523,6077.07
+78,Klamath Mountains/California High North Coast Range,2010,Other Damage,104,9.36
+78,Klamath Mountains/California High North Coast Range,2010,Topkill,9,0.81
+78,Klamath Mountains/California High North Coast Range,2011,Branch flagging,23946,2155.14
+78,Klamath Mountains/California High North Coast Range,2011,Defoliation,611,54.99
+78,Klamath Mountains/California High North Coast Range,2011,Mortality,56847,5116.23
+78,Klamath Mountains/California High North Coast Range,2011,Other Damage,194,17.46
+78,Klamath Mountains/California High North Coast Range,2011,Topkill,8,0.72
+78,Klamath Mountains/California High North Coast Range,2012,Branch flagging,24741,2226.69
+78,Klamath Mountains/California High North Coast Range,2012,Defoliation,534,48.06
+78,Klamath Mountains/California High North Coast Range,2012,Mortality,20556,1850.04
+78,Klamath Mountains/California High North Coast Range,2012,Other Damage,1142,102.78
+78,Klamath Mountains/California High North Coast Range,2012,Topkill,104,9.36
+78,Klamath Mountains/California High North Coast Range,2013,Branch flagging,36748,3307.32
+78,Klamath Mountains/California High North Coast Range,2013,Crown Dieback,94,8.46
+78,Klamath Mountains/California High North Coast Range,2013,Defoliation,403,36.27
+78,Klamath Mountains/California High North Coast Range,2013,Mortality,17578,1582.02
+78,Klamath Mountains/California High North Coast Range,2013,No damage,25,2.25
+78,Klamath Mountains/California High North Coast Range,2013,Other Damage,319,28.71
+78,Klamath Mountains/California High North Coast Range,2013,Topkill,53,4.77
+78,Klamath Mountains/California High North Coast Range,2014,Branch flagging,24487,2203.83
+78,Klamath Mountains/California High North Coast Range,2014,Crown Dieback,350,31.5
+78,Klamath Mountains/California High North Coast Range,2014,Defoliation,1210,108.9
+78,Klamath Mountains/California High North Coast Range,2014,Mortality,25624,2306.16
+78,Klamath Mountains/California High North Coast Range,2014,Other Damage,420,37.8
+78,Klamath Mountains/California High North Coast Range,2015,Branch flagging,15938,1434.42
+78,Klamath Mountains/California High North Coast Range,2015,Defoliation,3997,359.73
+78,Klamath Mountains/California High North Coast Range,2015,Mortality,94895,8540.55
+78,Klamath Mountains/California High North Coast Range,2015,Other Damage,2889,260.01
+78,Klamath Mountains/California High North Coast Range,2016,Branch flagging,16062,1445.58
+78,Klamath Mountains/California High North Coast Range,2016,Defoliation,4318,388.62
+78,Klamath Mountains/California High North Coast Range,2016,Mortality,249083,22417.47
+78,Klamath Mountains/California High North Coast Range,2016,Other Damage,4291,386.19
+78,Klamath Mountains/California High North Coast Range,2016,Topkill,2588,232.92
+78,Klamath Mountains/California High North Coast Range,2017,Branch flagging,14359,1292.31
+78,Klamath Mountains/California High North Coast Range,2017,Crown Dieback,23,2.07
+78,Klamath Mountains/California High North Coast Range,2017,Defoliation,808,72.72
+78,Klamath Mountains/California High North Coast Range,2017,Mortality,85577,7701.93
+78,Klamath Mountains/California High North Coast Range,2017,Other Damage,2806,252.54
+78,Klamath Mountains/California High North Coast Range,2017,Topkill,9,0.81
+78,Klamath Mountains/California High North Coast Range,2018,Defoliation 50-75% of leaves defoliated,2662,239.58
+78,Klamath Mountains/California High North Coast Range,2018,Defoliation < 50% of leaves defoliated,1639,147.51
+78,Klamath Mountains/California High North Coast Range,2018,Defoliation > 75% of leaves defoliated,885,79.65
+78,Klamath Mountains/California High North Coast Range,2018,Mortality,70574,6351.66
+78,Klamath Mountains/California High North Coast Range,2018,Unknown Damage,418,37.62
+78,Klamath Mountains/California High North Coast Range,2019,Defoliation 50-75% of leaves defoliated,790,71.1
+78,Klamath Mountains/California High North Coast Range,2019,Defoliation < 50% of leaves defoliated,2361,212.49
+78,Klamath Mountains/California High North Coast Range,2019,Defoliation > 75% of leaves defoliated,2319,208.71
+78,Klamath Mountains/California High North Coast Range,2019,Main stem Broken or Uprooted,132,11.88
+78,Klamath Mountains/California High North Coast Range,2019,Mortality,270088,24307.92
+78,Klamath Mountains/California High North Coast Range,2019,Topkill,12,1.08
+78,Klamath Mountains/California High North Coast Range,2019,Unknown Damage,596,53.64
+78,Klamath Mountains/California High North Coast Range,2020,Branch flagging,396,35.64
+78,Klamath Mountains/California High North Coast Range,2020,Defoliation 50-75% of leaves defoliated,128,11.52
+78,Klamath Mountains/California High North Coast Range,2020,Defoliation < 50% of leaves defoliated,48,4.32
+78,Klamath Mountains/California High North Coast Range,2020,Mortality,239319,21538.71
+78,Klamath Mountains/California High North Coast Range,2020,Unknown Damage,13244,1191.96
+78,Klamath Mountains/California High North Coast Range,2021,Crown Discoloration,9574,861.66
+78,Klamath Mountains/California High North Coast Range,2021,Defoliation 50-75% of leaves defoliated,4023,362.07
+78,Klamath Mountains/California High North Coast Range,2021,Defoliation < 50% of leaves defoliated,13028,1172.52
+78,Klamath Mountains/California High North Coast Range,2021,Defoliation > 75% of leaves defoliated,117984,10618.56
+78,Klamath Mountains/California High North Coast Range,2021,Mortality,190705,17163.45
+78,Klamath Mountains/California High North Coast Range,2021,Unknown Damage,21010,1890.9
+78,Klamath Mountains/California High North Coast Range,2022,Defoliation 50-75% of leaves defoliated,119547,10759.23
+78,Klamath Mountains/California High North Coast Range,2022,Defoliation > 75% of leaves defoliated,108463,9761.67
+78,Klamath Mountains/California High North Coast Range,2022,Mortality,2181933,196373.97
+78,Klamath Mountains/California High North Coast Range,2022,Topkill,2217,199.53
+78,Klamath Mountains/California High North Coast Range,2023,Defoliation 50-75% of leaves defoliated,13385,1204.65
+78,Klamath Mountains/California High North Coast Range,2023,Defoliation > 75% of leaves defoliated,31265,2813.85
+78,Klamath Mountains/California High North Coast Range,2023,Mortality,1374252,123682.68
+78,Klamath Mountains/California High North Coast Range,2023,Topkill,4957,446.13
+78,Klamath Mountains/California High North Coast Range,2023,Unknown Damage,147,13.23
+78,Klamath Mountains/California High North Coast Range,2024,Defoliation 50-75% of leaves defoliated,39599,3563.91
+78,Klamath Mountains/California High North Coast Range,2024,Defoliation < 50% of leaves defoliated,3173,285.57
+78,Klamath Mountains/California High North Coast Range,2024,Defoliation > 75% of leaves defoliated,14235,1281.15
+78,Klamath Mountains/California High North Coast Range,2024,Mortality,558884,50299.56
+78,Klamath Mountains/California High North Coast Range,2024,Unknown Damage,4567,411.03
+78,Klamath Mountains/California High North Coast Range,2025,Crown Dieback,1370,123.3
+78,Klamath Mountains/California High North Coast Range,2025,Defoliation 50-75% of leaves defoliated,11080,997.2
+78,Klamath Mountains/California High North Coast Range,2025,Defoliation > 75% of leaves defoliated,17419,1567.71
+78,Klamath Mountains/California High North Coast Range,2025,Mortality,438943,39504.87
+78,Klamath Mountains/California High North Coast Range,2025,Unknown Damage,977,87.93
+9,Eastern Cascades Slopes and Foothills,1997,Branch flagging,589,53.01
+9,Eastern Cascades Slopes and Foothills,1997,Crown Discoloration,2186,196.74
+9,Eastern Cascades Slopes and Foothills,1997,Defoliation,977564,87980.76
+9,Eastern Cascades Slopes and Foothills,1997,Main stem Broken or Uprooted,1672,150.48
+9,Eastern Cascades Slopes and Foothills,1997,Mortality,167577,15081.93
+9,Eastern Cascades Slopes and Foothills,1998,Branch flagging,1932,173.88
+9,Eastern Cascades Slopes and Foothills,1998,Crown Dieback,1023,92.07
+9,Eastern Cascades Slopes and Foothills,1998,Defoliation,2484692,223622.28
+9,Eastern Cascades Slopes and Foothills,1998,Mortality,182098,16388.82
+9,Eastern Cascades Slopes and Foothills,1998,No damage,651,58.59
+9,Eastern Cascades Slopes and Foothills,1999,Branch flagging,8431,758.79
+9,Eastern Cascades Slopes and Foothills,1999,Crown Discoloration,148,13.32
+9,Eastern Cascades Slopes and Foothills,1999,Defoliation,997294,89756.46
+9,Eastern Cascades Slopes and Foothills,1999,Mortality,181840,16365.6
+9,Eastern Cascades Slopes and Foothills,1999,No damage,754,67.86
+9,Eastern Cascades Slopes and Foothills,1999,Topkill,117,10.53
+9,Eastern Cascades Slopes and Foothills,2000,Branch flagging,7211,648.99
+9,Eastern Cascades Slopes and Foothills,2000,Crown Dieback,3118,280.62
+9,Eastern Cascades Slopes and Foothills,2000,Crown Discoloration,1193,107.37
+9,Eastern Cascades Slopes and Foothills,2000,Defoliation,1414158,127274.22
+9,Eastern Cascades Slopes and Foothills,2000,Mortality,172557,15530.13
+9,Eastern Cascades Slopes and Foothills,2000,Other Damage,11405,1026.45
+9,Eastern Cascades Slopes and Foothills,2000,Topkill,20,1.8
+9,Eastern Cascades Slopes and Foothills,2001,Branch flagging,24427,2198.43
+9,Eastern Cascades Slopes and Foothills,2001,Crown Dieback,23412,2107.08
+9,Eastern Cascades Slopes and Foothills,2001,Crown Discoloration,507,45.63
+9,Eastern Cascades Slopes and Foothills,2001,Defoliation,897550,80779.5
+9,Eastern Cascades Slopes and Foothills,2001,Mortality,360794,32471.46
+9,Eastern Cascades Slopes and Foothills,2001,Other Damage,695,62.55
+9,Eastern Cascades Slopes and Foothills,2001,Topkill,52,4.68
+9,Eastern Cascades Slopes and Foothills,2002,Branch flagging,30162,2714.58
+9,Eastern Cascades Slopes and Foothills,2002,Defoliation,122264,11003.76
+9,Eastern Cascades Slopes and Foothills,2002,Main stem Broken or Uprooted,54,4.86
+9,Eastern Cascades Slopes and Foothills,2002,Mortality,674441,60699.69
+9,Eastern Cascades Slopes and Foothills,2002,Other Damage,36899,3320.91
+9,Eastern Cascades Slopes and Foothills,2002,Topkill,17,1.53
+9,Eastern Cascades Slopes and Foothills,2003,Branch flagging,57247,5152.23
+9,Eastern Cascades Slopes and Foothills,2003,Defoliation,344976,31047.84
+9,Eastern Cascades Slopes and Foothills,2003,Mortality,940657,84659.13
+9,Eastern Cascades Slopes and Foothills,2003,Other Damage,163,14.67
+9,Eastern Cascades Slopes and Foothills,2004,Branch flagging,18413,1657.17
+9,Eastern Cascades Slopes and Foothills,2004,Crown Dieback,10,0.9
+9,Eastern Cascades Slopes and Foothills,2004,Defoliation,458658,41279.22
+9,Eastern Cascades Slopes and Foothills,2004,Mortality,1251267,112614.03
+9,Eastern Cascades Slopes and Foothills,2004,Other Damage,5921,532.89
+9,Eastern Cascades Slopes and Foothills,2005,Branch flagging,15377,1383.93
+9,Eastern Cascades Slopes and Foothills,2005,Crown Dieback,4193,377.37
+9,Eastern Cascades Slopes and Foothills,2005,Defoliation,609296,54836.64
+9,Eastern Cascades Slopes and Foothills,2005,Mortality,1453408,130806.72
+9,Eastern Cascades Slopes and Foothills,2005,Other Damage,3350,301.5
+9,Eastern Cascades Slopes and Foothills,2006,Branch Breakage,13601,1224.09
+9,Eastern Cascades Slopes and Foothills,2006,Branch flagging,13282,1195.38
+9,Eastern Cascades Slopes and Foothills,2006,Crown Discoloration,112,10.08
+9,Eastern Cascades Slopes and Foothills,2006,Defoliation,888103,79929.27
+9,Eastern Cascades Slopes and Foothills,2006,Mortality,1328168,119535.12
+9,Eastern Cascades Slopes and Foothills,2006,Other Damage,13397,1205.73
+9,Eastern Cascades Slopes and Foothills,2006,Topkill,689,62.01
+9,Eastern Cascades Slopes and Foothills,2007,Branch flagging,12196,1097.64
+9,Eastern Cascades Slopes and Foothills,2007,Defoliation,307347,27661.23
+9,Eastern Cascades Slopes and Foothills,2007,Main stem Broken or Uprooted,272,24.48
+9,Eastern Cascades Slopes and Foothills,2007,Mortality,1876362,168872.58
+9,Eastern Cascades Slopes and Foothills,2007,Other Damage,13880,1249.2
+9,Eastern Cascades Slopes and Foothills,2007,Topkill,9,0.81
+9,Eastern Cascades Slopes and Foothills,2008,Branch flagging,15548,1399.32
+9,Eastern Cascades Slopes and Foothills,2008,Defoliation,280218,25219.62
+9,Eastern Cascades Slopes and Foothills,2008,Main stem Broken or Uprooted,9,0.81
+9,Eastern Cascades Slopes and Foothills,2008,Mortality,2254357,202892.13
+9,Eastern Cascades Slopes and Foothills,2008,Other Damage,20576,1851.84
+9,Eastern Cascades Slopes and Foothills,2008,Topkill,22,1.98
+9,Eastern Cascades Slopes and Foothills,2009,Branch flagging,43066,3875.94
+9,Eastern Cascades Slopes and Foothills,2009,Crown Discoloration,5430,488.7
+9,Eastern Cascades Slopes and Foothills,2009,Defoliation,85212,7669.08
+9,Eastern Cascades Slopes and Foothills,2009,Mortality,1666654,149998.86
+9,Eastern Cascades Slopes and Foothills,2009,Other Damage,18355,1651.95
+9,Eastern Cascades Slopes and Foothills,2010,Branch flagging,13448,1210.32
+9,Eastern Cascades Slopes and Foothills,2010,Crown Dieback,17,1.53
+9,Eastern Cascades Slopes and Foothills,2010,Crown Discoloration,42,3.78
+9,Eastern Cascades Slopes and Foothills,2010,Defoliation,189504,17055.36
+9,Eastern Cascades Slopes and Foothills,2010,Mortality,1459626,131366.34
+9,Eastern Cascades Slopes and Foothills,2010,Other Damage,4906,441.54
+9,Eastern Cascades Slopes and Foothills,2011,Branch flagging,13359,1202.31
+9,Eastern Cascades Slopes and Foothills,2011,Crown Dieback,5029,452.61
+9,Eastern Cascades Slopes and Foothills,2011,Defoliation,200974,18087.66
+9,Eastern Cascades Slopes and Foothills,2011,Mortality,729220,65629.8
+9,Eastern Cascades Slopes and Foothills,2011,Other Damage,7235,651.15
+9,Eastern Cascades Slopes and Foothills,2011,Topkill,43,3.87
+9,Eastern Cascades Slopes and Foothills,2012,Branch flagging,37285,3355.65
+9,Eastern Cascades Slopes and Foothills,2012,Crown Dieback,8631,776.79
+9,Eastern Cascades Slopes and Foothills,2012,Defoliation,278740,25086.6
+9,Eastern Cascades Slopes and Foothills,2012,Mortality,866269,77964.21
+9,Eastern Cascades Slopes and Foothills,2012,Other Damage,2290,206.1
+9,Eastern Cascades Slopes and Foothills,2013,Branch flagging,13538,1218.42
+9,Eastern Cascades Slopes and Foothills,2013,Crown Dieback,14389,1295.01
+9,Eastern Cascades Slopes and Foothills,2013,Crown Discoloration,6234,561.06
+9,Eastern Cascades Slopes and Foothills,2013,Defoliation,83286,7495.74
+9,Eastern Cascades Slopes and Foothills,2013,Main stem Broken or Uprooted,90,8.1
+9,Eastern Cascades Slopes and Foothills,2013,Mortality,865203,77868.27
+9,Eastern Cascades Slopes and Foothills,2013,No damage,1194,107.46
+9,Eastern Cascades Slopes and Foothills,2013,Other Damage,10747,967.23
+9,Eastern Cascades Slopes and Foothills,2014,Branch flagging,9914,892.26
+9,Eastern Cascades Slopes and Foothills,2014,Crown Dieback,16193,1457.37
+9,Eastern Cascades Slopes and Foothills,2014,Defoliation,21598,1943.82
+9,Eastern Cascades Slopes and Foothills,2014,Mortality,1002613,90235.17
+9,Eastern Cascades Slopes and Foothills,2014,Other Damage,122605,11034.45
+9,Eastern Cascades Slopes and Foothills,2015,Branch Breakage,8,0.72
+9,Eastern Cascades Slopes and Foothills,2015,Branch flagging,13856,1247.04
+9,Eastern Cascades Slopes and Foothills,2015,Crown Dieback,2609,234.81
+9,Eastern Cascades Slopes and Foothills,2015,Defoliation,108566,9770.94
+9,Eastern Cascades Slopes and Foothills,2015,Mortality,835880,75229.2
+9,Eastern Cascades Slopes and Foothills,2015,Other Damage,59906,5391.54
+9,Eastern Cascades Slopes and Foothills,2016,Branch flagging,30575,2751.75
+9,Eastern Cascades Slopes and Foothills,2016,Crown Dieback,3213,289.17
+9,Eastern Cascades Slopes and Foothills,2016,Defoliation,39715,3574.35
+9,Eastern Cascades Slopes and Foothills,2016,Mortality,762000,68580.0
+9,Eastern Cascades Slopes and Foothills,2016,Other Damage,33440,3009.6
+9,Eastern Cascades Slopes and Foothills,2016,Topkill,7575,681.75
+9,Eastern Cascades Slopes and Foothills,2017,Branch flagging,9912,892.08
+9,Eastern Cascades Slopes and Foothills,2017,Crown Dieback,11,0.99
+9,Eastern Cascades Slopes and Foothills,2017,Defoliation,10037,903.33
+9,Eastern Cascades Slopes and Foothills,2017,Mortality,634985,57148.65
+9,Eastern Cascades Slopes and Foothills,2017,Other Damage,32756,2948.04
+9,Eastern Cascades Slopes and Foothills,2017,Topkill,1659,149.31
+9,Eastern Cascades Slopes and Foothills,2018,Crown Dieback,887,79.83
+9,Eastern Cascades Slopes and Foothills,2018,Defoliation 50-75% of leaves defoliated,188979,17008.11
+9,Eastern Cascades Slopes and Foothills,2018,Defoliation < 50% of leaves defoliated,113415,10207.35
+9,Eastern Cascades Slopes and Foothills,2018,Defoliation > 75% of leaves defoliated,368320,33148.8
+9,Eastern Cascades Slopes and Foothills,2018,Mortality,303008,27270.72
+9,Eastern Cascades Slopes and Foothills,2018,Unknown Damage,24059,2165.31
+9,Eastern Cascades Slopes and Foothills,2019,Crown Dieback,5416,487.44
+9,Eastern Cascades Slopes and Foothills,2019,Defoliation 50-75% of leaves defoliated,16145,1453.05
+9,Eastern Cascades Slopes and Foothills,2019,Defoliation < 50% of leaves defoliated,1942,174.78
+9,Eastern Cascades Slopes and Foothills,2019,Defoliation > 75% of leaves defoliated,35821,3223.89
+9,Eastern Cascades Slopes and Foothills,2019,Mortality,611161,55004.49
+9,Eastern Cascades Slopes and Foothills,2019,Topkill,8,0.72
+9,Eastern Cascades Slopes and Foothills,2019,Unknown Damage,23127,2081.43
+9,Eastern Cascades Slopes and Foothills,2020,Branch flagging,184,16.56
+9,Eastern Cascades Slopes and Foothills,2020,Crown Dieback,40,3.6
+9,Eastern Cascades Slopes and Foothills,2020,Defoliation 50-75% of leaves defoliated,11592,1043.28
+9,Eastern Cascades Slopes and Foothills,2020,Defoliation < 50% of leaves defoliated,33252,2992.68
+9,Eastern Cascades Slopes and Foothills,2020,Defoliation > 75% of leaves defoliated,6937,624.33
+9,Eastern Cascades Slopes and Foothills,2020,Main stem Broken or Uprooted,1135,102.15
+9,Eastern Cascades Slopes and Foothills,2020,Mortality,187046,16834.14
+9,Eastern Cascades Slopes and Foothills,2020,Unknown Damage,640,57.6
+9,Eastern Cascades Slopes and Foothills,2021,Crown Dieback,2738,246.42
+9,Eastern Cascades Slopes and Foothills,2021,Crown Discoloration,4,0.36
+9,Eastern Cascades Slopes and Foothills,2021,Defoliation 50-75% of leaves defoliated,8580,772.2
+9,Eastern Cascades Slopes and Foothills,2021,Defoliation < 50% of leaves defoliated,965,86.85
+9,Eastern Cascades Slopes and Foothills,2021,Defoliation > 75% of leaves defoliated,11738,1056.42
+9,Eastern Cascades Slopes and Foothills,2021,Mortality,487018,43831.62
+9,Eastern Cascades Slopes and Foothills,2021,Topkill,8086,727.74
+9,Eastern Cascades Slopes and Foothills,2021,Unknown Damage,285,25.65
+9,Eastern Cascades Slopes and Foothills,2022,Crown Dieback,1945,175.05
+9,Eastern Cascades Slopes and Foothills,2022,Defoliation 50-75% of leaves defoliated,7629,686.61
+9,Eastern Cascades Slopes and Foothills,2022,Defoliation < 50% of leaves defoliated,4908,441.72
+9,Eastern Cascades Slopes and Foothills,2022,Defoliation > 75% of leaves defoliated,2905,261.45
+9,Eastern Cascades Slopes and Foothills,2022,Mortality,2265451,203890.59
+9,Eastern Cascades Slopes and Foothills,2022,Topkill,11631,1046.79
+9,Eastern Cascades Slopes and Foothills,2022,Unknown Damage,2147,193.23
+9,Eastern Cascades Slopes and Foothills,2023,Branch flagging,1514,136.26
+9,Eastern Cascades Slopes and Foothills,2023,Crown Dieback,6706,603.54
+9,Eastern Cascades Slopes and Foothills,2023,Defoliation 50-75% of leaves defoliated,20420,1837.8
+9,Eastern Cascades Slopes and Foothills,2023,Defoliation < 50% of leaves defoliated,726,65.34
+9,Eastern Cascades Slopes and Foothills,2023,Defoliation > 75% of leaves defoliated,15802,1422.18
+9,Eastern Cascades Slopes and Foothills,2023,Main stem Broken or Uprooted,55,4.95
+9,Eastern Cascades Slopes and Foothills,2023,Mortality,3322024,298982.16
+9,Eastern Cascades Slopes and Foothills,2023,No damage,120,10.8
+9,Eastern Cascades Slopes and Foothills,2023,Topkill,9397,845.73
+9,Eastern Cascades Slopes and Foothills,2023,Unknown Damage,7330,659.7
+9,Eastern Cascades Slopes and Foothills,2024,Crown Dieback,5280,475.2
+9,Eastern Cascades Slopes and Foothills,2024,Crown Discoloration,6887,619.83
+9,Eastern Cascades Slopes and Foothills,2024,Defoliation 50-75% of leaves defoliated,15031,1352.79
+9,Eastern Cascades Slopes and Foothills,2024,Defoliation > 75% of leaves defoliated,13765,1238.85
+9,Eastern Cascades Slopes and Foothills,2024,Mortality,1823398,164105.82
+9,Eastern Cascades Slopes and Foothills,2024,Topkill,2385,214.65
+9,Eastern Cascades Slopes and Foothills,2024,Unknown Damage,119,10.71
+9,Eastern Cascades Slopes and Foothills,2025,Crown Dieback,47,4.23
+9,Eastern Cascades Slopes and Foothills,2025,Crown Discoloration,922,82.98
+9,Eastern Cascades Slopes and Foothills,2025,Defoliation 50-75% of leaves defoliated,7409,666.81
+9,Eastern Cascades Slopes and Foothills,2025,Defoliation < 50% of leaves defoliated,9186,826.74
+9,Eastern Cascades Slopes and Foothills,2025,Defoliation > 75% of leaves defoliated,291,26.19
+9,Eastern Cascades Slopes and Foothills,2025,Mortality,762421,68617.89
+9,Eastern Cascades Slopes and Foothills,2025,Topkill,432,38.88
+9,Eastern Cascades Slopes and Foothills,2025,Unknown Damage,1195,107.55

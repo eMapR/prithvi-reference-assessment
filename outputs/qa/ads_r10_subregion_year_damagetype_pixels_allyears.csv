@@ -1,0 +1,191 @@
+subregion,subregion_name,native_class,pixel_count,area_ha
+190101,Southern Southeast Alaska,Branch flagging,2684,241.56
+190101,Southern Southeast Alaska,Crown Dieback,2723,245.07
+190101,Southern Southeast Alaska,Crown Discoloration,3250,292.5
+190101,Southern Southeast Alaska,Defoliation,318979,28708.11
+190101,Southern Southeast Alaska,Defoliation 50-75% of leaves defoliated,1144209,102978.81
+190101,Southern Southeast Alaska,Defoliation < 50% of leaves defoliated,47382,4264.38
+190101,Southern Southeast Alaska,Defoliation > 75% of leaves defoliated,471260,42413.4
+190101,Southern Southeast Alaska,Main stem Broken or Uprooted,25901,2331.09
+190101,Southern Southeast Alaska,Mortality,1290671,116160.39
+190101,Southern Southeast Alaska,Mortality - Previously Undocumented,100763,9068.67
+190101,Southern Southeast Alaska,Topkill,58849,5296.41
+190102,Central Southeast Alaska,Branch flagging,2494,224.46
+190102,Central Southeast Alaska,Crown Dieback,15924,1433.16
+190102,Central Southeast Alaska,Crown Discoloration,11591,1043.19
+190102,Central Southeast Alaska,Defoliation,719626,64766.34
+190102,Central Southeast Alaska,Defoliation 50-75% of leaves defoliated,2323146,209083.14
+190102,Central Southeast Alaska,Defoliation < 50% of leaves defoliated,133049,11974.41
+190102,Central Southeast Alaska,Defoliation > 75% of leaves defoliated,3185623,286706.07
+190102,Central Southeast Alaska,Main stem Broken or Uprooted,39084,3517.56
+190102,Central Southeast Alaska,Mortality,1521854,136966.86
+190102,Central Southeast Alaska,Mortality - Previously Undocumented,439229,39530.61
+190102,Central Southeast Alaska,Other Damage (known),22,1.98
+190102,Central Southeast Alaska,Topkill,772610,69534.9
+190103,Northern Southeast Alaska,Branch flagging,369,33.21
+190103,Northern Southeast Alaska,Crown Dieback,25936,2334.24
+190103,Northern Southeast Alaska,Crown Discoloration,86187,7756.83
+190103,Northern Southeast Alaska,Defoliation,447321,40258.89
+190103,Northern Southeast Alaska,Defoliation 50-75% of leaves defoliated,590730,53165.7
+190103,Northern Southeast Alaska,Defoliation < 50% of leaves defoliated,222436,20019.24
+190103,Northern Southeast Alaska,Defoliation > 75% of leaves defoliated,293022,26371.98
+190103,Northern Southeast Alaska,Main stem Broken or Uprooted,21618,1945.62
+190103,Northern Southeast Alaska,Mortality,314020,28261.8
+190103,Northern Southeast Alaska,Mortality - Previously Undocumented,53850,4846.5
+190103,Northern Southeast Alaska,Topkill,73395,6605.55
+190201,Copper River,Branch flagging,758,68.22
+190201,Copper River,Crown Dieback,305240,27471.6
+190201,Copper River,Crown Discoloration,53961,4856.49
+190201,Copper River,Defoliation,1314018,118261.62
+190201,Copper River,Defoliation 50-75% of leaves defoliated,172946,15565.14
+190201,Copper River,Defoliation > 75% of leaves defoliated,75135,6762.15
+190201,Copper River,Main stem Broken or Uprooted,533,47.97
+190201,Copper River,Mortality,1290556,116150.04
+190201,Copper River,Mortality - Previously Undocumented,23660,2129.4
+190201,Copper River,Other Damage (known),30,2.7
+190202,Prince William Sound,Branch flagging,4912,442.08
+190202,Prince William Sound,Crown Dieback,21905,1971.45
+190202,Prince William Sound,Defoliation,274552,24709.68
+190202,Prince William Sound,Defoliation 50-75% of leaves defoliated,216911,19521.99
+190202,Prince William Sound,Defoliation > 75% of leaves defoliated,949,85.41
+190202,Prince William Sound,Main stem Broken or Uprooted,510,45.9
+190202,Prince William Sound,Mortality,59430,5348.7
+190202,Prince William Sound,Mortality - Previously Undocumented,1256,113.04
+190203,Kenai Peninsula,Branch flagging,1165,104.85
+190203,Kenai Peninsula,Crown Dieback,93225,8390.25
+190203,Kenai Peninsula,Crown Discoloration,52515,4726.35
+190203,Kenai Peninsula,Defoliation,616780,55510.2
+190203,Kenai Peninsula,Defoliation 50-75% of leaves defoliated,254876,22938.84
+190203,Kenai Peninsula,Defoliation < 50% of leaves defoliated,15078,1357.02
+190203,Kenai Peninsula,Defoliation > 75% of leaves defoliated,730032,65702.88
+190203,Kenai Peninsula,Main stem Broken or Uprooted,3723,335.07
+190203,Kenai Peninsula,Mortality,4185783,376720.47
+190203,Kenai Peninsula,Mortality - Previously Undocumented,681443,61329.87
+190203,Kenai Peninsula,Other Damage (known),478,43.02
+190204,Knik Arm,Branch Breakage,88,7.92
+190204,Knik Arm,Branch flagging,411,36.99
+190204,Knik Arm,Crown Dieback,151668,13650.12
+190204,Knik Arm,Crown Discoloration,16883,1519.47
+190204,Knik Arm,Defoliation,1525481,137293.29
+190204,Knik Arm,Defoliation 50-75% of leaves defoliated,211593,19043.37
+190204,Knik Arm,Defoliation < 50% of leaves defoliated,180,16.2
+190204,Knik Arm,Defoliation > 75% of leaves defoliated,705405,63486.45
+190204,Knik Arm,Main stem Broken or Uprooted,751,67.59
+190204,Knik Arm,Mortality,1156215,104059.35
+190204,Knik Arm,Mortality - Previously Undocumented,151556,13640.04
+190204,Knik Arm,Other Damage (known),292,26.28
+190205,Susitna River,Branch Breakage,3397,305.73
+190205,Susitna River,Branch flagging,2268,204.12
+190205,Susitna River,Crown Dieback,36096,3248.64
+190205,Susitna River,Crown Discoloration,1222969,110067.21
+190205,Susitna River,Defoliation,1614307,145287.63
+190205,Susitna River,Defoliation 50-75% of leaves defoliated,706950,63625.5
+190205,Susitna River,Defoliation < 50% of leaves defoliated,22729,2045.61
+190205,Susitna River,Defoliation > 75% of leaves defoliated,604622,54415.98
+190205,Susitna River,Main stem Broken or Uprooted,241,21.69
+190205,Susitna River,Mortality,5817159,523544.31
+190205,Susitna River,Mortality - Previously Undocumented,3278089,295028.01
+190205,Susitna River,Other Damage (known),9,0.81
+190303,Nushagak River,Branch flagging,690,62.1
+190303,Nushagak River,Crown Dieback,79485,7153.65
+190303,Nushagak River,Crown Discoloration,364631,32816.79
+190303,Nushagak River,Defoliation,1865909,167931.81
+190303,Nushagak River,Defoliation 50-75% of leaves defoliated,93670,8430.3
+190303,Nushagak River,Defoliation < 50% of leaves defoliated,154,13.86
+190303,Nushagak River,Defoliation > 75% of leaves defoliated,196855,17716.95
+190303,Nushagak River,Mortality,69389,6245.01
+190304,Upper Kuskokwim River,Branch flagging,437,39.33
+190304,Upper Kuskokwim River,Crown Dieback,67961,6116.49
+190304,Upper Kuskokwim River,Crown Discoloration,176122,15850.98
+190304,Upper Kuskokwim River,Defoliation,4271576,384441.84
+190304,Upper Kuskokwim River,Defoliation 50-75% of leaves defoliated,36175,3255.75
+190304,Upper Kuskokwim River,Defoliation > 75% of leaves defoliated,32819,2953.71
+190304,Upper Kuskokwim River,Mortality,1227117,110440.53
+190305,Lower Kuskokwim River,Crown Dieback,18806,1692.54
+190305,Lower Kuskokwim River,Crown Discoloration,117,10.53
+190305,Lower Kuskokwim River,Defoliation,802144,72192.96
+190305,Lower Kuskokwim River,Defoliation 50-75% of leaves defoliated,27460,2471.4
+190305,Lower Kuskokwim River,Defoliation > 75% of leaves defoliated,7802,702.18
+190305,Lower Kuskokwim River,Main stem Broken or Uprooted,37,3.33
+190305,Lower Kuskokwim River,Mortality,182212,16399.08
+190503,Kobuk-Selawik Rivers,Crown Dieback,5419,487.71
+190503,Kobuk-Selawik Rivers,Crown Discoloration,499,44.91
+190503,Kobuk-Selawik Rivers,Defoliation,226182,20356.38
+190503,Kobuk-Selawik Rivers,Defoliation 50-75% of leaves defoliated,127824,11504.16
+190503,Kobuk-Selawik Rivers,Defoliation > 75% of leaves defoliated,47605,4284.45
+190503,Kobuk-Selawik Rivers,Mortality,56737,5106.33
+190705,Fortymile River-Yukon River,Branch flagging,33,2.97
+190705,Fortymile River-Yukon River,Crown Dieback,17090,1538.1
+190705,Fortymile River-Yukon River,Crown Discoloration,1753,157.77
+190705,Fortymile River-Yukon River,Defoliation,853506,76815.54
+190705,Fortymile River-Yukon River,Defoliation 50-75% of leaves defoliated,177740,15996.6
+190705,Fortymile River-Yukon River,Defoliation < 50% of leaves defoliated,148,13.32
+190705,Fortymile River-Yukon River,Defoliation > 75% of leaves defoliated,163434,14709.06
+190705,Fortymile River-Yukon River,Main stem Broken or Uprooted,336,30.24
+190705,Fortymile River-Yukon River,Mortality,122626,11036.34
+190801,Porcupine River,Branch flagging,8,0.72
+190801,Porcupine River,Crown Dieback,69281,6235.29
+190801,Porcupine River,Crown Discoloration,3405,306.45
+190801,Porcupine River,Defoliation,6165311,554877.99
+190801,Porcupine River,Defoliation 50-75% of leaves defoliated,211538,19038.42
+190801,Porcupine River,Defoliation > 75% of leaves defoliated,253031,22772.79
+190801,Porcupine River,Main stem Broken or Uprooted,2073,186.57
+190801,Porcupine River,Mortality,764979,68848.11
+190801,Porcupine River,Mortality - Previously Undocumented,707,63.63
+190801,Porcupine River,Topkill,1775,159.75
+190802,Chandalar-Christian River,Branch flagging,55,4.95
+190802,Chandalar-Christian River,Crown Dieback,10669,960.21
+190802,Chandalar-Christian River,Crown Discoloration,4720,424.8
+190802,Chandalar-Christian River,Defoliation,1667691,150092.19
+190802,Chandalar-Christian River,Defoliation 50-75% of leaves defoliated,50097,4508.73
+190802,Chandalar-Christian River,Defoliation > 75% of leaves defoliated,43024,3872.16
+190802,Chandalar-Christian River,Mortality,164041,14763.69
+190802,Chandalar-Christian River,Mortality - Previously Undocumented,240,21.6
+190803,Tanana River,Branch Breakage,7588,682.92
+190803,Tanana River,Branch flagging,237,21.33
+190803,Tanana River,Crown Dieback,131428,11828.52
+190803,Tanana River,Crown Discoloration,38105,3429.45
+190803,Tanana River,Defoliation,14263377,1283703.93
+190803,Tanana River,Defoliation 50-75% of leaves defoliated,2691506,242235.54
+190803,Tanana River,Defoliation < 50% of leaves defoliated,1835,165.15
+190803,Tanana River,Defoliation > 75% of leaves defoliated,2752343,247710.87
+190803,Tanana River,Main stem Broken or Uprooted,19045,1714.05
+190803,Tanana River,Mortality,1691392,152225.28
+190803,Tanana River,Mortality - Previously Undocumented,130127,11711.43
+190803,Tanana River,Other Damage (known),1269,114.21
+190804,Beaver Creek-Yukon River,Branch flagging,1126,101.34
+190804,Beaver Creek-Yukon River,Crown Dieback,53907,4851.63
+190804,Beaver Creek-Yukon River,Crown Discoloration,2254,202.86
+190804,Beaver Creek-Yukon River,Defoliation,4495390,404585.1
+190804,Beaver Creek-Yukon River,Defoliation 50-75% of leaves defoliated,675609,60804.81
+190804,Beaver Creek-Yukon River,Defoliation < 50% of leaves defoliated,8872,798.48
+190804,Beaver Creek-Yukon River,Defoliation > 75% of leaves defoliated,674210,60678.9
+190804,Beaver Creek-Yukon River,Main stem Broken or Uprooted,118,10.62
+190804,Beaver Creek-Yukon River,Mortality,240858,21677.22
+190804,Beaver Creek-Yukon River,Mortality - Previously Undocumented,13941,1254.69
+190804,Beaver Creek-Yukon River,Other Damage (known),6814,613.26
+190901,Koyukuk River,Branch flagging,567,51.03
+190901,Koyukuk River,Crown Dieback,2578,232.02
+190901,Koyukuk River,Crown Discoloration,5319,478.71
+190901,Koyukuk River,Defoliation,900638,81057.42
+190901,Koyukuk River,Defoliation 50-75% of leaves defoliated,191082,17197.38
+190901,Koyukuk River,Defoliation > 75% of leaves defoliated,106191,9557.19
+190901,Koyukuk River,Main stem Broken or Uprooted,1270,114.3
+190901,Koyukuk River,Mortality,92413,8317.17
+190902,Melozitna River-Yukon River,Branch flagging,202,18.18
+190902,Melozitna River-Yukon River,Crown Dieback,52978,4768.02
+190902,Melozitna River-Yukon River,Crown Discoloration,5282,475.38
+190902,Melozitna River-Yukon River,Defoliation,1917650,172588.5
+190902,Melozitna River-Yukon River,Defoliation 50-75% of leaves defoliated,116951,10525.59
+190902,Melozitna River-Yukon River,Defoliation > 75% of leaves defoliated,108733,9785.97
+190902,Melozitna River-Yukon River,Main stem Broken or Uprooted,104,9.36
+190902,Melozitna River-Yukon River,Mortality,581945,52375.05
+190903,Outlet Yukon River,Branch flagging,13,1.17
+190903,Outlet Yukon River,Crown Dieback,8750,787.5
+190903,Outlet Yukon River,Crown Discoloration,1052,94.68
+190903,Outlet Yukon River,Defoliation,2459028,221312.52
+190903,Outlet Yukon River,Defoliation 50-75% of leaves defoliated,156232,14060.88
+190903,Outlet Yukon River,Defoliation < 50% of leaves defoliated,288,25.92
+190903,Outlet Yukon River,Defoliation > 75% of leaves defoliated,247104,22239.36
+190903,Outlet Yukon River,Main stem Broken or Uprooted,141,12.69
+190903,Outlet Yukon River,Mortality,95460,8591.4

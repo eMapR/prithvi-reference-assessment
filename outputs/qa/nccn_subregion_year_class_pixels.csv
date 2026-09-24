@@ -1,0 +1,483 @@
+subregion,year,native_class,pixel_count,area_ha
+LEWI,1985,Agricultural Clearing,15,1.35
+LEWI,1985,Clearing,2644,237.96
+LEWI,1985,Development,52,4.68
+LEWI,1986,Clearing,2507,225.63
+LEWI,1986,Development,42,3.78
+LEWI,1987,Clearing,6995,629.55
+LEWI,1987,Development,84,7.56
+LEWI,1988,Clearing,2078,187.02
+LEWI,1988,Development,178,16.02
+LEWI,1989,Agricultural Clearing,258,23.22
+LEWI,1989,Clearing,8749,787.41
+LEWI,1989,Development,157,14.13
+LEWI,1990,Clearing,711,63.99
+LEWI,1990,Development,14,1.26
+LEWI,1991,Agricultural Clearing,52,4.68
+LEWI,1991,Clearing,4597,413.73
+LEWI,1991,Coastal,43,3.87
+LEWI,1991,Development,143,12.87
+LEWI,1992,Agricultural Clearing,338,30.42
+LEWI,1992,Clearing,8039,723.51
+LEWI,1992,Development,215,19.35
+LEWI,1993,Agricultural Clearing,93,8.37
+LEWI,1993,Clearing,8743,786.87
+LEWI,1993,Development,220,19.8
+LEWI,1994,Clearing,13522,1216.98
+LEWI,1994,Development,91,8.19
+LEWI,1995,Clearing,567,51.03
+LEWI,1996,Clearing,1740,156.6
+LEWI,1996,Development,28,2.52
+LEWI,1997,Agricultural Clearing,30,2.7
+LEWI,1997,Clearing,10257,923.13
+LEWI,1997,Development,78,7.02
+LEWI,1997,Mass Movement,13,1.17
+LEWI,1998,Clearing,2306,207.54
+LEWI,1998,Coastal,229,20.61
+LEWI,1998,Development,181,16.29
+LEWI,1999,Agricultural Clearing,24,2.16
+LEWI,1999,Clearing,9394,845.46
+LEWI,1999,Coastal,50,4.5
+LEWI,1999,Development,160,14.4
+LEWI,2000,Clearing,3171,285.39
+LEWI,2000,Coastal,13,1.17
+LEWI,2000,Development,180,16.2
+LEWI,2000,Tree Toppling,11,0.99
+LEWI,2001,Clearing,6195,557.55
+LEWI,2001,Development,252,22.68
+LEWI,2001,Tree Toppling,9,0.81
+LEWI,2002,Agricultural Clearing,177,15.93
+LEWI,2002,Clearing,8198,737.82
+LEWI,2002,Coastal,8,0.72
+LEWI,2002,Development,741,66.69
+LEWI,2003,Agricultural Clearing,9,0.81
+LEWI,2003,Clearing,10220,919.8
+LEWI,2003,Development,36,3.24
+LEWI,2004,Agricultural Clearing,78,7.02
+LEWI,2004,Clearing,19350,1741.5
+LEWI,2004,Development,515,46.35
+LEWI,2004,Progressive Defoliation,18,1.62
+LEWI,2004,Tree Toppling,19,1.71
+LEWI,2005,Clearing,381,34.29
+LEWI,2006,Clearing,18485,1663.65
+LEWI,2006,Coastal,33,2.97
+LEWI,2006,Development,189,17.01
+LEWI,2006,Tree Toppling,148,13.32
+LEWI,2007,Agricultural Clearing,10,0.9
+LEWI,2007,Clearing,22676,2040.84
+LEWI,2007,Coastal,17,1.53
+LEWI,2007,Development,189,17.01
+LEWI,2007,Tree Toppling,170,15.3
+LEWI,2008,Agricultural Clearing,74,6.66
+LEWI,2008,Clearing,16539,1488.51
+LEWI,2008,Coastal,27,2.43
+LEWI,2008,Development,478,43.02
+LEWI,2008,Mass Movement,47,4.23
+LEWI,2008,Progressive Defoliation,27,2.43
+LEWI,2008,Tree Toppling,8147,733.23
+LEWI,2008,Wetland Restoration,21,1.89
+LEWI,2008,Windthrow Salvage,35240,3171.6
+LEWI,2009,Clearing,3033,272.97
+LEWI,2009,Coastal,33,2.97
+LEWI,2009,Development,123,11.07
+LEWI,2009,Tree Toppling,80,7.2
+LEWI,2009,Windthrow Salvage,3303,297.27
+LEWI,2010,Clearing,9786,880.74
+LEWI,2010,Development,50,4.5
+LEWI,2010,Tree Toppling,129,11.61
+LEWI,2010,Windthrow Salvage,2343,210.87
+LEWI,2011,Clearing,2612,235.08
+LEWI,2011,Tree Toppling,69,6.21
+MORA,1987,Fire,102,9.18
+MORA,1987,Riparian Change,37,3.33
+MORA,1988,Riparian Change,184,16.56
+MORA,1989,Riparian Change,248,22.32
+MORA,1990,Avalanche,175,15.75
+MORA,1990,Defoliation,78,7.02
+MORA,1990,Fire,1622,145.98
+MORA,1990,Riparian Change,67,6.03
+MORA,1991,Blowdown,20,1.8
+MORA,1991,Riparian Change,101,9.09
+MORA,1992,Defoliation,50,4.5
+MORA,1992,Riparian Change,23,2.07
+MORA,1993,Avalanche,12,1.08
+MORA,1993,Defoliation,21,1.89
+MORA,1994,Avalanche,253,22.77
+MORA,1994,Defoliation,21,1.89
+MORA,1994,Mass Movement,9,0.81
+MORA,1995,Defoliation,9,0.81
+MORA,1995,Fire,301,27.09
+MORA,1995,Riparian Change,8,0.72
+MORA,1996,Mass Movement,62,5.58
+MORA,1996,Riparian Change,384,34.56
+MORA,1997,Avalanche,99,8.91
+MORA,1997,Blowdown,16,1.44
+MORA,1997,Riparian Change,9,0.81
+MORA,1998,Development,10,0.9
+MORA,1998,Fire,1176,105.84
+MORA,1998,Riparian Change,15,1.35
+MORA,1999,Avalanche,182,16.38
+MORA,1999,Blowdown,21,1.89
+MORA,1999,Defoliation,1475,132.75
+MORA,2000,Defoliation,21094,1898.46
+MORA,2000,Riparian Change,82,7.38
+MORA,2001,Defoliation,15030,1352.7
+MORA,2001,Fire,744,66.96
+MORA,2001,Riparian Change,57,5.13
+MORA,2002,Avalanche,106,9.54
+MORA,2002,Blowdown,15,1.35
+MORA,2002,Defoliation,3299,296.91
+MORA,2002,Fire,10,0.9
+MORA,2002,Riparian Change,48,4.32
+MORA,2003,Blowdown,56,5.04
+MORA,2003,Defoliation,8316,748.44
+MORA,2003,Fire,1528,137.52
+MORA,2003,Riparian Change,10,0.9
+MORA,2004,Blowdown,111,9.99
+MORA,2004,Defoliation,2862,257.58
+MORA,2004,Fire,2318,208.62
+MORA,2004,Mass Movement,12,1.08
+MORA,2004,Riparian Change,809,72.81
+MORA,2005,Defoliation,154,13.86
+MORA,2005,Riparian Change,103,9.27
+MORA,2006,Clearing,13,1.17
+MORA,2006,Defoliation,3409,306.81
+MORA,2006,Mass Movement,24,2.16
+MORA,2006,Riparian Change,1188,106.92
+MORA,2007,Avalanche,11,0.99
+MORA,2007,Blowdown,125,11.25
+MORA,2007,Defoliation,193,17.37
+MORA,2007,Fire,291,26.19
+MORA,2007,Mass Movement,129,11.61
+MORA,2007,Riparian Change,4340,390.6
+MORA,2008,Avalanche,398,35.82
+MORA,2008,Blowdown,474,42.66
+MORA,2008,Defoliation,11,0.99
+MORA,2008,Mass Movement,33,2.97
+MORA,2008,Riparian Change,191,17.19
+MORA,2009,Defoliation,12,1.08
+MORA,2009,Fire,1310,117.9
+MORA,2009,Mass Movement,49,4.41
+MORA,2009,Riparian Change,185,16.65
+MORA,2010,Blowdown,47,4.23
+MORA,2010,Defoliation,32,2.88
+MORA,2010,Fire,214,19.26
+MORA,2010,Riparian Change,9,0.81
+MORA,2011,Avalanche,52,4.68
+MORA,2011,Blowdown,195,17.55
+MORA,2011,Defoliation,22,1.98
+MORA,2011,Riparian Change,29,2.61
+MORA,2012,Avalanche,23,2.07
+MORA,2012,Fire,1099,98.91
+MORA,2013,Riparian Change,10,0.9
+MORA,2014,Avalanche,97,8.73
+MORA,2014,Fire,441,39.69
+MORA,2014,Mass Movement,25,2.25
+MORA,2015,Defoliation,26,2.34
+MORA,2015,Mass Movement,65,5.85
+MORA,2015,Riparian Change,11,0.99
+MORA,2016,Blowdown,103,9.27
+MORA,2016,Mass Movement,178,16.02
+MORA,2016,Riparian Change,89,8.01
+MORA,2017,Avalanche,22,1.98
+MORA,2017,Defoliation,57,5.13
+MORA,2017,Fire,183047,16474.23
+NOCA,1987,Clearing,193,17.37
+NOCA,1987,Defoliation,9,0.81
+NOCA,1987,Development,66,5.94
+NOCA,1987,Fire,261,23.49
+NOCA,1987,Mass Movement,63,5.67
+NOCA,1988,Avalanche,40,3.6
+NOCA,1988,Clearing,593,53.37
+NOCA,1988,Fire,395,35.55
+NOCA,1988,Mass Movement,23,2.07
+NOCA,1989,Avalanche,400,36.0
+NOCA,1989,Clearing,14,1.26
+NOCA,1989,Defoliation,22,1.98
+NOCA,1989,Fire,600,54.0
+NOCA,1989,Mass Movement,21,1.89
+NOCA,1990,Avalanche,7036,633.24
+NOCA,1990,Blowdown,51,4.59
+NOCA,1990,Defoliation,206,18.54
+NOCA,1990,Fire,3183,286.47
+NOCA,1990,Mass Movement,257,23.13
+NOCA,1990,Riparian Change,71,6.39
+NOCA,1991,Avalanche,152,13.68
+NOCA,1991,Blowdown,27,2.43
+NOCA,1991,Clearing,11,0.99
+NOCA,1991,Defoliation,264,23.76
+NOCA,1991,Development,50,4.5
+NOCA,1991,Fire,47,4.23
+NOCA,1991,Mass Movement,318,28.62
+NOCA,1991,Riparian Change,182,16.38
+NOCA,1992,Blowdown,11,0.99
+NOCA,1992,Defoliation,65,5.85
+NOCA,1992,Fire,207,18.63
+NOCA,1992,Mass Movement,178,16.02
+NOCA,1993,Avalanche,14,1.26
+NOCA,1993,Defoliation,339,30.51
+NOCA,1993,Fire,10,0.9
+NOCA,1993,Mass Movement,60,5.4
+NOCA,1994,Avalanche,84,7.56
+NOCA,1994,Defoliation,20,1.8
+NOCA,1994,Fire,21003,1890.27
+NOCA,1995,Avalanche,8,0.72
+NOCA,1995,Defoliation,41,3.69
+NOCA,1995,Fire,1656,149.04
+NOCA,1995,Mass Movement,35,3.15
+NOCA,1995,Riparian Change,21,1.89
+NOCA,1996,Avalanche,498,44.82
+NOCA,1996,Clearing,19,1.71
+NOCA,1996,Defoliation,146,13.14
+NOCA,1996,Fire,13783,1240.47
+NOCA,1996,Mass Movement,300,27.0
+NOCA,1996,Riparian Change,658,59.22
+NOCA,1997,Avalanche,1302,117.18
+NOCA,1997,Clearing,21,1.89
+NOCA,1997,Defoliation,206,18.54
+NOCA,1997,Development,17,1.53
+NOCA,1997,Fire,1775,159.75
+NOCA,1997,Mass Movement,100,9.0
+NOCA,1997,Riparian Change,85,7.65
+NOCA,1998,Avalanche,44,3.96
+NOCA,1998,Clearing,53,4.77
+NOCA,1998,Defoliation,100,9.0
+NOCA,1998,Fire,717,64.53
+NOCA,1998,Mass Movement,32,2.88
+NOCA,1998,Riparian Change,10,0.9
+NOCA,1999,Avalanche,274,24.66
+NOCA,1999,Blowdown,167,15.03
+NOCA,1999,Defoliation,44,3.96
+NOCA,1999,Development,46,4.14
+NOCA,1999,Fire,406,36.54
+NOCA,1999,Mass Movement,106,9.54
+NOCA,2000,Avalanche,84,7.56
+NOCA,2000,Defoliation,442,39.78
+NOCA,2000,Fire,2039,183.51
+NOCA,2000,Mass Movement,117,10.53
+NOCA,2000,Riparian Change,11,0.99
+NOCA,2001,Clearing,20,1.8
+NOCA,2001,Defoliation,569,51.21
+NOCA,2001,Fire,109057,9815.13
+NOCA,2001,Mass Movement,40,3.6
+NOCA,2002,Avalanche,2256,203.04
+NOCA,2002,Blowdown,28,2.52
+NOCA,2002,Defoliation,543,48.87
+NOCA,2002,Development,9,0.81
+NOCA,2002,Fire,9,0.81
+NOCA,2002,Mass Movement,307,27.63
+NOCA,2002,Riparian Change,61,5.49
+NOCA,2003,Avalanche,71,6.39
+NOCA,2003,Clearing,44,3.96
+NOCA,2003,Defoliation,4769,429.21
+NOCA,2003,Fire,19328,1739.52
+NOCA,2003,Mass Movement,103,9.27
+NOCA,2003,Riparian Change,56,5.04
+NOCA,2004,Avalanche,162,14.58
+NOCA,2004,Defoliation,11422,1027.98
+NOCA,2004,Development,36,3.24
+NOCA,2004,Fire,11144,1002.96
+NOCA,2004,Mass Movement,3652,328.68
+NOCA,2004,Riparian Change,4848,436.32
+NOCA,2005,Clearing,20,1.8
+NOCA,2005,Defoliation,11206,1008.54
+NOCA,2005,Fire,483,43.47
+NOCA,2005,Mass Movement,303,27.27
+NOCA,2005,Riparian Change,46,4.14
+NOCA,2006,Avalanche,170,15.3
+NOCA,2006,Clearing,27,2.43
+NOCA,2006,Defoliation,10356,932.04
+NOCA,2006,Fire,51571,4641.39
+NOCA,2006,Mass Movement,111,9.99
+NOCA,2006,Riparian Change,28,2.52
+NOCA,2007,Avalanche,202,18.18
+NOCA,2007,Blowdown,166,14.94
+NOCA,2007,Clearing,63,5.67
+NOCA,2007,Defoliation,8071,726.39
+NOCA,2007,Fire,25184,2266.56
+NOCA,2007,Mass Movement,580,52.2
+NOCA,2007,Riparian Change,576,51.84
+NOCA,2008,Avalanche,1972,177.48
+NOCA,2008,Blowdown,189,17.01
+NOCA,2008,Clearing,9,0.81
+NOCA,2008,Defoliation,69,6.21
+NOCA,2008,Fire,722,64.98
+NOCA,2008,Mass Movement,225,20.25
+NOCA,2008,Riparian Change,12,1.08
+NOCA,2009,Avalanche,5408,486.72
+NOCA,2009,Defoliation,487,43.83
+NOCA,2009,Fire,6422,577.98
+NOCA,2009,Mass Movement,273,24.57
+NOCA,2009,Riparian Change,36,3.24
+NOCA,2010,Avalanche,9,0.81
+NOCA,2010,Blowdown,22,1.98
+NOCA,2010,Defoliation,521,46.89
+NOCA,2010,Fire,10340,930.6
+NOCA,2010,Mass Movement,150,13.5
+NOCA,2011,Avalanche,2106,189.54
+NOCA,2011,Blowdown,68,6.12
+NOCA,2011,Defoliation,217,19.53
+NOCA,2011,Mass Movement,425,38.25
+NOCA,2012,Avalanche,1210,108.9
+NOCA,2012,Blowdown,8,0.72
+NOCA,2012,Defoliation,247,22.23
+NOCA,2012,Fire,7118,640.62
+NOCA,2012,Riparian Change,11,0.99
+NOCA,2013,Avalanche,42,3.78
+NOCA,2013,Defoliation,91,8.19
+NOCA,2013,Fire,1909,171.81
+NOCA,2013,Mass Movement,47,4.23
+NOCA,2013,Riparian Change,21,1.89
+NOCA,2014,Avalanche,1377,123.93
+NOCA,2014,Blowdown,11,0.99
+NOCA,2014,Defoliation,406,36.54
+NOCA,2014,Development,14,1.26
+NOCA,2014,Fire,7858,707.22
+NOCA,2014,Mass Movement,218,19.62
+NOCA,2014,Riparian Change,11,0.99
+NOCA,2015,Avalanche,8,0.72
+NOCA,2015,Blowdown,42,3.78
+NOCA,2015,Defoliation,207,18.63
+NOCA,2015,Fire,135075,12156.75
+NOCA,2015,Mass Movement,154,13.86
+NOCA,2015,Riparian Change,30,2.7
+NOCA,2016,Avalanche,9,0.81
+NOCA,2016,Blowdown,135,12.15
+NOCA,2016,Defoliation,340,30.6
+NOCA,2016,Fire,27,2.43
+NOCA,2016,Mass Movement,160,14.4
+NOCA,2017,Avalanche,118,10.62
+NOCA,2017,Defoliation,62,5.58
+OLYM,1987,Blowdown,68,6.12
+OLYM,1987,Clearing,23,2.07
+OLYM,1987,Coastal Change,30,2.7
+OLYM,1987,Fire,539,48.51
+OLYM,1987,Riparian Change,196,17.64
+OLYM,1988,Blowdown,9,0.81
+OLYM,1988,Defoliation,23,2.07
+OLYM,1988,Mass Movement,44,3.96
+OLYM,1989,Avalanche,81,7.29
+OLYM,1989,Fire,800,72.0
+OLYM,1989,Riparian Change,22,1.98
+OLYM,1990,Avalanche,161,14.49
+OLYM,1990,Mass Movement,37,3.33
+OLYM,1990,Riparian Change,486,43.74
+OLYM,1991,Avalanche,13,1.17
+OLYM,1991,Blowdown,729,65.61
+OLYM,1991,Mass Movement,185,16.65
+OLYM,1991,Riparian Change,1842,165.78
+OLYM,1992,Blowdown,110,9.9
+OLYM,1992,Fire,38,3.42
+OLYM,1992,Mass Movement,20,1.8
+OLYM,1992,Riparian Change,130,11.7
+OLYM,1993,Blowdown,8,0.72
+OLYM,1994,Avalanche,71,6.39
+OLYM,1994,Blowdown,99,8.91
+OLYM,1994,Fire,764,68.76
+OLYM,1994,Mass Movement,13,1.17
+OLYM,1994,Riparian Change,39,3.51
+OLYM,1995,Blowdown,116,10.44
+OLYM,1995,Fire,20,1.8
+OLYM,1995,Mass Movement,56,5.04
+OLYM,1995,Riparian Change,735,66.15
+OLYM,1996,Defoliation,26,2.34
+OLYM,1996,Mass Movement,145,13.05
+OLYM,1996,Riparian Change,1658,149.22
+OLYM,1997,Avalanche,208,18.72
+OLYM,1997,Blowdown,269,24.21
+OLYM,1997,Development,22,1.98
+OLYM,1997,Fire,25,2.25
+OLYM,1997,Mass Movement,296,26.64
+OLYM,1997,Riparian Change,558,50.22
+OLYM,1998,Avalanche,38,3.42
+OLYM,1998,Blowdown,19,1.71
+OLYM,1998,Ice Damage,12,1.08
+OLYM,1998,Mass Movement,12,1.08
+OLYM,1998,Riparian Change,105,9.45
+OLYM,1999,Avalanche,5846,526.14
+OLYM,1999,Blowdown,166,14.94
+OLYM,1999,Defoliation,24,2.16
+OLYM,1999,Fire,800,72.0
+OLYM,1999,Ice Damage,103,9.27
+OLYM,1999,Mass Movement,124,11.16
+OLYM,1999,Riparian Change,356,32.04
+OLYM,2000,Avalanche,362,32.58
+OLYM,2000,Defoliation,22,1.98
+OLYM,2000,Mass Movement,78,7.02
+OLYM,2000,Riparian Change,229,20.61
+OLYM,2001,Mass Movement,28,2.52
+OLYM,2001,Riparian Change,23,2.07
+OLYM,2002,Avalanche,114,10.26
+OLYM,2002,Defoliation,7,0.63
+OLYM,2002,Mass Movement,32,2.88
+OLYM,2002,Riparian Change,715,64.35
+OLYM,2003,Avalanche,63,5.67
+OLYM,2003,Blowdown,29,2.61
+OLYM,2003,Defoliation,14,1.26
+OLYM,2003,Fire,2453,220.77
+OLYM,2003,Mass Movement,46,4.14
+OLYM,2003,Riparian Change,465,41.85
+OLYM,2004,Blowdown,10,0.9
+OLYM,2004,Development,9,0.81
+OLYM,2004,Mass Movement,340,30.6
+OLYM,2004,Riparian Change,4641,417.69
+OLYM,2005,Mass Movement,11,0.99
+OLYM,2005,Riparian Change,120,10.8
+OLYM,2006,Blowdown,93,8.37
+OLYM,2006,Fire,2694,242.46
+OLYM,2006,Mass Movement,118,10.62
+OLYM,2006,Riparian Change,29,2.61
+OLYM,2007,Avalanche,11,0.99
+OLYM,2007,Blowdown,1340,120.6
+OLYM,2007,Clearing,11,0.99
+OLYM,2007,Defoliation,37,3.33
+OLYM,2007,Fire,112,10.08
+OLYM,2007,Mass Movement,336,30.24
+OLYM,2007,Riparian Change,1780,160.2
+OLYM,2008,Avalanche,1139,102.51
+OLYM,2008,Blowdown,4555,409.95
+OLYM,2008,Fire,17,1.53
+OLYM,2008,Mass Movement,867,78.03
+OLYM,2008,Riparian Change,1414,127.26
+OLYM,2009,Avalanche,11,0.99
+OLYM,2009,Blowdown,50,4.5
+OLYM,2009,Defoliation,10,0.9
+OLYM,2009,Fire,4922,442.98
+OLYM,2009,Mass Movement,97,8.73
+OLYM,2009,Riparian Change,252,22.68
+OLYM,2010,Blowdown,26,2.34
+OLYM,2010,Coastal Change,9,0.81
+OLYM,2010,Fire,1876,168.84
+OLYM,2010,Mass Movement,42,3.78
+OLYM,2010,Riparian Change,259,23.31
+OLYM,2011,Avalanche,1314,118.26
+OLYM,2011,Blowdown,64,5.76
+OLYM,2011,Defoliation,11,0.99
+OLYM,2011,Fire,4817,433.53
+OLYM,2011,Mass Movement,85,7.65
+OLYM,2011,Riparian Change,223,20.07
+OLYM,2012,Avalanche,80,7.2
+OLYM,2012,Mass Movement,35,3.15
+OLYM,2012,Riparian Change,35,3.15
+OLYM,2013,Avalanche,93,8.37
+OLYM,2013,Clearing,11,0.99
+OLYM,2013,Defoliation,50,4.5
+OLYM,2013,Mass Movement,119,10.71
+OLYM,2013,Riparian Change,186,16.74
+OLYM,2014,Avalanche,395,35.55
+OLYM,2014,Defoliation,95,8.55
+OLYM,2014,Development,9,0.81
+OLYM,2014,Mass Movement,45,4.05
+OLYM,2014,Riparian Change,87,7.83
+OLYM,2015,Fire,11468,1032.12
+OLYM,2015,Mass Movement,55,4.95
+OLYM,2015,Riparian Change,439,39.51
+OLYM,2016,Avalanche,45,4.05
+OLYM,2016,Blowdown,9,0.81
+OLYM,2016,Fire,13143,1182.87
+OLYM,2016,Mass Movement,84,7.56
+OLYM,2016,Riparian Change,983,88.47
+OLYM,2017,Blowdown,23,2.07
+OLYM,2017,Defoliation,71,6.39
+OLYM,2017,Mass Movement,38,3.42
+OLYM,2017,Riparian Change,36,3.24

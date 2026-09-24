@@ -1,0 +1,548 @@
+subregion,subregion_name,native_class,pixel_count,area_ha
+190101,Southern Southeast Alaska,Chrysomela leaf beetle,476,42.84
+190101,Southern Southeast Alaska,Dothistroma needle blight (D. septosporum),3003,270.27
+190101,Southern Southeast Alaska,birch leafroller,780,70.2
+190101,Southern Southeast Alaska,common porcupine,5047,454.23
+190101,Southern Southeast Alaska,defoliators,14196,1277.64
+190101,Southern Southeast Alaska,fire,435,39.15
+190101,Southern Southeast Alaska,flooding-high water,17993,1619.37
+190101,Southern Southeast Alaska,hemlock canker,3898,350.82
+190101,Southern Southeast Alaska,hemlock sawfly,936223,84260.07
+190101,Southern Southeast Alaska,large-spored spruce-Labrador tea rust,295,26.55
+190101,Southern Southeast Alaska,mortality,1409,126.81
+190101,Southern Southeast Alaska,mud-land slide,15906,1431.54
+190101,Southern Southeast Alaska,spruce aphid,182445,16420.05
+190101,Southern Southeast Alaska,spruce beetle,19613,1765.17
+190101,Southern Southeast Alaska,unknown,58967,5307.03
+190101,Southern Southeast Alaska,unknown canker,14,1.26
+190101,Southern Southeast Alaska,unknown defoliator,64457,5801.13
+190101,Southern Southeast Alaska,western blackheaded budworm,967078,87037.02
+190101,Southern Southeast Alaska,western gall rust,8170,735.3
+190101,Southern Southeast Alaska,wind-tornado/hurricane,14623,1316.07
+190101,Southern Southeast Alaska,yellow-cedar decline,906985,81628.65
+190102,Central Southeast Alaska,<Dryocoetes autographus>,854,76.86
+190102,Central Southeast Alaska,Chrysomela leaf beetle,1021,91.89
+190102,Central Southeast Alaska,Dothistroma needle blight (D. septosporum),1373,123.57
+190102,Central Southeast Alaska,Lirula spruce needle blight,209,18.81
+190102,Central Southeast Alaska,birch leafroller,430,38.7
+190102,Central Southeast Alaska,common porcupine,76581,6892.29
+190102,Central Southeast Alaska,decline complex,1100,99.0
+190102,Central Southeast Alaska,defoliators,32346,2911.14
+190102,Central Southeast Alaska,fire,150,13.5
+190102,Central Southeast Alaska,flooding-high water,23825,2144.25
+190102,Central Southeast Alaska,hemlock canker,13461,1211.49
+190102,Central Southeast Alaska,hemlock sawfly,2608642,234777.78
+190102,Central Southeast Alaska,large-spored spruce-Labrador tea rust,10218,919.62
+190102,Central Southeast Alaska,mortality,15805,1422.45
+190102,Central Southeast Alaska,mud-land slide,24631,2216.79
+190102,Central Southeast Alaska,"other canker agent, known (code pending)",746,67.14
+190102,Central Southeast Alaska,"other wilt, known (code pending)",16,1.44
+190102,Central Southeast Alaska,skeletonizer,304,27.36
+190102,Central Southeast Alaska,spruce aphid,512905,46161.45
+190102,Central Southeast Alaska,spruce beetle,27416,2467.44
+190102,Central Southeast Alaska,spruce budworm,518,46.62
+190102,Central Southeast Alaska,unknown,171900,15471.0
+190102,Central Southeast Alaska,unknown canker,146,13.14
+190102,Central Southeast Alaska,unknown defoliator,320707,28863.63
+190102,Central Southeast Alaska,western blackheaded budworm,3986010,358740.9
+190102,Central Southeast Alaska,western gall rust,3384,304.56
+190102,Central Southeast Alaska,willow leaf blotchminer,402,36.18
+190102,Central Southeast Alaska,wind-tornado/hurricane,37958,3416.22
+190102,Central Southeast Alaska,yellow-cedar decline,1263339,113700.51
+190103,Northern Southeast Alaska,<Dryocoetes autographus>,5369,483.21
+190103,Northern Southeast Alaska,Chrysomela leaf beetle,13333,1199.97
+190103,Northern Southeast Alaska,Dothistroma needle blight (D. septosporum),70934,6384.06
+190103,Northern Southeast Alaska,Lirula spruce needle blight,160,14.4
+190103,Northern Southeast Alaska,aspen leafminer,8760,788.4
+190103,Northern Southeast Alaska,birch leafminer,4362,392.58
+190103,Northern Southeast Alaska,birch leafroller,44982,4048.38
+190103,Northern Southeast Alaska,common porcupine,17349,1561.41
+190103,Northern Southeast Alaska,cottonwood leafblotch miner,3172,285.48
+190103,Northern Southeast Alaska,decline complex,11537,1038.33
+190103,Northern Southeast Alaska,defoliators,107212,9649.08
+190103,Northern Southeast Alaska,dieback,168,15.12
+190103,Northern Southeast Alaska,fire,959,86.31
+190103,Northern Southeast Alaska,flooding-high water,44559,4010.31
+190103,Northern Southeast Alaska,hemlock canker,41,3.69
+190103,Northern Southeast Alaska,hemlock sawfly,251075,22596.75
+190103,Northern Southeast Alaska,large-spored spruce-Labrador tea rust,7929,713.61
+190103,Northern Southeast Alaska,leaf rusts of hardwoods,272,24.48
+190103,Northern Southeast Alaska,mortality,1536,138.24
+190103,Northern Southeast Alaska,mud-land slide,18150,1633.5
+190103,Northern Southeast Alaska,northern spruce engraver,572,51.48
+190103,Northern Southeast Alaska,"other canker agent, known (code pending)",1646,148.14
+190103,Northern Southeast Alaska,snow-ice,94,8.46
+190103,Northern Southeast Alaska,spruce aphid,247067,22236.03
+190103,Northern Southeast Alaska,spruce beetle,236172,21255.48
+190103,Northern Southeast Alaska,spruce bud moth,45,4.05
+190103,Northern Southeast Alaska,spruce budworm,1262,113.58
+190103,Northern Southeast Alaska,striped alder sawfly,2984,268.56
+190103,Northern Southeast Alaska,subalpine fir mortality complex,1821,163.89
+190103,Northern Southeast Alaska,unknown,46452,4180.68
+190103,Northern Southeast Alaska,unknown defoliator,80049,7204.41
+190103,Northern Southeast Alaska,unknown foliage or shoot disease,5406,486.54
+190103,Northern Southeast Alaska,western balsam bark beetle,3118,280.62
+190103,Northern Southeast Alaska,western blackheaded budworm,814257,73283.13
+190103,Northern Southeast Alaska,western gall rust,40223,3620.07
+190103,Northern Southeast Alaska,willow leaf blotchminer,5352,481.68
+190103,Northern Southeast Alaska,wind-tornado/hurricane,12004,1080.36
+190103,Northern Southeast Alaska,winter injury,22966,2066.94
+190103,Northern Southeast Alaska,yellow-cedar decline,459,41.31
+190201,Copper River,Chrysomela leaf beetle,19443,1749.87
+190201,Copper River,aspen leafminer,843931,75953.79
+190201,Copper River,birch leafminer,7218,649.62
+190201,Copper River,birch leafroller,27892,2510.28
+190201,Copper River,canker (general),21336,1920.24
+190201,Copper River,cottonwood leafminers,211,18.99
+190201,Copper River,decline complex,3493,314.37
+190201,Copper River,defoliators,425289,38276.01
+190201,Copper River,dieback,263714,23734.26
+190201,Copper River,fire,217,19.53
+190201,Copper River,flooding-high water,17081,1537.29
+190201,Copper River,large aspen tortrix,55627,5006.43
+190201,Copper River,large-spored spruce-Labrador tea rust,25802,2322.18
+190201,Copper River,mud-land slide,1835,165.15
+190201,Copper River,northern spruce engraver,4383,394.47
+190201,Copper River,"other canker agent, known (code pending)",11663,1049.67
+190201,Copper River,snow-ice,63,5.67
+190201,Copper River,spear-marked black moth,3165,284.85
+190201,Copper River,speckled green fruitworm,132,11.88
+190201,Copper River,spruce aphid,336,30.24
+190201,Copper River,spruce beetle,1277486,114973.74
+190201,Copper River,spruce broom rust,29069,2616.21
+190201,Copper River,spruce budworm,294,26.46
+190201,Copper River,unknown,149,13.41
+190201,Copper River,unknown canker,3982,358.38
+190201,Copper River,unknown defoliator,91821,8263.89
+190201,Copper River,volcano,20,1.8
+190201,Copper River,western blackheaded budworm,64913,5842.17
+190201,Copper River,willow leaf blotchminer,47882,4309.38
+190201,Copper River,willow leafblotch miner,6600,594.0
+190201,Copper River,wind-tornado/hurricane,466,41.94
+190201,Copper River,winter injury,956,86.04
+190202,Prince William Sound,Chrysomela leaf beetle,516,46.44
+190202,Prince William Sound,canker (general),201,18.09
+190202,Prince William Sound,common porcupine,246,22.14
+190202,Prince William Sound,decline complex,7113,640.17
+190202,Prince William Sound,defoliators,40473,3642.57
+190202,Prince William Sound,dieback,13407,1206.63
+190202,Prince William Sound,flooding-high water,10965,986.85
+190202,Prince William Sound,mortality,28009,2520.81
+190202,Prince William Sound,mud-land slide,160,14.4
+190202,Prince William Sound,"other canker agent, known (code pending)",423,38.07
+190202,Prince William Sound,"other wilt, known (code pending)",31,2.79
+190202,Prince William Sound,snow-ice,8,0.72
+190202,Prince William Sound,spruce aphid,32033,2882.97
+190202,Prince William Sound,spruce beetle,20942,1884.78
+190202,Prince William Sound,unknown,4942,444.78
+190202,Prince William Sound,unknown canker,730,65.7
+190202,Prince William Sound,unknown defoliator,1974,177.66
+190202,Prince William Sound,western blackheaded budworm,417394,37565.46
+190202,Prince William Sound,willow leaf blotchminer,22,1.98
+190202,Prince William Sound,wind-tornado/hurricane,564,50.76
+190203,Kenai Peninsula,Chrysomela leaf beetle,9209,828.81
+190203,Kenai Peninsula,aspen leafminer,43348,3901.32
+190203,Kenai Peninsula,bears,71,6.39
+190203,Kenai Peninsula,birch leafminer,737809,66402.81
+190203,Kenai Peninsula,birch leafroller,113774,10239.66
+190203,Kenai Peninsula,canker (general),5066,455.94
+190203,Kenai Peninsula,cottonwood leaf beetle,383,34.47
+190203,Kenai Peninsula,decline complex,29068,2616.12
+190203,Kenai Peninsula,defoliators,224725,20225.25
+190203,Kenai Peninsula,dieback,31682,2851.38
+190203,Kenai Peninsula,drought,759,68.31
+190203,Kenai Peninsula,fire,58270,5244.3
+190203,Kenai Peninsula,flooding-high water,18366,1652.94
+190203,Kenai Peninsula,follow-up 10,156,14.04
+190203,Kenai Peninsula,hemlock sawfly,9927,893.43
+190203,Kenai Peninsula,large aspen tortrix,71610,6444.9
+190203,Kenai Peninsula,large-spored spruce-Labrador tea rust,52465,4721.85
+190203,Kenai Peninsula,mud-land slide,2261,203.49
+190203,Kenai Peninsula,northern spruce engraver,3025,272.25
+190203,Kenai Peninsula,northern spruce engraver and spruce beetle,727,65.43
+190203,Kenai Peninsula,"other canker agent, known (code pending)",2897,260.73
+190203,Kenai Peninsula,"other defoliator, known (code pending)",269,24.21
+190203,Kenai Peninsula,"other wilt, known (code pending)",83,7.47
+190203,Kenai Peninsula,snow-ice,35,3.15
+190203,Kenai Peninsula,spear-marked black moth,65463,5891.67
+190203,Kenai Peninsula,spruce aphid,81901,7371.09
+190203,Kenai Peninsula,spruce beetle,4601569,414141.21
+190203,Kenai Peninsula,spruce broom rust,409,36.81
+190203,Kenai Peninsula,unknown,975,87.75
+190203,Kenai Peninsula,unknown abiotic damage,191,17.19
+190203,Kenai Peninsula,unknown canker,2966,266.94
+190203,Kenai Peninsula,unknown defoliator,254278,22885.02
+190203,Kenai Peninsula,unknown foliage or shoot disease,7957,716.13
+190203,Kenai Peninsula,western blackheaded budworm,11240,1011.6
+190203,Kenai Peninsula,willow leaf blotchminer,12906,1161.54
+190203,Kenai Peninsula,wind-tornado/hurricane,3896,350.64
+190204,Knik Arm,Chrysomela leaf beetle,731,65.79
+190204,Knik Arm,aspen leafminer,46828,4214.52
+190204,Knik Arm,birch leafminer,1822605,164034.45
+190204,Knik Arm,birch leafroller,11437,1029.33
+190204,Knik Arm,canker (general),77931,7013.79
+190204,Knik Arm,cottonwood leafminers,265,23.85
+190204,Knik Arm,decline complex,61384,5524.56
+190204,Knik Arm,defoliators,327264,29453.76
+190204,Knik Arm,dieback,33611,3024.99
+190204,Knik Arm,drought,1866,167.94
+190204,Knik Arm,fire,2233,200.97
+190204,Knik Arm,flooding-high water,7050,634.5
+190204,Knik Arm,large aspen tortrix,73975,6657.75
+190204,Knik Arm,large-spored spruce-Labrador tea rust,15350,1381.5
+190204,Knik Arm,mud-land slide,923,83.07
+190204,Knik Arm,northern spruce engraver,1428,128.52
+190204,Knik Arm,northern spruce engraver and spruce beetle,626,56.34
+190204,Knik Arm,"other canker agent, known (code pending)",1498,134.82
+190204,Knik Arm,snow-ice,269,24.21
+190204,Knik Arm,spruce beetle,1251772,112659.48
+190204,Knik Arm,spruce broom rust,411,36.99
+190204,Knik Arm,striped alder sawfly,1649,148.41
+190204,Knik Arm,unknown,618,55.62
+190204,Knik Arm,unknown canker,9862,887.58
+190204,Knik Arm,unknown defoliator,156787,14110.83
+190204,Knik Arm,willow leaf blotchminer,1419,127.71
+190204,Knik Arm,wind-tornado/hurricane,843,75.87
+190204,Knik Arm,winter injury,4081,367.29
+190205,Susitna River,Chrysomela leaf beetle,2194,197.46
+190205,Susitna River,aspen leafminer,8528,767.52
+190205,Susitna River,aspen running canker,35,3.15
+190205,Susitna River,birch aphid,1212683,109141.47
+190205,Susitna River,birch leafminer,676802,60912.18
+190205,Susitna River,birch leafroller,141447,12730.23
+190205,Susitna River,canker (general),685,61.65
+190205,Susitna River,cottonwood leaf beetle,25,2.25
+190205,Susitna River,decline complex,15114,1360.26
+190205,Susitna River,defoliators,1087253,97852.77
+190205,Susitna River,fire,1286,115.74
+190205,Susitna River,flooding-high water,20720,1864.8
+190205,Susitna River,follow-up 1,159,14.31
+190205,Susitna River,large aspen tortrix,56544,5088.96
+190205,Susitna River,large-spored spruce-Labrador tea rust,24894,2240.46
+190205,Susitna River,mud-land slide,533,47.97
+190205,Susitna River,northern spruce engraver,7731,695.79
+190205,Susitna River,northern spruce engraver and spruce beetle,2666,239.94
+190205,Susitna River,"other canker agent, known (code pending)",3062,275.58
+190205,Susitna River,"other wilt, known (code pending)",2754,247.86
+190205,Susitna River,rusty tussock moth,187894,16910.46
+190205,Susitna River,snow-ice,3397,305.73
+190205,Susitna River,spear-marked black moth,4669,420.21
+190205,Susitna River,speckled green fruitworm,319996,28799.64
+190205,Susitna River,spruce beetle,8686856,781817.04
+190205,Susitna River,spruce broom rust,3507,315.63
+190205,Susitna River,spruce bud moth,1244,111.96
+190205,Susitna River,spruce budworm,84,7.56
+190205,Susitna River,striped alder sawfly,3837,345.33
+190205,Susitna River,unknown,72,6.48
+190205,Susitna River,unknown canker,15604,1404.36
+190205,Susitna River,unknown defoliator,439086,39517.74
+190205,Susitna River,willow leaf blotchminer,62416,5617.44
+190205,Susitna River,wind-tornado/hurricane,354,31.86
+190303,Nushagak River,Chrysomela leaf beetle,670,60.3
+190303,Nushagak River,aspen leafminer,12482,1123.38
+190303,Nushagak River,birch aphid,34,3.06
+190303,Nushagak River,birch leafminer,2155,193.95
+190303,Nushagak River,birch leafroller,107936,9714.24
+190303,Nushagak River,blight,7811,702.99
+190303,Nushagak River,canker (general),300,27.0
+190303,Nushagak River,cottonwood leafminers,218,19.62
+190303,Nushagak River,decline complex,20358,1832.22
+190303,Nushagak River,defoliators,810929,72983.61
+190303,Nushagak River,dieback,63264,5693.76
+190303,Nushagak River,flooding-high water,4306,387.54
+190303,Nushagak River,large-spored spruce-Labrador tea rust,364631,32816.79
+190303,Nushagak River,northern spruce engraver,794,71.46
+190303,Nushagak River,"other canker agent, known (code pending)",251,22.59
+190303,Nushagak River,"other wilt, known (code pending)",1243,111.87
+190303,Nushagak River,skeletonizer,17627,1586.43
+190303,Nushagak River,speckled green fruitworm,269860,24287.4
+190303,Nushagak River,spruce beetle,64308,5787.72
+190303,Nushagak River,spruce broom rust,690,62.1
+190303,Nushagak River,spruce budworm,23293,2096.37
+190303,Nushagak River,unknown canker,1159,104.31
+190303,Nushagak River,unknown defoliator,89172,8025.48
+190303,Nushagak River,western blackheaded budworm,732011,65880.99
+190303,Nushagak River,willow leaf blotchminer,100193,9017.37
+190304,Upper Kuskokwim River,Chrysomela leaf beetle,524,47.16
+190304,Upper Kuskokwim River,aspen leafminer,479309,43137.81
+190304,Upper Kuskokwim River,birch leafroller,89952,8095.68
+190304,Upper Kuskokwim River,canker (general),33489,3014.01
+190304,Upper Kuskokwim River,cottonwood leafminers,32304,2907.36
+190304,Upper Kuskokwim River,decline complex,9259,833.31
+190304,Upper Kuskokwim River,defoliators,77598,6983.82
+190304,Upper Kuskokwim River,dieback,22995,2069.55
+190304,Upper Kuskokwim River,eastern larch beetle,133923,12053.07
+190304,Upper Kuskokwim River,fire,331339,29820.51
+190304,Upper Kuskokwim River,flooding-high water,18863,1697.67
+190304,Upper Kuskokwim River,foliage and shoot diseases,1429,128.61
+190304,Upper Kuskokwim River,larch sawfly,3243490,291914.1
+190304,Upper Kuskokwim River,large aspen tortrix,44757,4028.13
+190304,Upper Kuskokwim River,large-spored spruce-Labrador tea rust,156337,14070.33
+190304,Upper Kuskokwim River,northern spruce engraver,276020,24841.8
+190304,Upper Kuskokwim River,"other canker agent, known (code pending)",339,30.51
+190304,Upper Kuskokwim River,"other wilt, known (code pending)",654,58.86
+190304,Upper Kuskokwim River,spear-marked black moth,76955,6925.95
+190304,Upper Kuskokwim River,speckled green fruitworm,10689,962.01
+190304,Upper Kuskokwim River,spruce beetle,574066,51665.94
+190304,Upper Kuskokwim River,spruce broom rust,571,51.39
+190304,Upper Kuskokwim River,unknown,18222,1639.98
+190304,Upper Kuskokwim River,unknown canker,1225,110.25
+190304,Upper Kuskokwim River,unknown defoliator,101845,9166.05
+190304,Upper Kuskokwim River,willow leaf blotchminer,188959,17006.31
+190304,Upper Kuskokwim River,willow leafblotch miner,917,82.53
+190305,Lower Kuskokwim River,aspen leafminer,19383,1744.47
+190305,Lower Kuskokwim River,birch leafroller,396850,35716.5
+190305,Lower Kuskokwim River,canker (general),16547,1489.23
+190305,Lower Kuskokwim River,decline complex,634,57.06
+190305,Lower Kuskokwim River,defoliators,165934,14934.06
+190305,Lower Kuskokwim River,dieback,1391,125.19
+190305,Lower Kuskokwim River,fire,493,44.37
+190305,Lower Kuskokwim River,flooding-high water,9985,898.65
+190305,Lower Kuskokwim River,larch sawfly,65016,5851.44
+190305,Lower Kuskokwim River,large aspen tortrix,16316,1468.44
+190305,Lower Kuskokwim River,large-spored spruce-Labrador tea rust,117,10.53
+190305,Lower Kuskokwim River,northern spruce engraver,32232,2900.88
+190305,Lower Kuskokwim River,"other wilt, known (code pending)",234,21.06
+190305,Lower Kuskokwim River,spruce beetle,143762,12938.58
+190305,Lower Kuskokwim River,unknown defoliator,128926,11603.34
+190305,Lower Kuskokwim River,willow leaf blotchminer,47062,4235.58
+190305,Lower Kuskokwim River,wind-tornado/hurricane,1688,151.92
+190503,Kobuk-Selawik Rivers,aspen leafminer,275950,24835.5
+190503,Kobuk-Selawik Rivers,birch leafroller,685,61.65
+190503,Kobuk-Selawik Rivers,blight,61,5.49
+190503,Kobuk-Selawik Rivers,canker (general),1052,94.68
+190503,Kobuk-Selawik Rivers,decline complex,17,1.53
+190503,Kobuk-Selawik Rivers,defoliators,12819,1153.71
+190503,Kobuk-Selawik Rivers,dieback,4079,367.11
+190503,Kobuk-Selawik Rivers,eastern larch beetle,21811,1962.99
+190503,Kobuk-Selawik Rivers,flooding-high water,10308,927.72
+190503,Kobuk-Selawik Rivers,larch sawfly,18,1.62
+190503,Kobuk-Selawik Rivers,large aspen tortrix,18736,1686.24
+190503,Kobuk-Selawik Rivers,large-spored spruce-Labrador tea rust,497,44.73
+190503,Kobuk-Selawik Rivers,northern spruce engraver,18855,1696.95
+190503,Kobuk-Selawik Rivers,"other wilt, known (code pending)",85,7.65
+190503,Kobuk-Selawik Rivers,spear-marked black moth,290,26.1
+190503,Kobuk-Selawik Rivers,spruce beetle,5374,483.66
+190503,Kobuk-Selawik Rivers,spruce broom rust,108,9.72
+190503,Kobuk-Selawik Rivers,spruce budworm,14549,1309.41
+190503,Kobuk-Selawik Rivers,unknown defoliator,47316,4258.44
+190503,Kobuk-Selawik Rivers,willow leaf blotchminer,31095,2798.55
+190503,Kobuk-Selawik Rivers,winter injury,186,16.74
+190705,Fortymile River-Yukon River,Chrysomela leaf beetle,422,37.98
+190705,Fortymile River-Yukon River,aspen leafminer,688899,62000.91
+190705,Fortymile River-Yukon River,birch aphid,5365,482.85
+190705,Fortymile River-Yukon River,birch leafminer,1596,143.64
+190705,Fortymile River-Yukon River,birch leafroller,4777,429.93
+190705,Fortymile River-Yukon River,cottonwood leaf beetle,29,2.61
+190705,Fortymile River-Yukon River,cottonwood leafminers,1148,103.32
+190705,Fortymile River-Yukon River,decline complex,5099,458.91
+190705,Fortymile River-Yukon River,defoliators,38967,3507.03
+190705,Fortymile River-Yukon River,dieback,431,38.79
+190705,Fortymile River-Yukon River,fire,3734,336.06
+190705,Fortymile River-Yukon River,flooding-high water,15497,1394.73
+190705,Fortymile River-Yukon River,large aspen tortrix,12586,1132.74
+190705,Fortymile River-Yukon River,large-spored spruce-Labrador tea rust,18,1.62
+190705,Fortymile River-Yukon River,mud-land slide,346,31.14
+190705,Fortymile River-Yukon River,northern spruce engraver,56198,5057.82
+190705,Fortymile River-Yukon River,"other canker agent, known (code pending)",6,0.54
+190705,Fortymile River-Yukon River,"other wilt, known (code pending)",1224,110.16
+190705,Fortymile River-Yukon River,spear-marked black moth,1530,137.7
+190705,Fortymile River-Yukon River,spruce beetle,52629,4736.61
+190705,Fortymile River-Yukon River,spruce broom rust,90,8.1
+190705,Fortymile River-Yukon River,spruce budworm,5069,456.21
+190705,Fortymile River-Yukon River,unknown,2150,193.5
+190705,Fortymile River-Yukon River,unknown canker,11033,992.97
+190705,Fortymile River-Yukon River,unknown defoliator,17565,1580.85
+190705,Fortymile River-Yukon River,willow leaf blotchminer,411385,37024.65
+190705,Fortymile River-Yukon River,willow leafblotch miner,6764,608.76
+190705,Fortymile River-Yukon River,wind-tornado/hurricane,46,4.14
+190801,Porcupine River,Chrysomela leaf beetle,337,30.33
+190801,Porcupine River,aspen leafminer,4421556,397940.04
+190801,Porcupine River,birch aphid,851,76.59
+190801,Porcupine River,canker (general),19011,1710.99
+190801,Porcupine River,cottonwood leafminers,1131,101.79
+190801,Porcupine River,decline complex,21847,1966.23
+190801,Porcupine River,defoliators,87713,7894.17
+190801,Porcupine River,dieback,1224,110.16
+190801,Porcupine River,fire,603824,54344.16
+190801,Porcupine River,flooding-high water,5751,517.59
+190801,Porcupine River,large aspen tortrix,10548,949.32
+190801,Porcupine River,northern spruce engraver,152553,13729.77
+190801,Porcupine River,"other wilt, known (code pending)",21528,1937.52
+190801,Porcupine River,spear-marked black moth,1346,121.14
+190801,Porcupine River,spruce beetle,3615,325.35
+190801,Porcupine River,spruce broom rust,3413,307.17
+190801,Porcupine River,spruce budworm,1858,167.22
+190801,Porcupine River,unknown,1380,124.2
+190801,Porcupine River,unknown canker,4291,386.19
+190801,Porcupine River,unknown defoliator,24404,2196.36
+190801,Porcupine River,willow leaf blotchminer,2056277,185064.93
+190801,Porcupine River,willow leafblotch miner,44469,4002.21
+190802,Chandalar-Christian River,Lirula spruce needle blight,25032,2252.88
+190802,Chandalar-Christian River,aspen leafminer,537268,48354.12
+190802,Chandalar-Christian River,canker (general),4819,433.71
+190802,Chandalar-Christian River,cottonwood leafminers,80,7.2
+190802,Chandalar-Christian River,decline complex,3968,357.12
+190802,Chandalar-Christian River,defoliators,108012,9721.08
+190802,Chandalar-Christian River,dieback,1175,105.75
+190802,Chandalar-Christian River,fire,568,51.12
+190802,Chandalar-Christian River,flooding-high water,1159,104.31
+190802,Chandalar-Christian River,foliage and shoot diseases,336,30.24
+190802,Chandalar-Christian River,large aspen tortrix,13872,1248.48
+190802,Chandalar-Christian River,mud-land slide,370,33.3
+190802,Chandalar-Christian River,northern spruce engraver,160036,14403.24
+190802,Chandalar-Christian River,spear-marked black moth,7032,632.88
+190802,Chandalar-Christian River,spruce beetle,3725,335.25
+190802,Chandalar-Christian River,spruce broom rust,4439,399.51
+190802,Chandalar-Christian River,spruce bud moth,10749,967.41
+190802,Chandalar-Christian River,spruce budworm,212441,19119.69
+190802,Chandalar-Christian River,unknown canker,707,63.63
+190802,Chandalar-Christian River,unknown defoliator,4435,399.15
+190802,Chandalar-Christian River,willow leaf blotchminer,834566,75110.94
+190802,Chandalar-Christian River,willow leafblotch miner,8046,724.14
+190803,Tanana River,Chrysomela leaf beetle,978,88.02
+190803,Tanana River,Lirula spruce needle blight,420,37.8
+190803,Tanana River,aspen leafminer,14800779,1332070.11
+190803,Tanana River,aspen running canker,760,68.4
+190803,Tanana River,birch aphid,52949,4765.41
+190803,Tanana River,birch leafminer,504480,45403.2
+190803,Tanana River,birch leafroller,105023,9452.07
+190803,Tanana River,canker (general),4868,438.12
+190803,Tanana River,common porcupine,56,5.04
+190803,Tanana River,cottonwood leafminers,16315,1468.35
+190803,Tanana River,decline complex,35436,3189.24
+190803,Tanana River,defoliators,558656,50279.04
+190803,Tanana River,dieback,41185,3706.65
+190803,Tanana River,eastern larch beetle,56239,5061.51
+190803,Tanana River,fire,180889,16280.01
+190803,Tanana River,flooding-high water,647423,58268.07
+190803,Tanana River,foliage and shoot diseases,41,3.69
+190803,Tanana River,larch sawfly,454749,40927.41
+190803,Tanana River,large aspen tortrix,330517,29746.53
+190803,Tanana River,large-spored spruce-Labrador tea rust,3610,324.9
+190803,Tanana River,mud-land slide,170,15.3
+190803,Tanana River,northern spruce engraver,281453,25330.77
+190803,Tanana River,"other canker agent, known (code pending)",8210,738.9
+190803,Tanana River,"other rust, known (code pending)",81,7.29
+190803,Tanana River,"other wilt, known (code pending)",29952,2695.68
+190803,Tanana River,rusty tussock moth,10474,942.66
+190803,Tanana River,snow-ice,10278,925.02
+190803,Tanana River,spear-marked black moth,25364,2282.76
+190803,Tanana River,spruce beetle,569808,51282.72
+190803,Tanana River,spruce broom rust,4666,419.94
+190803,Tanana River,spruce bud moth,3303,297.27
+190803,Tanana River,spruce budworm,938979,84508.11
+190803,Tanana River,unknown,33220,2989.8
+190803,Tanana River,unknown canker,33160,2984.4
+190803,Tanana River,unknown defoliator,282166,25394.94
+190803,Tanana River,willow leaf blotchminer,1652102,148689.18
+190803,Tanana River,willow leafblotch miner,38612,3475.08
+190803,Tanana River,wind-tornado/hurricane,19439,1749.51
+190803,Tanana River,winter injury,894,80.46
+190804,Beaver Creek-Yukon River,Chrysomela leaf beetle,51,4.59
+190804,Beaver Creek-Yukon River,Lirula spruce needle blight,216,19.44
+190804,Beaver Creek-Yukon River,aspen leafminer,2875649,258808.41
+190804,Beaver Creek-Yukon River,battered sallow,72,6.48
+190804,Beaver Creek-Yukon River,birch aphid,5994,539.46
+190804,Beaver Creek-Yukon River,birch leafroller,5448,490.32
+190804,Beaver Creek-Yukon River,canker (general),1928,173.52
+190804,Beaver Creek-Yukon River,decline complex,19930,1793.7
+190804,Beaver Creek-Yukon River,defoliators,166744,15006.96
+190804,Beaver Creek-Yukon River,dieback,6771,609.39
+190804,Beaver Creek-Yukon River,fire,4869,438.21
+190804,Beaver Creek-Yukon River,flooding-high water,22451,2020.59
+190804,Beaver Creek-Yukon River,foliage and shoot diseases,2027,182.43
+190804,Beaver Creek-Yukon River,larch sawfly,23265,2093.85
+190804,Beaver Creek-Yukon River,large aspen tortrix,32186,2896.74
+190804,Beaver Creek-Yukon River,large-spored spruce-Labrador tea rust,207,18.63
+190804,Beaver Creek-Yukon River,mud-land slide,33,2.97
+190804,Beaver Creek-Yukon River,northern spruce engraver,179688,16171.92
+190804,Beaver Creek-Yukon River,"other canker agent, known (code pending)",55,4.95
+190804,Beaver Creek-Yukon River,"other wilt, known (code pending)",12577,1131.93
+190804,Beaver Creek-Yukon River,snow-ice,6814,613.26
+190804,Beaver Creek-Yukon River,spear-marked black moth,952,85.68
+190804,Beaver Creek-Yukon River,spruce beetle,50702,4563.18
+190804,Beaver Creek-Yukon River,spruce broom rust,4034,363.06
+190804,Beaver Creek-Yukon River,spruce budworm,245030,22052.7
+190804,Beaver Creek-Yukon River,unknown,1362,122.58
+190804,Beaver Creek-Yukon River,unknown canker,12023,1082.07
+190804,Beaver Creek-Yukon River,unknown defoliator,72166,6494.94
+190804,Beaver Creek-Yukon River,willow leaf blotchminer,2431483,218833.47
+190804,Beaver Creek-Yukon River,willow leafblotch miner,56734,5106.06
+190804,Beaver Creek-Yukon River,wind-tornado/hurricane,256,23.04
+190901,Koyukuk River,aspen leafminer,514634,46317.06
+190901,Koyukuk River,birch aphid,736,66.24
+190901,Koyukuk River,birch leafminer,1368,123.12
+190901,Koyukuk River,birch leafroller,2687,241.83
+190901,Koyukuk River,canker (general),485,43.65
+190901,Koyukuk River,cottonwood leafminers,675,60.75
+190901,Koyukuk River,decline complex,767,69.03
+190901,Koyukuk River,defoliators,94958,8546.22
+190901,Koyukuk River,dieback,1085,97.65
+190901,Koyukuk River,eastern larch beetle,51,4.59
+190901,Koyukuk River,flooding-high water,7298,656.82
+190901,Koyukuk River,larch sawfly,1101,99.09
+190901,Koyukuk River,large aspen tortrix,52400,4716.0
+190901,Koyukuk River,large-spored spruce-Labrador tea rust,44,3.96
+190901,Koyukuk River,mud-land slide,35,3.15
+190901,Koyukuk River,northern spruce engraver,82294,7406.46
+190901,Koyukuk River,"other canker agent, known (code pending)",220,19.8
+190901,Koyukuk River,spear-marked black moth,14278,1285.02
+190901,Koyukuk River,speckled green fruitworm,1287,115.83
+190901,Koyukuk River,spruce beetle,2635,237.15
+190901,Koyukuk River,spruce broom rust,7202,648.18
+190901,Koyukuk River,spruce budworm,10597,953.73
+190901,Koyukuk River,unknown canker,203,18.27
+190901,Koyukuk River,unknown defoliator,137779,12400.11
+190901,Koyukuk River,willow leaf blotchminer,358571,32271.39
+190901,Koyukuk River,willow leafblotch miner,6114,550.26
+190901,Koyukuk River,wind-tornado/hurricane,1270,114.3
+190902,Melozitna River-Yukon River,aspen leafminer,678799,61091.91
+190902,Melozitna River-Yukon River,birch leafminer,55,4.95
+190902,Melozitna River-Yukon River,birch leafroller,9915,892.35
+190902,Melozitna River-Yukon River,canker (general),59,5.31
+190902,Melozitna River-Yukon River,defoliators,72240,6501.6
+190902,Melozitna River-Yukon River,dieback,4826,434.34
+190902,Melozitna River-Yukon River,eastern larch beetle,102133,9191.97
+190902,Melozitna River-Yukon River,fire,11089,998.01
+190902,Melozitna River-Yukon River,flooding-high water,302421,27217.89
+190902,Melozitna River-Yukon River,larch sawfly,212337,19110.33
+190902,Melozitna River-Yukon River,large aspen tortrix,51889,4670.01
+190902,Melozitna River-Yukon River,large-spored spruce-Labrador tea rust,2998,269.82
+190902,Melozitna River-Yukon River,mud-land slide,18,1.62
+190902,Melozitna River-Yukon River,northern spruce engraver,78182,7036.38
+190902,Melozitna River-Yukon River,"other canker agent, known (code pending)",158,14.22
+190902,Melozitna River-Yukon River,speckled green fruitworm,567,51.03
+190902,Melozitna River-Yukon River,spruce beetle,105311,9477.99
+190902,Melozitna River-Yukon River,spruce broom rust,1026,92.34
+190902,Melozitna River-Yukon River,spruce budworm,517024,46532.16
+190902,Melozitna River-Yukon River,unknown,3095,278.55
+190902,Melozitna River-Yukon River,unknown canker,2267,204.03
+190902,Melozitna River-Yukon River,unknown defoliator,70812,6373.08
+190902,Melozitna River-Yukon River,willow leaf blotchminer,484998,43649.82
+190902,Melozitna River-Yukon River,willow leafblotch miner,43771,3939.39
+190902,Melozitna River-Yukon River,wind-tornado/hurricane,86,7.74
+190902,Melozitna River-Yukon River,winter injury,45668,4110.12
+190903,Outlet Yukon River,aspen leafminer,52940,4764.6
+190903,Outlet Yukon River,birch leafroller,688841,61995.69
+190903,Outlet Yukon River,canker (general),6323,569.07
+190903,Outlet Yukon River,cottonwood leafminers,2968,267.12
+190903,Outlet Yukon River,decline complex,582,52.38
+190903,Outlet Yukon River,defoliators,444215,39979.35
+190903,Outlet Yukon River,dieback,1304,117.36
+190903,Outlet Yukon River,eastern larch beetle,45,4.05
+190903,Outlet Yukon River,flooding-high water,9735,876.15
+190903,Outlet Yukon River,foliage and shoot diseases,975,87.75
+190903,Outlet Yukon River,larch sawfly,528190,47537.1
+190903,Outlet Yukon River,large aspen tortrix,63554,5719.86
+190903,Outlet Yukon River,large-spored spruce-Labrador tea rust,60,5.4
+190903,Outlet Yukon River,mud-land slide,141,12.69
+190903,Outlet Yukon River,northern spruce engraver,84689,7622.01
+190903,Outlet Yukon River,"other canker agent, known (code pending)",465,41.85
+190903,Outlet Yukon River,"other wilt, known (code pending)",76,6.84
+190903,Outlet Yukon River,speckled green fruitworm,166947,15025.23
+190903,Outlet Yukon River,spruce beetle,4116,370.44
+190903,Outlet Yukon River,spruce broom rust,13,1.17
+190903,Outlet Yukon River,unknown,17,1.53
+190903,Outlet Yukon River,unknown defoliator,597535,53778.15
+190903,Outlet Yukon River,willow leaf blotchminer,323345,29101.05

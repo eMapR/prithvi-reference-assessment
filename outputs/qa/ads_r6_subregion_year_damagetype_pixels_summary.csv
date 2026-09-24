@@ -1,0 +1,204 @@
+subregion,subregion_name,year,total_pixel_count,total_area_ha
+1,Coast Range,1997,103609,9324.81
+1,Coast Range,1998,156816,14113.44
+1,Coast Range,1999,78195,7037.55
+1,Coast Range,2000,169851,15286.59
+1,Coast Range,2001,255750,23017.5
+1,Coast Range,2002,783900,70551.0
+1,Coast Range,2003,1859620,167365.8
+1,Coast Range,2004,480667,43260.03
+1,Coast Range,2005,779204,70128.36
+1,Coast Range,2006,925654,83308.86
+1,Coast Range,2007,657148,59143.32
+1,Coast Range,2008,987077,88836.93
+1,Coast Range,2009,1359697,122372.73
+1,Coast Range,2010,533895,48050.55
+1,Coast Range,2011,548598,49373.82
+1,Coast Range,2012,553526,49817.34
+1,Coast Range,2013,545292,49076.28
+1,Coast Range,2014,727256,65453.04
+1,Coast Range,2015,455295,40976.55
+1,Coast Range,2016,336971,30327.39
+1,Coast Range,2017,294887,26539.83
+1,Coast Range,2018,2869616,258265.44
+1,Coast Range,2019,540907,48681.63
+1,Coast Range,2020,54976,4947.84
+1,Coast Range,2021,1405976,126537.84
+1,Coast Range,2022,3986551,358789.59
+1,Coast Range,2023,515348,46381.32
+1,Coast Range,2024,4767803,429102.27
+1,Coast Range,2025,283568,25521.12
+11,Blue Mountains,1997,139293,12536.37
+11,Blue Mountains,1998,380781,34270.29
+11,Blue Mountains,1999,387738,34896.42
+11,Blue Mountains,2000,1256398,113075.82
+11,Blue Mountains,2001,591503,53235.27
+11,Blue Mountains,2002,995070,89556.3
+11,Blue Mountains,2003,1661543,149538.87
+11,Blue Mountains,2004,1828841,164595.69
+11,Blue Mountains,2005,982177,88395.93
+11,Blue Mountains,2006,773795,69641.55
+11,Blue Mountains,2007,1859857,167387.13
+11,Blue Mountains,2008,1330691,119762.19
+11,Blue Mountains,2009,1448184,130336.56
+11,Blue Mountains,2010,1669462,150251.58
+11,Blue Mountains,2011,2556173,230055.57
+11,Blue Mountains,2012,1242413,111817.17
+11,Blue Mountains,2013,605475,54492.75
+11,Blue Mountains,2014,1031142,92802.78
+11,Blue Mountains,2015,1293010,116370.9
+11,Blue Mountains,2016,1463095,131678.55
+11,Blue Mountains,2017,1681630,151346.7
+11,Blue Mountains,2018,1881688,169351.92
+11,Blue Mountains,2019,2202557,198230.13
+11,Blue Mountains,2020,1041220,93709.8
+11,Blue Mountains,2021,841794,75761.46
+11,Blue Mountains,2022,2979049,268114.41
+11,Blue Mountains,2023,4210511,378945.99
+11,Blue Mountains,2024,1206804,108612.36
+11,Blue Mountains,2025,767255,69052.95
+15,Northern Rockies,1997,1710815,153973.35
+15,Northern Rockies,1998,120864,10877.76
+15,Northern Rockies,1999,175778,15820.02
+15,Northern Rockies,2000,234417,21097.53
+15,Northern Rockies,2001,384009,34560.81
+15,Northern Rockies,2002,287606,25884.54
+15,Northern Rockies,2003,1333323,119999.07
+15,Northern Rockies,2004,1300761,117068.49
+15,Northern Rockies,2005,1377966,124016.94
+15,Northern Rockies,2006,413246,37192.14
+15,Northern Rockies,2007,600020,54001.8
+15,Northern Rockies,2008,486527,43787.43
+15,Northern Rockies,2009,551243,49611.87
+15,Northern Rockies,2010,648388,58354.92
+15,Northern Rockies,2011,1098186,98836.74
+15,Northern Rockies,2012,1297152,116743.68
+15,Northern Rockies,2013,603209,54288.81
+15,Northern Rockies,2014,617426,55568.34
+15,Northern Rockies,2015,352957,31766.13
+15,Northern Rockies,2016,636267,57264.03
+15,Northern Rockies,2017,1047227,94250.43
+15,Northern Rockies,2018,579240,52131.6
+15,Northern Rockies,2019,705307,63477.63
+15,Northern Rockies,2020,1196438,107679.42
+15,Northern Rockies,2021,452939,40764.51
+15,Northern Rockies,2022,585095,52658.55
+15,Northern Rockies,2023,421826,37964.34
+15,Northern Rockies,2024,298436,26859.24
+15,Northern Rockies,2025,85739,7716.51
+4,Cascades,1997,335922,30232.98
+4,Cascades,1998,379291,34136.19
+4,Cascades,1999,396769,35709.21
+4,Cascades,2000,675562,60800.58
+4,Cascades,2001,721879,64969.11
+4,Cascades,2002,920847,82876.23
+4,Cascades,2003,1720714,154864.26
+4,Cascades,2004,1399865,125987.85
+4,Cascades,2005,1592145,143293.05
+4,Cascades,2006,1821451,163930.59
+4,Cascades,2007,1972555,177529.95
+4,Cascades,2008,1841473,165732.57
+4,Cascades,2009,1891249,170212.41
+4,Cascades,2010,1465982,131938.38
+4,Cascades,2011,1253616,112825.44
+4,Cascades,2012,1068410,96156.9
+4,Cascades,2013,938099,84428.91
+4,Cascades,2014,697055,62734.95
+4,Cascades,2015,669298,60236.82
+4,Cascades,2016,646514,58186.26
+4,Cascades,2017,592161,53294.49
+4,Cascades,2018,387451,34870.59
+4,Cascades,2019,599129,53921.61
+4,Cascades,2020,193935,17454.15
+4,Cascades,2021,447250,40252.5
+4,Cascades,2022,2396888,215719.92
+4,Cascades,2023,2690381,242134.29
+4,Cascades,2024,1309805,117882.45
+4,Cascades,2025,430608,38754.72
+77,North Cascades,1997,429631,38666.79
+77,North Cascades,1998,251626,22646.34
+77,North Cascades,1999,324657,29219.13
+77,North Cascades,2000,367040,33033.6
+77,North Cascades,2001,840812,75673.08
+77,North Cascades,2002,1095979,98638.11
+77,North Cascades,2003,1205679,108511.11
+77,North Cascades,2004,1347612,121285.08
+77,North Cascades,2005,2283599,205523.91
+77,North Cascades,2006,2442588,219832.92
+77,North Cascades,2007,2341048,210694.32
+77,North Cascades,2008,2945617,265105.53
+77,North Cascades,2009,3990929,359183.61
+77,North Cascades,2010,2193753,197437.77
+77,North Cascades,2011,1997507,179775.63
+77,North Cascades,2012,2038680,183481.2
+77,North Cascades,2013,955001,85950.09
+77,North Cascades,2014,807137,72642.33
+77,North Cascades,2015,435483,39193.47
+77,North Cascades,2016,582625,52436.25
+77,North Cascades,2017,761085,68497.65
+77,North Cascades,2018,400558,36050.22
+77,North Cascades,2019,780869,70278.21
+77,North Cascades,2020,220394,19835.46
+77,North Cascades,2021,577636,51987.24
+77,North Cascades,2022,897948,80815.32
+77,North Cascades,2023,493387,44404.83
+77,North Cascades,2024,810469,72942.21
+77,North Cascades,2025,929637,83667.33
+78,Klamath Mountains/California High North Coast Range,1997,9915,892.35
+78,Klamath Mountains/California High North Coast Range,1998,3613,325.17
+78,Klamath Mountains/California High North Coast Range,1999,12817,1153.53
+78,Klamath Mountains/California High North Coast Range,2000,17486,1573.74
+78,Klamath Mountains/California High North Coast Range,2001,28051,2524.59
+78,Klamath Mountains/California High North Coast Range,2002,233457,21011.13
+78,Klamath Mountains/California High North Coast Range,2003,337793,30401.37
+78,Klamath Mountains/California High North Coast Range,2004,212565,19130.85
+78,Klamath Mountains/California High North Coast Range,2005,114476,10302.84
+78,Klamath Mountains/California High North Coast Range,2006,31688,2851.92
+78,Klamath Mountains/California High North Coast Range,2007,65752,5917.68
+78,Klamath Mountains/California High North Coast Range,2008,69334,6240.06
+78,Klamath Mountains/California High North Coast Range,2009,44387,3994.83
+78,Klamath Mountains/California High North Coast Range,2010,95644,8607.96
+78,Klamath Mountains/California High North Coast Range,2011,81606,7344.54
+78,Klamath Mountains/California High North Coast Range,2012,47077,4236.93
+78,Klamath Mountains/California High North Coast Range,2013,55220,4969.8
+78,Klamath Mountains/California High North Coast Range,2014,52091,4688.19
+78,Klamath Mountains/California High North Coast Range,2015,117719,10594.71
+78,Klamath Mountains/California High North Coast Range,2016,276342,24870.78
+78,Klamath Mountains/California High North Coast Range,2017,103582,9322.38
+78,Klamath Mountains/California High North Coast Range,2018,76178,6856.02
+78,Klamath Mountains/California High North Coast Range,2019,276298,24866.82
+78,Klamath Mountains/California High North Coast Range,2020,253135,22782.15
+78,Klamath Mountains/California High North Coast Range,2021,356324,32069.16
+78,Klamath Mountains/California High North Coast Range,2022,2412160,217094.4
+78,Klamath Mountains/California High North Coast Range,2023,1424006,128160.54
+78,Klamath Mountains/California High North Coast Range,2024,620458,55841.22
+78,Klamath Mountains/California High North Coast Range,2025,469789,42281.01
+9,Eastern Cascades Slopes and Foothills,1997,1149588,103462.92
+9,Eastern Cascades Slopes and Foothills,1998,2670396,240335.64
+9,Eastern Cascades Slopes and Foothills,1999,1188584,106972.56
+9,Eastern Cascades Slopes and Foothills,2000,1609662,144869.58
+9,Eastern Cascades Slopes and Foothills,2001,1307437,117669.33
+9,Eastern Cascades Slopes and Foothills,2002,863837,77745.33
+9,Eastern Cascades Slopes and Foothills,2003,1343043,120873.87
+9,Eastern Cascades Slopes and Foothills,2004,1734269,156084.21
+9,Eastern Cascades Slopes and Foothills,2005,2085624,187706.16
+9,Eastern Cascades Slopes and Foothills,2006,2257352,203161.68
+9,Eastern Cascades Slopes and Foothills,2007,2210066,198905.94
+9,Eastern Cascades Slopes and Foothills,2008,2570730,231365.7
+9,Eastern Cascades Slopes and Foothills,2009,1818717,163684.53
+9,Eastern Cascades Slopes and Foothills,2010,1667543,150078.87
+9,Eastern Cascades Slopes and Foothills,2011,955860,86027.4
+9,Eastern Cascades Slopes and Foothills,2012,1193215,107389.35
+9,Eastern Cascades Slopes and Foothills,2013,994681,89521.29
+9,Eastern Cascades Slopes and Foothills,2014,1172923,105563.07
+9,Eastern Cascades Slopes and Foothills,2015,1020825,91874.25
+9,Eastern Cascades Slopes and Foothills,2016,876518,78886.62
+9,Eastern Cascades Slopes and Foothills,2017,689360,62042.4
+9,Eastern Cascades Slopes and Foothills,2018,998668,89880.12
+9,Eastern Cascades Slopes and Foothills,2019,693620,62425.8
+9,Eastern Cascades Slopes and Foothills,2020,240826,21674.34
+9,Eastern Cascades Slopes and Foothills,2021,519414,46747.26
+9,Eastern Cascades Slopes and Foothills,2022,2296616,206695.44
+9,Eastern Cascades Slopes and Foothills,2023,3384094,304568.46
+9,Eastern Cascades Slopes and Foothills,2024,1866865,168017.85
+9,Eastern Cascades Slopes and Foothills,2025,781903,70371.27

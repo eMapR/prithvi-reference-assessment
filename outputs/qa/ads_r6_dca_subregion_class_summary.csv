@@ -1,0 +1,398 @@
+subregion,subregion_name,native_class,pixel_count,area_ha,spatial_prevalence_pct
+1,Coast Range,Swiss needle cast,11979260,1078133.4,44.74
+1,Coast Range,bears,9467066,852035.94,35.357
+1,Coast Range,unknown,1071657,96449.13,4.002
+1,Coast Range,heat,919314,82738.26,3.433
+1,Coast Range,Douglas-fir beetle,660805,59472.45,2.468
+1,Coast Range,fir engraver,565478,50893.02,2.112
+1,Coast Range,Port-Orford-cedar root disease,562116,50590.44,2.099
+1,Coast Range,wind-tornado/hurricane,271995,24479.55,1.016
+1,Coast Range,root disease or bears,268032,24122.88,1.001
+1,Coast Range,spruce aphid,256705,23103.45,0.959
+1,Coast Range,hemlock decline,203115,18280.35,0.759
+1,Coast Range,balsam woolly adelgid,167691,15092.19,0.626
+1,Coast Range,needlecast,100729,9065.61,0.376
+1,Coast Range,western tent caterpillar,95165,8564.85,0.355
+1,Coast Range,western blackheaded budworm,65641,5907.69,0.245
+1,Coast Range,Cytospora canker of fir,49376,4443.84,0.184
+1,Coast Range,Douglas-fir engraver,44498,4004.82,0.166
+1,Coast Range,root diseases/decay,33851,3046.59,0.126
+1,Coast Range,snow-ice,26546,2389.14,0.099
+1,Coast Range,decline complex,26317,2368.53,0.098
+1,Coast Range,flatheaded fir borer,24738,2226.42,0.092
+1,Coast Range,flooding-high water,20256,1823.04,0.076
+1,Coast Range,frost,19588,1762.92,0.073
+1,Coast Range,winter injury,19256,1733.04,0.072
+1,Coast Range,mountain pine beetle,19106,1719.54,0.071
+1,Coast Range,flatheaded borer,18163,1634.67,0.068
+1,Coast Range,unknown root disease or decay,17047,1534.23,0.064
+1,Coast Range,unknown defoliator,16576,1491.84,0.062
+1,Coast Range,foliage discoloration,16360,1472.4,0.061
+1,Coast Range,western balsam bark beetle,16158,1454.22,0.06
+1,Coast Range,spruce beetle,13201,1188.09,0.049
+1,Coast Range,fire,10438,939.42,0.039
+1,Coast Range,western pine beetle,7913,712.17,0.03
+1,Coast Range,sawflies,7620,685.8,0.028
+1,Coast Range,mud-land slide,6386,574.74,0.024
+1,Coast Range,hardwood leaf rusts,6236,561.24,0.023
+1,Coast Range,Douglas-fir rust,5688,511.92,0.021
+1,Coast Range,drought,5428,488.52,0.02
+1,Coast Range,tent caterpillars,4662,419.58,0.017
+1,Coast Range,mortality,4651,418.59,0.017
+1,Coast Range,white pine blister rust,4316,388.44,0.016
+1,Coast Range,pine engraver,4072,366.48,0.015
+1,Coast Range,black stain root disease,3697,332.73,0.014
+1,Coast Range,maple decline,3174,285.66,0.012
+1,Coast Range,Lophodermium needle cast of pines,2432,218.88,0.009
+1,Coast Range,gorse,1882,169.38,0.007
+1,Coast Range,wild fire,1779,160.11,0.007
+1,Coast Range,oak pit scale A. minus,1092,98.28,0.004
+1,Coast Range,leaf rusts of hardwoods,985,88.65,0.004
+1,Coast Range,"other pest complex, known (code pending)",983,88.47,0.004
+1,Coast Range,pine needle sheathminer,519,46.71,0.002
+1,Coast Range,Pacific madrone decline,456,41.04,0.002
+1,Coast Range,silver fir beetle,313,28.17,0.001
+1,Coast Range,hemlock sawfly,252,22.68,0.001
+1,Coast Range,alder flea beetle,230,20.7,0.001
+1,Coast Range,false hemlock looper,132,11.88,0.0
+1,Coast Range,ips engraver beetles,129,11.61,0.0
+1,Coast Range,"other root disease or decay, known (code pending)",45,4.05,0.0
+1,Coast Range,larch needle cast,28,2.52,0.0
+1,Coast Range,hail,16,1.44,0.0
+1,Coast Range,ponderosa pine sawfly,14,1.26,0.0
+4,Cascades,mountain pine beetle,7375840,663825.6,24.443
+4,Cascades,bears,6555845,590026.05,21.725
+4,Cascades,fir engraver,5282060,475385.4,17.504
+4,Cascades,balsam woolly adelgid,4070361,366332.49,13.489
+4,Cascades,western spruce budworm,2532420,227917.8,8.392
+4,Cascades,Douglas-fir beetle,1921559,172940.31,6.368
+4,Cascades,Cytospora canker of fir,1215246,109372.14,4.027
+4,Cascades,flatheaded fir borer,784456,70601.04,2.6
+4,Cascades,western pine beetle,296107,26649.63,0.981
+4,Cascades,western balsam bark beetle,272879,24559.11,0.904
+4,Cascades,needlecast,203063,18275.67,0.673
+4,Cascades,root disease or bears,198846,17896.14,0.659
+4,Cascades,larch casebearer,192061,17285.49,0.636
+4,Cascades,silver fir beetle,171237,15411.33,0.567
+4,Cascades,unknown,147868,13308.12,0.49
+4,Cascades,Lophodermium needle cast of pines,134871,12138.39,0.447
+4,Cascades,fire,134819,12133.71,0.447
+4,Cascades,flatheaded borer,98243,8841.87,0.326
+4,Cascades,wild fire,85196,7667.64,0.282
+4,Cascades,larch needle cast,75032,6752.88,0.249
+4,Cascades,white pine blister rust,66131,5951.79,0.219
+4,Cascades,hemlock decline,57595,5183.55,0.191
+4,Cascades,winter injury,54839,4935.51,0.182
+4,Cascades,drought,49354,4441.86,0.164
+4,Cascades,Douglas-fir engraver,48162,4334.58,0.16
+4,Cascades,heat,44300,3987.0,0.147
+4,Cascades,Lophodermella needle cast of pines,31879,2869.11,0.106
+4,Cascades,root diseases/decay,26550,2389.5,0.088
+4,Cascades,frost,25747,2317.23,0.085
+4,Cascades,Swiss needle cast,25069,2256.21,0.083
+4,Cascades,foliage discoloration,22736,2046.24,0.075
+4,Cascades,western tent caterpillar,22075,1986.75,0.073
+4,Cascades,hail,18669,1680.21,0.062
+4,Cascades,needleminers,18519,1666.71,0.061
+4,Cascades,sawflies,17352,1561.68,0.058
+4,Cascades,unknown defoliator,16068,1446.12,0.053
+4,Cascades,pine engraver,14401,1296.09,0.048
+4,Cascades,flooding-high water,9336,840.24,0.031
+4,Cascades,wind-tornado/hurricane,9108,819.72,0.03
+4,Cascades,decline complex,8902,801.18,0.03
+4,Cascades,unknown root disease or decay,7435,669.15,0.025
+4,Cascades,spruce beetle,6185,556.65,0.02
+4,Cascades,western blackheaded budworm,5297,476.73,0.018
+4,Cascades,ips engraver beetles,5276,474.84,0.017
+4,Cascades,Douglas-fir tussock moth,5060,455.4,0.017
+4,Cascades,maple decline,4479,403.11,0.015
+4,Cascades,Gelechiid moths/needleminers,4388,394.92,0.015
+4,Cascades,snow-ice,4188,376.92,0.014
+4,Cascades,no data,3925,353.25,0.013
+4,Cascades,hemlock sawfly,3861,347.49,0.013
+4,Cascades,lodgepole sawfly,3805,342.45,0.013
+4,Cascades,mud-land slide,3714,334.26,0.012
+4,Cascades,mortality,2698,242.82,0.009
+4,Cascades,black pineleaf scale,2485,223.65,0.008
+4,Cascades,satin moth,601,54.09,0.002
+4,Cascades,false hemlock looper,551,49.59,0.002
+4,Cascades,pine needle sheathminer,433,38.97,0.001
+4,Cascades,Diplodia canker,324,29.16,0.001
+4,Cascades,Cooley spruce gall adelgid,150,13.5,0.0
+4,Cascades,Port-Orford-cedar root disease,141,12.69,0.0
+4,Cascades,pandora moth,117,10.53,0.0
+4,Cascades,Douglas-fir budmoth,109,9.81,0.0
+4,Cascades,Pacific madrone decline,96,8.64,0.0
+9,Eastern Cascades Slopes and Foothills,mountain pine beetle,16840802,1515672.18,40.823
+9,Eastern Cascades Slopes and Foothills,western spruce budworm,9193514,827416.26,22.286
+9,Eastern Cascades Slopes and Foothills,fir engraver,9029158,812624.22,21.887
+9,Eastern Cascades Slopes and Foothills,western pine beetle,4535665,408209.85,10.995
+9,Eastern Cascades Slopes and Foothills,Douglas-fir beetle,880275,79224.75,2.134
+9,Eastern Cascades Slopes and Foothills,pandora moth,686527,61787.43,1.664
+9,Eastern Cascades Slopes and Foothills,needlecast,680565,61250.85,1.65
+9,Eastern Cascades Slopes and Foothills,balsam woolly adelgid,418260,37643.4,1.014
+9,Eastern Cascades Slopes and Foothills,fire,326190,29357.1,0.791
+9,Eastern Cascades Slopes and Foothills,Modoc budworm,323070,29076.3,0.783
+9,Eastern Cascades Slopes and Foothills,western balsam bark beetle,248438,22359.42,0.602
+9,Eastern Cascades Slopes and Foothills,pine engraver,237608,21384.72,0.576
+9,Eastern Cascades Slopes and Foothills,larch casebearer,207781,18700.29,0.504
+9,Eastern Cascades Slopes and Foothills,ips engraver beetles,202005,18180.45,0.49
+9,Eastern Cascades Slopes and Foothills,larch needle cast,191607,17244.63,0.464
+9,Eastern Cascades Slopes and Foothills,bears,184588,16612.92,0.447
+9,Eastern Cascades Slopes and Foothills,wild fire,119744,10776.96,0.29
+9,Eastern Cascades Slopes and Foothills,lodgepole needleminer,113040,10173.6,0.274
+9,Eastern Cascades Slopes and Foothills,flatheaded fir borer,96940,8724.6,0.235
+9,Eastern Cascades Slopes and Foothills,lodgepole sawfly,81366,7322.94,0.197
+9,Eastern Cascades Slopes and Foothills,decline complex,76015,6841.35,0.184
+9,Eastern Cascades Slopes and Foothills,Lophodermium needle cast of pines,57095,5138.55,0.138
+9,Eastern Cascades Slopes and Foothills,white pine blister rust,48946,4405.14,0.119
+9,Eastern Cascades Slopes and Foothills,Douglas-fir engraver,38595,3473.55,0.094
+9,Eastern Cascades Slopes and Foothills,unknown,36725,3305.25,0.089
+9,Eastern Cascades Slopes and Foothills,satin moth,33192,2987.28,0.08
+9,Eastern Cascades Slopes and Foothills,spruce beetle,29044,2613.96,0.07
+9,Eastern Cascades Slopes and Foothills,winter injury,27982,2518.38,0.068
+9,Eastern Cascades Slopes and Foothills,black pineleaf scale,24159,2174.31,0.059
+9,Eastern Cascades Slopes and Foothills,Cytospora canker of fir,18494,1664.46,0.045
+9,Eastern Cascades Slopes and Foothills,hail,17191,1547.19,0.042
+9,Eastern Cascades Slopes and Foothills,Gelechiid moths/needleminers,16738,1506.42,0.041
+9,Eastern Cascades Slopes and Foothills,frost,10149,913.41,0.025
+9,Eastern Cascades Slopes and Foothills,drought,9609,864.81,0.023
+9,Eastern Cascades Slopes and Foothills,root disease or bears,8456,761.04,0.02
+9,Eastern Cascades Slopes and Foothills,foliage discoloration,6657,599.13,0.016
+9,Eastern Cascades Slopes and Foothills,western blackheaded budworm,3495,314.55,0.008
+9,Eastern Cascades Slopes and Foothills,flooding-high water,3349,301.41,0.008
+9,Eastern Cascades Slopes and Foothills,Douglas-fir tussock moth,2766,248.94,0.007
+9,Eastern Cascades Slopes and Foothills,unknown defoliator,2712,244.08,0.007
+9,Eastern Cascades Slopes and Foothills,western tent caterpillar,2546,229.14,0.006
+9,Eastern Cascades Slopes and Foothills,root diseases/decay,2238,201.42,0.005
+9,Eastern Cascades Slopes and Foothills,wind-tornado/hurricane,2152,193.68,0.005
+9,Eastern Cascades Slopes and Foothills,flatheaded borer,2027,182.43,0.005
+9,Eastern Cascades Slopes and Foothills,weevil,1607,144.63,0.004
+9,Eastern Cascades Slopes and Foothills,Diplodia canker,1514,136.26,0.004
+9,Eastern Cascades Slopes and Foothills,western oak looper,1354,121.86,0.003
+9,Eastern Cascades Slopes and Foothills,pine needle scale,1203,108.27,0.003
+9,Eastern Cascades Slopes and Foothills,no data,1194,107.46,0.003
+9,Eastern Cascades Slopes and Foothills,sawflies,1179,106.11,0.003
+9,Eastern Cascades Slopes and Foothills,mud-land slide,1135,102.15,0.003
+9,Eastern Cascades Slopes and Foothills,silver fir beetle,921,82.89,0.002
+9,Eastern Cascades Slopes and Foothills,Lophodermella needle cast of pines,728,65.52,0.002
+9,Eastern Cascades Slopes and Foothills,leaf rusts of hardwoods,400,36.0,0.001
+9,Eastern Cascades Slopes and Foothills,unknown root disease or decay,392,35.28,0.001
+9,Eastern Cascades Slopes and Foothills,snow-ice,260,23.4,0.001
+9,Eastern Cascades Slopes and Foothills,American beaver,120,10.8,0.0
+9,Eastern Cascades Slopes and Foothills,spruce aphid,89,8.01,0.0
+9,Eastern Cascades Slopes and Foothills,maple decline,42,3.78,0.0
+9,Eastern Cascades Slopes and Foothills,"other pest complex, known (code pending)",40,3.6,0.0
+9,Eastern Cascades Slopes and Foothills,heat,4,0.36,0.0
+11,Blue Mountains,fir engraver,14492031,1304282.79,37.278
+11,Blue Mountains,mountain pine beetle,6576073,591846.57,16.916
+11,Blue Mountains,western pine beetle,5659567,509361.03,14.558
+11,Blue Mountains,balsam woolly adelgid,4694440,422499.6,12.076
+11,Blue Mountains,western spruce budworm,2922139,262992.51,7.517
+11,Blue Mountains,Douglas-fir beetle,2524272,227184.48,6.493
+11,Blue Mountains,Douglas-fir tussock moth,1667292,150056.28,4.289
+11,Blue Mountains,pine butterfly,1657476,149172.84,4.264
+11,Blue Mountains,larch casebearer,783806,70542.54,2.016
+11,Blue Mountains,fire,447088,40237.92,1.15
+11,Blue Mountains,wild fire,240023,21602.07,0.617
+11,Blue Mountains,needlecast,173615,15625.35,0.447
+11,Blue Mountains,Gelechiid moths/needleminers,122451,11020.59,0.315
+11,Blue Mountains,western balsam bark beetle,95546,8599.14,0.246
+11,Blue Mountains,larch needle cast,92195,8297.55,0.237
+11,Blue Mountains,white pine blister rust,63551,5719.59,0.163
+11,Blue Mountains,pine engraver,59695,5372.55,0.154
+11,Blue Mountains,ips engraver beetles,59286,5335.74,0.153
+11,Blue Mountains,ponderosa pine sawfly,52518,4726.62,0.135
+11,Blue Mountains,unknown,46615,4195.35,0.12
+11,Blue Mountains,Lophodermium needle cast of pines,28374,2553.66,0.073
+11,Blue Mountains,spruce beetle,28306,2547.54,0.073
+11,Blue Mountains,Douglas-fir engraver,21462,1931.58,0.055
+11,Blue Mountains,foliage discoloration,20365,1832.85,0.052
+11,Blue Mountains,satin moth,15946,1435.14,0.041
+11,Blue Mountains,black pineleaf scale,13221,1189.89,0.034
+11,Blue Mountains,unknown defoliator,9578,862.02,0.025
+11,Blue Mountains,snow-ice,8463,761.67,0.022
+11,Blue Mountains,decline complex,8260,743.4,0.021
+11,Blue Mountains,drought,7159,644.31,0.018
+11,Blue Mountains,Diplodia canker,6704,603.36,0.017
+11,Blue Mountains,Cytospora canker of fir,2782,250.38,0.007
+11,Blue Mountains,bears,1305,117.45,0.003
+11,Blue Mountains,wind-tornado/hurricane,1266,113.94,0.003
+11,Blue Mountains,winter injury,1227,110.43,0.003
+11,Blue Mountains,western tent caterpillar,726,65.34,0.002
+11,Blue Mountains,pine needle sheathminer,658,59.22,0.002
+11,Blue Mountains,loopers,610,54.9,0.002
+11,Blue Mountains,spruce aphid,585,52.65,0.002
+11,Blue Mountains,hail,468,42.12,0.001
+11,Blue Mountains,root diseases/decay,447,40.23,0.001
+11,Blue Mountains,mud-land slide,405,36.45,0.001
+11,Blue Mountains,flooding-high water,374,33.66,0.001
+11,Blue Mountains,frost,125,11.25,0.0
+11,Blue Mountains,sawflies,112,10.08,0.0
+11,Blue Mountains,silver fir beetle,65,5.85,0.0
+11,Blue Mountains,unknown root disease or decay,30,2.7,0.0
+11,Blue Mountains,no data,29,2.61,0.0
+15,Northern Rockies,mountain pine beetle,4241484,381733.56,22.398
+15,Northern Rockies,fir engraver,4199895,377990.55,22.178
+15,Northern Rockies,western spruce budworm,3330789,299771.01,17.589
+15,Northern Rockies,Douglas-fir beetle,2355854,212026.86,12.44
+15,Northern Rockies,larch needle cast,1840148,165613.32,9.717
+15,Northern Rockies,western pine beetle,1713043,154173.87,9.046
+15,Northern Rockies,western balsam bark beetle,721994,64979.46,3.813
+15,Northern Rockies,unknown,709236,63831.24,3.745
+15,Northern Rockies,larch casebearer,357722,32194.98,1.889
+15,Northern Rockies,fire,353977,31857.93,1.869
+15,Northern Rockies,needlecast,269487,24253.83,1.423
+15,Northern Rockies,Douglas-fir engraver,234719,21124.71,1.239
+15,Northern Rockies,bears,224171,20175.39,1.184
+15,Northern Rockies,balsam woolly adelgid,156772,14109.48,0.828
+15,Northern Rockies,ips engraver beetles,97783,8800.47,0.516
+15,Northern Rockies,pine engraver,93925,8453.25,0.496
+15,Northern Rockies,spruce beetle,63650,5728.5,0.336
+15,Northern Rockies,Lophodermium needle cast of pines,47151,4243.59,0.249
+15,Northern Rockies,wild fire,37096,3338.64,0.196
+15,Northern Rockies,decline complex,22630,2036.7,0.12
+15,Northern Rockies,Douglas-fir tussock moth,19913,1792.17,0.105
+15,Northern Rockies,wind-tornado/hurricane,18269,1644.21,0.096
+15,Northern Rockies,satin moth,15679,1411.11,0.083
+15,Northern Rockies,larch bud moth,9584,862.56,0.051
+15,Northern Rockies,root diseases/decay,9497,854.73,0.05
+15,Northern Rockies,Douglas-fir needle midge,8737,786.33,0.046
+15,Northern Rockies,foliage discoloration,8429,758.61,0.045
+15,Northern Rockies,black pineleaf scale,7244,651.96,0.038
+15,Northern Rockies,winter injury,7208,648.72,0.038
+15,Northern Rockies,root disease or bears,6504,585.36,0.034
+15,Northern Rockies,drought,6289,566.01,0.033
+15,Northern Rockies,unknown root disease or decay,5734,516.06,0.03
+15,Northern Rockies,unknown defoliator,5711,513.99,0.03
+15,Northern Rockies,frost,4700,423.0,0.025
+15,Northern Rockies,western tent caterpillar,4465,401.85,0.024
+15,Northern Rockies,ponderosa pine sawfly,4290,386.1,0.023
+15,Northern Rockies,Gelechiid moths/needleminers,3842,345.78,0.02
+15,Northern Rockies,pine needle scale,3361,302.49,0.018
+15,Northern Rockies,flooding-high water,2605,234.45,0.014
+15,Northern Rockies,sawflies,2262,203.58,0.012
+15,Northern Rockies,silver fir beetle,2015,181.35,0.011
+15,Northern Rockies,white pine blister rust,1710,153.9,0.009
+15,Northern Rockies,birch leafminer,1502,135.18,0.008
+15,Northern Rockies,green larch looper,1077,96.93,0.006
+15,Northern Rockies,Lophodermella needle cast of pines,668,60.12,0.004
+15,Northern Rockies,Douglas-fir rust,631,56.79,0.003
+15,Northern Rockies,no data,265,23.85,0.001
+15,Northern Rockies,mud-land slide,252,22.68,0.001
+15,Northern Rockies,spruce aphid,216,19.44,0.001
+15,Northern Rockies,snow-ice,96,8.64,0.001
+15,Northern Rockies,Diplodia canker,75,6.75,0.0
+15,Northern Rockies,dieback,58,5.22,0.0
+15,Northern Rockies,western oak looper,51,4.59,0.0
+15,Northern Rockies,mortality,42,3.78,0.0
+15,Northern Rockies,flatheaded fir borer,35,3.15,0.0
+15,Northern Rockies,maple decline,9,0.81,0.0
+77,North Cascades,western spruce budworm,12191693,1097252.37,37.172
+77,North Cascades,mountain pine beetle,9196959,827726.31,28.042
+77,North Cascades,fir engraver,2676208,240858.72,8.16
+77,North Cascades,spruce beetle,2205252,198472.68,6.724
+77,North Cascades,bears,1871364,168422.76,5.706
+77,North Cascades,balsam woolly adelgid,1621176,145905.84,4.943
+77,North Cascades,Douglas-fir beetle,1246079,112147.11,3.799
+77,North Cascades,western balsam bark beetle,1174486,105703.74,3.581
+77,North Cascades,fire,826968,74427.12,2.521
+77,North Cascades,hemlock decline,699842,62985.78,2.134
+77,North Cascades,unknown,654711,58923.99,1.996
+77,North Cascades,hemlock looper,303573,27321.57,0.926
+77,North Cascades,western pine beetle,217815,19603.35,0.664
+77,North Cascades,western blackheaded budworm,160215,14419.35,0.488
+77,North Cascades,white pine blister rust,102311,9207.99,0.312
+77,North Cascades,silver fir beetle,92830,8354.7,0.283
+77,North Cascades,needlecast,92627,8336.43,0.282
+77,North Cascades,root disease or bears,57380,5164.2,0.175
+77,North Cascades,larch needle cast,53008,4770.72,0.162
+77,North Cascades,Douglas-fir tussock moth,45607,4104.63,0.139
+77,North Cascades,pine engraver,32580,2932.2,0.099
+77,North Cascades,wild fire,29397,2645.73,0.09
+77,North Cascades,Douglas-fir engraver,29184,2626.56,0.089
+77,North Cascades,foliage discoloration,26314,2368.26,0.08
+77,North Cascades,false hemlock looper,26135,2352.15,0.08
+77,North Cascades,decline complex,26119,2350.71,0.08
+77,North Cascades,black pineleaf scale,26116,2350.44,0.08
+77,North Cascades,western tent caterpillar,23902,2151.18,0.073
+77,North Cascades,hardwood leaf rusts,20779,1870.11,0.063
+77,North Cascades,wind-tornado/hurricane,20289,1826.01,0.062
+77,North Cascades,winter injury,20201,1818.09,0.062
+77,North Cascades,larch casebearer,19685,1771.65,0.06
+77,North Cascades,unknown defoliator,11843,1065.87,0.036
+77,North Cascades,mud-land slide,10151,913.59,0.031
+77,North Cascades,heat,9746,877.14,0.03
+77,North Cascades,frost,8713,784.17,0.027
+77,North Cascades,satin moth,8612,775.08,0.026
+77,North Cascades,flooding-high water,8583,772.47,0.026
+77,North Cascades,root diseases/decay,6600,594.0,0.02
+77,North Cascades,ips engraver beetles,6106,549.54,0.019
+77,North Cascades,hemlock sawfly,5106,459.54,0.016
+77,North Cascades,sawflies,4589,413.01,0.014
+77,North Cascades,unknown root disease or decay,2542,228.78,0.008
+77,North Cascades,snow-ice,2072,186.48,0.006
+77,North Cascades,flatheaded fir borer,1867,168.03,0.006
+77,North Cascades,dieback,1711,153.99,0.005
+77,North Cascades,pine needle scale,1438,129.42,0.004
+77,North Cascades,Gelechiid moths/needleminers,1247,112.23,0.004
+77,North Cascades,Lophodermium needle cast of pines,1098,98.82,0.003
+77,North Cascades,drought,1044,93.96,0.003
+77,North Cascades,Cytospora canker of fir,901,81.09,0.003
+77,North Cascades,mortality,425,38.25,0.001
+77,North Cascades,Lophodermella needle cast of pines,332,29.88,0.001
+77,North Cascades,ponderosa pine sawfly,310,27.9,0.001
+77,North Cascades,Douglas-fir rust,273,24.57,0.001
+77,North Cascades,pine butterfly,270,24.3,0.001
+77,North Cascades,maple decline,255,22.95,0.001
+77,North Cascades,western oak looper,217,19.53,0.001
+77,North Cascades,no data,148,13.32,0.0
+77,North Cascades,spruce aphid,9,0.81,0.0
+78,Klamath Mountains/California High North Coast Range,flatheaded fir borer,3763025,338672.25,49.72
+78,Klamath Mountains/California High North Coast Range,fir engraver,1642627,147836.43,21.704
+78,Klamath Mountains/California High North Coast Range,western pine beetle,1131727,101855.43,14.953
+78,Klamath Mountains/California High North Coast Range,flatheaded borer,775759,69818.31,10.25
+78,Klamath Mountains/California High North Coast Range,Cytospora canker of fir,462943,41664.87,6.117
+78,Klamath Mountains/California High North Coast Range,unknown,455270,40974.3,6.015
+78,Klamath Mountains/California High North Coast Range,balsam woolly adelgid,300983,27088.47,3.977
+78,Klamath Mountains/California High North Coast Range,bears,127586,11482.74,1.686
+78,Klamath Mountains/California High North Coast Range,mountain pine beetle,94972,8547.48,1.255
+78,Klamath Mountains/California High North Coast Range,Douglas-fir beetle,55503,4995.27,0.733
+78,Klamath Mountains/California High North Coast Range,pine engraver,45167,4065.03,0.597
+78,Klamath Mountains/California High North Coast Range,unknown defoliator,32536,2928.24,0.43
+78,Klamath Mountains/California High North Coast Range,fire,28115,2530.35,0.371
+78,Klamath Mountains/California High North Coast Range,drought,27038,2433.42,0.357
+78,Klamath Mountains/California High North Coast Range,Port-Orford-cedar root disease,23735,2136.15,0.314
+78,Klamath Mountains/California High North Coast Range,Lophodermella needle cast of pines,21512,1936.08,0.284
+78,Klamath Mountains/California High North Coast Range,Douglas-fir engraver,12733,1145.97,0.168
+78,Klamath Mountains/California High North Coast Range,Lophodermium needle cast of pines,10273,924.57,0.136
+78,Klamath Mountains/California High North Coast Range,heat,9574,861.66,0.126
+78,Klamath Mountains/California High North Coast Range,western oak looper,7268,654.12,0.096
+78,Klamath Mountains/California High North Coast Range,white pine blister rust,6947,625.23,0.092
+78,Klamath Mountains/California High North Coast Range,needlecast,4080,367.2,0.054
+78,Klamath Mountains/California High North Coast Range,wild fire,3470,312.3,0.046
+78,Klamath Mountains/California High North Coast Range,root disease or bears,3427,308.43,0.045
+78,Klamath Mountains/California High North Coast Range,foliage discoloration,2929,263.61,0.039
+78,Klamath Mountains/California High North Coast Range,ips engraver beetles,2007,180.63,0.027
+78,Klamath Mountains/California High North Coast Range,unknown root disease or decay,1962,176.58,0.026
+78,Klamath Mountains/California High North Coast Range,maple decline,1762,158.58,0.023
+78,Klamath Mountains/California High North Coast Range,wind-tornado/hurricane,1265,113.85,0.017
+78,Klamath Mountains/California High North Coast Range,Swiss needle cast,1012,91.08,0.013
+78,Klamath Mountains/California High North Coast Range,decline complex,994,89.46,0.013
+78,Klamath Mountains/California High North Coast Range,phantom hemlock looper,924,83.16,0.012
+78,Klamath Mountains/California High North Coast Range,oak pit scale A. minus,693,62.37,0.009
+78,Klamath Mountains/California High North Coast Range,pandora moth,618,55.62,0.008
+78,Klamath Mountains/California High North Coast Range,satin moth,495,44.55,0.007
+78,Klamath Mountains/California High North Coast Range,root diseases/decay,453,40.77,0.006
+78,Klamath Mountains/California High North Coast Range,snow-ice,435,39.15,0.006
+78,Klamath Mountains/California High North Coast Range,hail,275,24.75,0.004
+78,Klamath Mountains/California High North Coast Range,Jeffrey pine beetle,253,22.77,0.003
+78,Klamath Mountains/California High North Coast Range,Pacific madrone decline,171,15.39,0.002
+78,Klamath Mountains/California High North Coast Range,winter injury,132,11.88,0.002
+78,Klamath Mountains/California High North Coast Range,pine needle sheathminer,97,8.73,0.001
+78,Klamath Mountains/California High North Coast Range,frost,92,8.28,0.001
+78,Klamath Mountains/California High North Coast Range,mortality,62,5.58,0.001
+78,Klamath Mountains/California High North Coast Range,flooding-high water,40,3.6,0.001
+78,Klamath Mountains/California High North Coast Range,spruce aphid,35,3.15,0.0
+78,Klamath Mountains/California High North Coast Range,no data,25,2.25,0.0
+78,Klamath Mountains/California High North Coast Range,mud-land slide,8,0.72,0.0

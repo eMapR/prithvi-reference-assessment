@@ -8,6 +8,7 @@ dependencies:
   - fiona
   - pyogrio
   - gdal
+  - rasterio
   - pandas
   - pyarrow
   - pyproj

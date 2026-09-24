@@ -1,0 +1,36 @@
+subregion,native_class,pixel_count,area_ha,spatial_prevalence_pct
+LEWI,Clearing,203495,18314.55,78.48
+LEWI,Windthrow Salvage,40886,3679.74,15.768
+LEWI,Tree Toppling,8782,790.38,3.387
+LEWI,Development,4396,395.64,1.695
+LEWI,Agricultural Clearing,1158,104.22,0.447
+LEWI,Coastal,453,40.77,0.175
+LEWI,Mass Movement,60,5.4,0.023
+LEWI,Progressive Defoliation,45,4.05,0.017
+LEWI,Wetland Restoration,21,1.89,0.008
+MORA,Fire,194203,17478.27,74.171
+MORA,Defoliation,56171,5055.39,21.453
+MORA,Riparian Change,8237,741.33,3.146
+MORA,Avalanche,1430,128.7,0.546
+MORA,Blowdown,1183,106.47,0.452
+MORA,Mass Movement,586,52.74,0.224
+MORA,Clearing,13,1.17,0.005
+MORA,Development,10,0.9,0.004
+NOCA,Fire,432329,38909.61,82.369
+NOCA,Defoliation,51487,4633.83,9.81
+NOCA,Avalanche,25056,2255.04,4.774
+NOCA,Mass Movement,8358,752.22,1.592
+NOCA,Riparian Change,6774,609.66,1.291
+NOCA,Clearing,1087,97.83,0.207
+NOCA,Blowdown,925,83.25,0.176
+NOCA,Development,238,21.42,0.045
+OLYM,Fire,44488,4003.92,52.72
+OLYM,Riparian Change,18043,1623.87,21.382
+OLYM,Avalanche,10045,904.05,11.904
+OLYM,Blowdown,7792,701.28,9.234
+OLYM,Mass Movement,3388,304.92,4.015
+OLYM,Defoliation,390,35.1,0.462
+OLYM,Ice Damage,115,10.35,0.136
+OLYM,Clearing,45,4.05,0.053
+OLYM,Development,40,3.6,0.047
+OLYM,Coastal Change,39,3.51,0.046

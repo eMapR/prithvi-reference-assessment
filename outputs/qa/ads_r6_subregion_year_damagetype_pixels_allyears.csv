@@ -1,0 +1,102 @@
+subregion,subregion_name,native_class,pixel_count,area_ha
+1,Coast Range,Branch Breakage,21957,1976.13
+1,Coast Range,Branch flagging,75674,6810.66
+1,Coast Range,Crown Dieback,193226,17390.34
+1,Coast Range,Crown Discoloration,992101,89289.09
+1,Coast Range,Defoliation,2262010,203580.9
+1,Coast Range,Defoliation 50-75% of leaves defoliated,8587896,772910.64
+1,Coast Range,Defoliation < 50% of leaves defoliated,28176,2535.84
+1,Coast Range,Defoliation > 75% of leaves defoliated,1772781,159550.29
+1,Coast Range,Main stem Broken or Uprooted,282481,25423.29
+1,Coast Range,Mortality,12738996,1146509.64
+1,Coast Range,No Data,80,7.2
+1,Coast Range,No damage,3490,314.1
+1,Coast Range,Other Damage,12864,1157.76
+1,Coast Range,Other Damage (known),238,21.42
+1,Coast Range,Topkill,43120,3880.8
+1,Coast Range,Unknown Damage,2563,230.67
+11,Blue Mountains,Branch Breakage,468,42.12
+11,Blue Mountains,Branch flagging,4265603,383904.27
+11,Blue Mountains,Crown Dieback,12410,1116.9
+11,Blue Mountains,Crown Discoloration,16448,1480.32
+11,Blue Mountains,Defoliation,6856948,617125.32
+11,Blue Mountains,Defoliation 50-75% of leaves defoliated,259901,23391.09
+11,Blue Mountains,Defoliation < 50% of leaves defoliated,147713,13294.17
+11,Blue Mountains,Defoliation > 75% of leaves defoliated,200492,18044.28
+11,Blue Mountains,Main stem Broken or Uprooted,1671,150.39
+11,Blue Mountains,Mortality,27834419,2505097.71
+11,Blue Mountains,No Data,25,2.25
+11,Blue Mountains,No damage,1221,109.89
+11,Blue Mountains,Other Damage,677999,61019.91
+11,Blue Mountains,Topkill,21462,1931.58
+11,Blue Mountains,Unknown Damage,12369,1113.21
+15,Northern Rockies,Branch flagging,82963,7466.67
+15,Northern Rockies,Crown Dieback,302215,27199.35
+15,Northern Rockies,Crown Discoloration,52092,4688.28
+15,Northern Rockies,Defoliation,5538718,498484.62
+15,Northern Rockies,Defoliation 50-75% of leaves defoliated,211215,19009.35
+15,Northern Rockies,Defoliation < 50% of leaves defoliated,52027,4682.43
+15,Northern Rockies,Defoliation > 75% of leaves defoliated,190691,17162.19
+15,Northern Rockies,Main stem Broken or Uprooted,18303,1647.27
+15,Northern Rockies,Mortality,12518572,1126671.48
+15,Northern Rockies,No Data,693,62.37
+15,Northern Rockies,No damage,2292,206.28
+15,Northern Rockies,Other Damage,307349,27661.41
+15,Northern Rockies,Topkill,234383,21094.47
+15,Northern Rockies,Unknown Damage,90894,8180.46
+4,Cascades,Branch Breakage,9908,891.72
+4,Cascades,Branch flagging,3462692,311642.28
+4,Cascades,Crown Dieback,78436,7059.24
+4,Cascades,Crown Discoloration,121576,10941.84
+4,Cascades,Defoliation,3213346,289201.14
+4,Cascades,Defoliation 50-75% of leaves defoliated,487259,43853.31
+4,Cascades,Defoliation < 50% of leaves defoliated,104475,9402.75
+4,Cascades,Defoliation > 75% of leaves defoliated,736726,66305.34
+4,Cascades,Main stem Broken or Uprooted,13471,1212.39
+4,Cascades,Mortality,22945379,2065084.11
+4,Cascades,No damage,8929,803.61
+4,Cascades,Other Damage,181517,16336.53
+4,Cascades,Other Damage (known),1387,124.83
+4,Cascades,Topkill,48348,4351.32
+4,Cascades,Unknown Damage,42855,3856.95
+77,North Cascades,Branch flagging,1177573,105981.57
+77,North Cascades,Crown Dieback,625771,56319.39
+77,North Cascades,Crown Discoloration,99170,8925.3
+77,North Cascades,Defoliation,11863029,1067672.61
+77,North Cascades,Defoliation 50-75% of leaves defoliated,838205,75438.45
+77,North Cascades,Defoliation < 50% of leaves defoliated,220471,19842.39
+77,North Cascades,Defoliation > 75% of leaves defoliated,525300,47277.0
+77,North Cascades,Main stem Broken or Uprooted,28531,2567.79
+77,North Cascades,Mortality,18471173,1662405.57
+77,North Cascades,No Data,419,37.71
+77,North Cascades,No damage,3506,315.54
+77,North Cascades,Other Damage,722927,65063.43
+77,North Cascades,Topkill,31133,2801.97
+77,North Cascades,Unknown Damage,141778,12760.02
+78,Klamath Mountains/California High North Coast Range,Branch flagging,322663,29039.67
+78,Klamath Mountains/California High North Coast Range,Crown Dieback,2558,230.22
+78,Klamath Mountains/California High North Coast Range,Crown Discoloration,11771,1059.39
+78,Klamath Mountains/California High North Coast Range,Defoliation,34623,3116.07
+78,Klamath Mountains/California High North Coast Range,Defoliation 50-75% of leaves defoliated,191214,17209.26
+78,Klamath Mountains/California High North Coast Range,Defoliation < 50% of leaves defoliated,20249,1822.41
+78,Klamath Mountains/California High North Coast Range,Defoliation > 75% of leaves defoliated,292570,26331.3
+78,Klamath Mountains/California High North Coast Range,Main stem Broken or Uprooted,1405,126.45
+78,Klamath Mountains/California High North Coast Range,Mortality,6953290,625796.1
+78,Klamath Mountains/California High North Coast Range,No damage,80,7.2
+78,Klamath Mountains/California High North Coast Range,Other Damage,14790,1331.1
+78,Klamath Mountains/California High North Coast Range,Topkill,12791,1151.19
+78,Klamath Mountains/California High North Coast Range,Unknown Damage,40959,3686.31
+9,Eastern Cascades Slopes and Foothills,Branch Breakage,13609,1224.81
+9,Eastern Cascades Slopes and Foothills,Branch flagging,391466,35231.94
+9,Eastern Cascades Slopes and Foothills,Crown Dieback,104907,9441.63
+9,Eastern Cascades Slopes and Foothills,Crown Discoloration,23665,2129.85
+9,Eastern Cascades Slopes and Foothills,Defoliation,10799752,971977.68
+9,Eastern Cascades Slopes and Foothills,Defoliation 50-75% of leaves defoliated,275785,24820.65
+9,Eastern Cascades Slopes and Foothills,Defoliation < 50% of leaves defoliated,164394,14795.46
+9,Eastern Cascades Slopes and Foothills,Defoliation > 75% of leaves defoliated,455579,41002.11
+9,Eastern Cascades Slopes and Foothills,Main stem Broken or Uprooted,3287,295.83
+9,Eastern Cascades Slopes and Foothills,Mortality,29427503,2648475.27
+9,Eastern Cascades Slopes and Foothills,No damage,2719,244.71
+9,Eastern Cascades Slopes and Foothills,Other Damage,398526,35867.34
+9,Eastern Cascades Slopes and Foothills,Topkill,42142,3792.78
+9,Eastern Cascades Slopes and Foothills,Unknown Damage,58902,5301.18
