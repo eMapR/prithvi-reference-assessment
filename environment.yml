@@ -9,6 +9,13 @@ dependencies:
   - pyogrio
   - gdal
   - pandas
+  - pyarrow
   - pyproj
   - matplotlib
+  - folium
+  - mapclassify
+  - jupyter
+  - nbformat
+  - nbconvert
+  - ipykernel
   - pip

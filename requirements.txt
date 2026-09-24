@@ -7,4 +7,11 @@ fiona
 pyogrio
 pandas
 pyproj
+pyarrow
 matplotlib
+folium
+mapclassify
+jupyter
+nbformat
+nbconvert
+ipykernel

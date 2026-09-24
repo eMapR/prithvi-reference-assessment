@@ -22,6 +22,24 @@ See `docs/DATA_STATUS.md` for the full table. Summary: NCCN (6 shapefiles, all i
 
 *(Unchanged from the first inspection pass — see below. Still accurate.)*
 
+### 2.0 Protocol history (source-provided, added 2026-09-23)
+
+The following is reproduced from NCCN, not paraphrased, and is now also in `notebooks/reference_data_assessment.ipynb` (NCCN §1) alongside a QA check against the processed data:
+
+> - NCCN developed the landscape-change protocol as part of NPS Vital Signs Monitoring.
+> - Initial implementations were NOCA (2012), MORA (2013), and OLYM (2014), using OSU/eMapR LandTrendr.
+> - The supplied dataset was generated from LandTrendr for 1987–2017.
+> - Disturbance pixels for each year were aggregated into patches using adjacency rules and a minimum mapping unit of 0.8 ha (2 acres).
+> - Those candidate disturbance patches were subsequently human reviewed and labeled.
+> - MORA and NOCA use eight change categories: Avalanche, Blowdown, Clearing, Defoliation, Development, Fire, Mass Movement, and Riparian Change.
+> - OLYM additionally includes Ice Damage and Coastal Change.
+
+This describes how the patches were generated and classified — it does **not** define the outer monitoring/study-area boundary (see §12.1 / the notebook's Section 7 for that separate, unresolved question; nothing about the boundary should be inferred from this description). **These are human-interpreted LandTrendr disturbance patches, not a wall-to-wall land-cover map** — absence of a patch is not evidence of confirmed no-change.
+
+This description covers MORA/NOCA/OLYM only (the "initial implementations," all current V2.1.1 schema). **LEWI is a separate dataset with its own earlier implementation and schema vintage, not covered by this description.**
+
+**QA check against the processed data** (`data/processed/nccn/nccn_standardized.parquet`): MORA, NOCA, and OLYM match exactly — year range 1987–2017 with zero rows outside it, and zero unexpected or missing classes relative to the two category lists above, for all three parks. LEWI's data (1985–2011) falls partly outside 1987–2017, as expected given it's a separate dataset — flagged, not silently reconciled.
+
 ### 2.1 Files present
 
 | File | Park | Years | Records | Schema family |
@@ -386,4 +404,133 @@ Still explicitly unresolved: how `Alt_type`/`Alt_agent` (NCCN), the multi-agent 
 3. Ask whether a full ADS R6 GDB (with points/surveyed-extent layers) exists, matching what R10 provided.
 4. Confirm with GLKN/Al whether the `agent_01` 30%-populated pattern reflects a systematic sampling design.
 5. Confirm with NCCN whether the V2.1.1 files supersede the V2B legacy files.
-6. Once one NCCN park + its boundary, or GLKN + a HUC12 boundary, are both in hand, build the single real end-to-end POC — with geometry repair (`make_valid()`) as an explicit step, given the invalidity rates found in both NCCN and GLKN.
+6. ~~Once one NCCN park + its boundary... are both in hand, build the single real end-to-end POC~~ — **done, see §12 below.**
+
+## 12. NCCN processing (Step 1 of the processing phase — preparation + QA only)
+
+Full detail, per-park numbers, and the exact standardization/repair rules are in `outputs/qa/nccn_processing_report.md`, produced by `src/process_nccn.py`. This section is a pointer + the headline results; do not duplicate the numbers here as they may drift — the QA report and the script are the source of truth.
+
+**Scope:** NCCN only (MORA, NOCA, OLYM current V2.1.1 + LEWI). GLKN and ADS were not touched. This step produced a geometry-repaired, standardized NCCN dataset and a matching 4-park NPS boundary dataset — it explicitly does **not** harmonize classes across sources or compute a final region×year×class summary table.
+
+**Geometry repair verdict:** clean and trustworthy. `make_valid()` applied to all four parks; total area change was floating-point noise (~10⁻⁷ m²) in every case, zero features collapsed into mixed-type geometry, zero empty results, zero individual features exceeded a 5% area-change threshold (12,630 features checked). No stop condition was triggered.
+
+**Boundary-relationship finding (the important one):** the NPS park boundary alone would exclude the large majority of NCCN's own reference data for 3 of 4 parks — **95.5% of MORA's, 89.6% of NOCA's, and 99.1% of LEWI's total attributed area falls outside the park boundary** (only OLYM is mostly inside, at 86.4%). This is a direct, measured confirmation of what §2.3 already documented from the certification forms (monitoring covers the park "and surrounding" USFS Wilderness/study area) — not a new surprise, but now quantified per park rather than described qualitatively. **This means the strict NPS park boundary should not be used as the sole NCCN summarization geography without an explicit decision about the excluded area** — see the QA report's Verdict section for the two options considered (broader documented study-area boundary, not yet acquired; vs. reporting inside/outside separately rather than discarding).
+
+**Outputs**: `data/processed/nccn/repaired/*.parquet`, `data/processed/nccn/nccn_standardized.parquet` (12,630 features), `data/processed/boundaries/nccn_park_boundaries.parquet` (4 features), plus 3 QA CSVs and the full markdown report under `outputs/qa/`. All paths current in `docs/DATA_MANIFEST.md`.
+
+### 12.1 Follow-up: does the reference-data footprint follow HUC watershed boundaries?
+
+Exploratory test, `src/nccn_huc_fit_test.py`, full report `outputs/qa/nccn_huc_fit_test.md`. Both a HUC10 selection (117 features) and, as of 2026-09-23, a HUC12 selection (469 features — arrived zipped, extracted into the same `Prithvi_NCCN/` folder as HUC10, original ZIP preserved) were compared against the standardized reference polygons per park, using the identical method at both resolutions so the results are directly comparable.
+
+**Result: no, at either resolution.** Despite the reference data being ~93–100% areally contained within the union of intersecting HUCs at both HUC10 and HUC12, the footprint's actual edge shows essentially zero alignment with HUC boundary lines — HUC10: 0.000–0.021; **HUC12: 0.001–0.021, i.e. no meaningful improvement over HUC10.** Going to four times the spatial resolution did not reveal a boundary pattern HUC10 was too coarse to show. High coverage was explicitly not treated as sufficient evidence, per the instruction that prompted this test — watersheds tile all land exhaustively, so near-total coverage of any compact area is close to inevitable regardless of how its true boundary was drawn. This is consistent with the certification-form evidence (§2.3) that the monitored extent is an administrative "Protected Areas" study area, not a hydrological one.
+
+**Nesting check** (new): each park's selected HUC12s' implied parent HUC10s (via the standard 10-digit-prefix convention) exactly match that park's independently-selected HUC10 set, for all four parks — the two HUC layers are internally consistent with each other, though this doesn't itself support the watershed hypothesis.
+
+**Possible artificial-selection effect** (cautious interpretation, not a measured fact): going from HUC10 to HUC12, the number of intersecting units roughly triples-to-quadruples per park (e.g. NOCA 27→106) while the aggregate fraction of the selected HUC area that's actually reference data stays low (1.2%–9.1% at HUC12, only modestly higher than HUC10's 0.9%–6.5%, an increase attributable to smaller unit size rather than better fit). This is consistent with, though not proof of, "select by intersection" tracking scattered disturbance locations rather than a real finer-grained boundary.
+
+**Data-quality flag**: NOCA's HUC12 coverage (93.13%) is measurably lower than its HUC10 coverage (99.86%) for the same reference data — unexpected, since HUC12s should tile all land as exhaustively as HUC10. Flagged as a possible gap in the HUC12 export for NOCA specifically, not a finding about the monitoring geography — see the QA report for detail, not resolved here.
+
+## 13. Suggested next small tasks (updated)
+
+**NCCN status (2026-09-23): blocked, waiting on Natasha for the original "Protected Areas" study-area boundary (§12.1/§12 Section 7.2 classification C/D). No further NCCN work planned until that's resolved.**
+
+1. Confirm whether `BugNet_R6_Regions`/`BugNet_R10_Regions` are the intended final ADS boundaries.
+2. Get GLKN HUC12 boundary polygons (geometry, not just the attribute — needed for any future GLKN HUC10-level map/summary; see §14.4).
+3. Ask whether a full ADS R6 GDB (with points/surveyed-extent layers) exists, matching what R10 provided.
+4. Confirm with GLKN/Al whether the `agent_01` 30%-populated pattern reflects a systematic sampling design (largely superseded by §14.1's confirmed-vs-rejected explanation, but still worth confirming operationally).
+5. Confirm with NCCN whether the V2.1.1 files supersede the V2B legacy files (still pending, independent of the Natasha boundary question).
+6. **Resolve the Isle Royale/Voyageurs non-standard HUC12 code scheme** (§14.4) before attempting any HUC10-based GLKN summary — currently excludes 99.9% of ISRO's confirmed disturbance data.
+
+## 14. GLKN processing (preparation + QA only)
+
+Full detail, per-park numbers, and exact standardization/repair rules are in `outputs/qa/glkn_processing_report.md`, produced by `src/process_glkn.py`. This section is a pointer + headline results — see the QA report for the source of truth, not this summary.
+
+**Scope:** GLKN only (all 7 parks). NCCN, ADS R6, ADS R10 not touched. Does not harmonize `change_class` with NCCN's vocabulary, does not compute a final region×year×class summary table, and deliberately does not collapse GLKN's native 9-agent vocabulary into the SLBE report's 6 presentation groups.
+
+### 14.1 Input re-verification (not assumed)
+
+Re-read the GLKN GDB fresh from `data/processed/glkn/LandTrendr.gdb` (a content-identical, `.gdb`-suffixed working copy of the raw file — see `docs/DATA_MANIFEST.md`) and checked every headline number against the prior inventory: total rows (177,153), `true`/`false` counts (53,665 / 123,488), and the 7-park set all matched exactly — no drift since the original inspection. **One real bug was caught in this process**: `change_occurred` is stored as the literal string `"true"`/`"false"`, not a Python boolean — an initial `== True` filter silently returned zero rows before being caught and fixed. A concrete example of why "verify, don't assume" matters even for code you just wrote.
+
+### 14.2 Geometry repair: clean, no stop condition
+
+Same `make_valid()` method as NCCN, applied to the 53,665 **confirmed** (`change_occurred=='true'`) polygons only. Pre-repair invalidity ranged from 0.27% (SLBE) to 4.43% (VOYA) — all ring self-intersections, all well below NCCN's worst rates (up to 80%). Area change after repair: 0.0% across all 7 parks (floating-point noise), zero empty geometries, zero features exceeding a 5% individual-area-change threshold. No stop condition triggered.
+
+### 14.3 Standardized product
+
+`data/processed/glkn/glkn_confirmed_standardized.parquet` — 53,665 features, standardized `source`/`source_dataset`/`source_feature_id` (`UNIQUE`, verified globally unique)/`park_code`/`year`/`change_class` (= native `agent_01`, unharmonized) fields added alongside every original attribute (agent 02/03 + percentages, start/end class fields, `HUC_12`, `uniqID`, ownership, etc.).
+
+### 14.4 HUC geography: a major, quantified gap
+
+**35.78% of confirmed disturbance area (31.58% of polygons) cannot be assigned to a standard-format HUC10**, derived from the first 10 digits of a standard 12-digit `HUC_12` value. This is overwhelmingly concentrated in one park: **99.9% of ISRO's own confirmed rows (16,023 of 16,042) use the non-standard Isle Royale code scheme (`2AA-01` style) and cannot be assigned a HUC10 at all** without separately resolving that scheme — no HUC10 was invented for them. VOYA is affected to a smaller degree (14.8% of its rows, via the Canada-adjacent portion of its footprint). **Practical implication: a naive HUC10-level GLKN summary would silently drop virtually all of Isle Royale's data** unless this is addressed first. Full per-polygon detail: `outputs/qa/glkn_huc10_unassigned.csv`.
+
+### 14.5 Step 6 QA answers (see `outputs/qa/glkn_processing_report.md` for full detail)
+
+- **1.43%** of confirmed rows (769 of 53,665) have more than one agent populated.
+- `uniqID` (not the row-level key) repeats: only 46,446 distinct values across 53,665 confirmed rows — **raw polygon counts overstate distinct physical patches by ~15.6%**. Per instruction, polygon counts are not called "event counts" anywhere in this documentation.
+- Only 2 of 53,665 confirmed rows share an exact duplicate geometry — negligible double-counting risk.
+- The MISS `false`-row `HUC_12` anomaly found in the earlier documentation cross-check **does not affect this product** — 0 of MISS's 4,623 confirmed rows have missing `HUC_12` (checked directly, not assumed).
+
+### 14.6 Not yet done (by design, per instruction)
+
+- No inside/outside-park-boundary analysis (NCCN's Step 5 equivalent) — `data/processed/boundaries/glkn_park_boundaries.parquet` (7 features) was produced for map context only.
+- No region×year×class summary table.
+- No cross-source class harmonization.
+
+### 14.7 Isle Royale / Voyageurs non-standard HUC codes — investigated, then paused (2026-09-23)
+
+Checked `GLKN_metadata.rtf`, the Kirschbaum SLBE report, and the GDB's `SCH_DATASET`/`SCH_RELEASE`/`SCH_UNIQUEID` tables (confirmed these are pure ESRI internal schema/version-tracking tables — `SCH_DATASET` is empty, `SCH_RELEASE` just records geodatabase version 1.0.0, `SCH_UNIQUEID` holds only null placeholder rows; no code definitions anywhere). None explain the non-standard codes.
+
+**One clean, decisive finding from existing project data (not spatial inference):** every non-standard-code confirmed row, in both ISRO (16,023/16,023) and VOYA (926/926), has `loc_02=='canada'` — a 100% correlation with zero exceptions in either direction; all standard-code rows are `loc_02=='usa'`. `owner_type1` on the non-standard rows is dominated by "Crown Land Unpatented/Patent" (Canadian land-tenure terminology). **This establishes *why* no standard code exists — the USGS Watershed Boundary Dataset (source of the standard 12-digit codes) does not cover Canadian territory — but not what the non-standard codes themselves specifically denote.**
+
+Investigation paused here per instruction, before completing spatial-coherence/hierarchy analysis or attempting to source a Canadian boundary/code dataset — reverse-engineering the exact code semantics is not worth further time right now.
+
+**FINAL ANALYSIS BOUNDARY PENDING: standard US HUC boundaries alone are insufficient for ISRO/VOYA, because attributed data for those two parks extend into Canada**, where no standard-format HUC code (and no HUC boundary geometry, US or Canadian, currently in this project) exists. Any future GLKN analysis-region work for ISRO/VOYA must account for this gap explicitly rather than silently excluding the Canadian portion.
+
+## 15. ADS Region 6 processing (simplified approach — ecoregions as landscape containers)
+
+Full detail: `outputs/qa/ads_r6_processing_report.md`, produced by `src/process_ads_r6.py`. Deliberately simpler than the NCCN/GLKN pipelines, per instruction: the existing `BugNet_R6` EPA ecoregion boundaries are used directly as candidate analysis regions (large, already-sensible landscape units), not reconstructed ADS analysis boundaries. **Accepted as-is (97.0% capture), not further optimized.** Goal: identify where useful concentrations of attributed change labels exist, not reproduce ADS's historical study design.
+
+**Primary metrics for ADS (post-review framing, applies to R6 and R10): polygon/record count, attributed area, attributed area by year, years represented, `DCA_CODE` composition, `DAMAGE_TYP` composition, spatial concentration.** Cumulative "fill fraction" (attributed area ÷ static region area) is kept as QA/context only — it can exceed 100% for reasons unrelated to data quality, since ADS spans many years and the same ground can legitimately be attributed in different years.
+
+**Step 1 — Region filter (re-verified):** `REGION_ID` value counts re-confirmed exactly as previously inventoried — 6: 911,911 (99.863%), 5: 1,157, 1: 97. Filtered to `REGION_ID==6` only.
+
+**Step 2 — Ecoregion dissolve:** 19 raw `BugNet_R6` features (state-fragmented) dissolve cleanly by `us_l3code` to **7 EPA Level III ecoregions** (Coast Range, Blue Mountains, Northern Rockies, Cascades, North Cascades, Klamath Mountains/California High North Coast Range, Eastern Cascades Slopes and Foothills).
+
+**Step 3:** light `make_valid()` pass — 53 of 911,911 invalid (0.0058%), all resolved. Not a full QA campaign (not requested, and the rate doesn't warrant one).
+
+**Step 4/5 — Overlay, with two things worth flagging explicitly:**
+1. **Performance**: a naive full-geometry intersection over 911,911 rows against the dissolved ecoregion union took >12 minutes and was killed; replaced with a prepared-geometry (`shapely.prepare()`) within/intersects short-circuit strategy — 316 seconds for the full pass, 57 seconds for a corrected per-ecoregion pass (see next point). Documented in the script for future reuse at this data scale.
+2. **A real bug caught and fixed**: an initial per-ecoregion area table (crediting each polygon's full area, or its area-within-the-whole-union, to its centroid-assigned ecoregion) produced fill fractions **above 100%** — geometrically impossible if computed correctly against one ecoregion's own area. Root cause: polygons straddling the boundary *between two individual ecoregions* (not the outer union boundary) were having their full area credited to just one. Fixed by intersecting each polygon against its own specifically-assigned ecoregion.
+
+**Result: 97.0% of ADS R6's total area is captured by the union of the 7 ecoregions**; 3.0% falls outside all of them. **Two ecoregions still legitimately exceed 100% fill fraction after the fix** (Eastern Cascades Slopes and Foothills: 117.6%; North Cascades: 109.1%) — verified, not a remaining bug: `SURVEY_YEA` spans 1997–2025 (up to 29 distinct years in one ecoregion), and the same ground can be re-attributed with damage in different years as genuinely separate records. The `DAMAGE_ARE` repeat rate there is only ~1.06× (not the driver); the 29-year cumulative span is. This is real multi-year richness, not double-counting.
+
+**Step 6 — Characterization**, native taxonomy preserved (no harmonization with NCCN/GLKN): causal-agent (`DCA_CODE`/`DCA_COMMON`) and damage-type (`DAMAGE_TYP`/`DAMAGE_T_1`) composition both vary meaningfully across the 7 ecoregions and across years — full tables in `outputs/qa/ads_r6_by_ecoregion_*.csv`.
+
+**Not done, by design:** no cross-source class harmonization, no reconstruction of ADS's historical analysis boundaries, no final reference-data summary statistics.
+
+## 16. ADS Region 10 processing (HUC6 basins as landscape containers)
+
+Full detail: `outputs/qa/ads_r10_processing_report.md`, produced by `src/process_ads_r10.py`. Same simplified approach as R6 (§15), applied to Alaska: the existing `BugNet_R10` HUC6 watershed boundaries are used directly as candidate analysis regions, not reconstructed ADS analysis boundaries. Source is the same national IDS database as R6, this time distributed as a zipped File Geodatabase (`AK_Region10_AllYears.gdb.zip`), extracted to a persistent working copy at `data/processed/ads_r10/AK_Region10_AllYears.gdb` (raw ZIP untouched, mirroring the GLKN `LandTrendr.gdb` precedent). The extraction also surfaced official USDA schema documentation, relocated to `docs/source_docs/ads/IDS_FlatFiles_Readme.pdf`, which confirmed the correct layer (`DAMAGE_AREAS_FLAT_AllYears_AK_Rgn10`) and explained the "pancake" (overlapping-observation) pattern referenced below.
+
+**Primary metrics follow the same post-review framing as R6 (§15): count, area, area-by-year, years, `DCA_CODE`/`DAMAGE_TYPE` composition, spatial concentration — fill fraction is QA/context only, applied here from the start rather than corrected after the fact.**
+
+**Step 1 — Load and verify:** 151,309 features, CRS EPSG:3338. `REGION_ID` is 100% ==10 — no filter step needed (unlike R6's 1,254 stray records). Years: 1997–2025 (29 distinct, matching R6 exactly). Pancake QA: 6,949 rows flagged `OBSERVATION_COUNT=='MULTIPLE'`; 147,821 distinct `DAMAGE_AREA_ID` footprints vs. 151,309 total rows (3,488 "extra" rows) — confirmed as legitimate distinct co-located observations per the official readme, not duplicates. Note: this GDB export has no `OBJECTID` column; `DAMAGE_AREA_ID` is used as the row identifier throughout (an initial script draft assumed `OBJECTID` existed and failed — caught and fixed by direct column inspection).
+
+**Step 2 — HUC6 regions:** 20 raw `BugNet_R10_Regions` features, already one row per HUC6 — **no dissolve needed** (unlike R6's state-fragmented ecoregions). Several basins span Alaska and Canada (Yukon/Tanana/Copper watersheds); not investigated further, consistent with the instruction not to chase boundary reconstruction.
+
+**Step 3:** light `make_valid()` pass — 101 of 151,309 invalid (0.0668%), all resolved.
+
+**Step 4/5 — Overlay:** same prepared-geometry performance pattern as R6, with the per-own-HUC6 area-assignment fix applied from the start (not re-derived). **Result: 90.549% of ADS R10's total area is captured by the union of the 20 HUC6 regions** — lower than R6's 97.0%, with a larger uncaptured share (9.451%, ~7,300 records with zero attributed area inside any region). Reported as-is, not investigated further, per instruction. **No HUC6 exceeds 100% fill fraction** (max: Kenai Peninsula, 31.4%) — unlike R6, where two ecoregions legitimately exceeded 100%; consistent with HUC6 basins being larger watershed-scale units than R6's ecoregions relative to attributed-damage density here.
+
+**Step 6 — Characterization**, native taxonomy preserved (no harmonization with NCCN/GLKN/ADS R6): causal-agent (`DCA_CODE`/`DCA_COMMON_NAME`) and damage-type composition vary strongly across the 20 HUC6 basins, with a clear geographic split — bark beetles (spruce beetle, etc.) dominate the southern/coastal HUC6s (Kenai Peninsula, Susitna River, Copper River), while defoliators/leafminers (aspen leafminer, willow leaf blotchminer, birch leafroller) dominate the northern/interior HUC6s (Tanana River, Porcupine River, Beaver Creek). Full tables in `outputs/qa/ads_r10_by_huc6_*.csv`.
+
+**Not done, by design:** no cross-source class harmonization, no reconstruction of ADS's historical analysis boundaries, no final reference-data summary statistics.
+
+## 17. Suggested next small tasks (updated 2026-09-23)
+
+1. ~~Review ADS R6 findings (§15) before deciding on ADS R10.~~ — **done; R10 complete, see §16.**
+2. Look more closely at the 3.0% of ADS R6 area (§15) and 9.45% of ADS R10 area (§16) falling outside their respective candidate regions before treating any one region's numbers as complete.
+3. GLKN per-park HUC-based analysis boundaries remain deferred (§14.7) — not blocking.
+4. NCCN remains blocked on Natasha for the "Protected Areas" boundary (§13) — no further NCCN work planned.
+5. Confirm whether `BugNet_R6_Regions`/`BugNet_R10_Regions` are the intended final ADS boundaries — now more load-bearing given both are in active use.
+6. **Next major step (per instruction): zoom out and review NCCN + GLKN + ADS R6 + ADS R10 together to decide what cross-source tables/figures are needed for the Objective 1 assessment.** No further source-specific investigation until that review happens.
