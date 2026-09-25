@@ -33,6 +33,7 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import FancyArrowPatch, Rectangle, Polygon, FancyBboxPatch
 
 from rasterize_common import REPO_ROOT, PROCESSED, QA_DIR
+from qa_aoi_constrained_pixel_comparison import load_nccn_aois, load_glkn_aois
 
 OUT = REPO_ROOT / "outputs" / "report" / "assets"
 OUT.mkdir(parents=True, exist_ok=True)
@@ -131,14 +132,18 @@ def export_nccn():
     n1.to_csv(OUT / "nccn_a2_dataset_summary.csv", index=False)
     print("wrote nccn_a2_dataset_summary.csv")
 
+    nccn_aois = load_nccn_aois(nccn.crs)
+
     fig, axes = plt.subplots(1, 4, figsize=(16, 4.5))
     for ax, park in zip(axes, PARKS):
         sub = nccn[nccn["park_code"] == park]
         sub.plot(ax=ax, color="#4575b4", edgecolor="none", alpha=0.6)
+        gpd.GeoSeries([nccn_aois[park]], crs=nccn.crs).plot(
+            ax=ax, facecolor="none", edgecolor="#333333", linewidth=0.9, linestyle="--")
         ax.set_title(f"{park} (n={len(sub):,})", fontsize=9)
         ax.set_aspect("equal")
         ax.set_xticks([]); ax.set_yticks([])
-    fig.suptitle("NCCN attributed change polygons, per park (full dataset, no boundary overlay)")
+    fig.suptitle("NCCN attributed change polygons, per park, with authoritative analysis AOI outline")
     fig.tight_layout()
     fig.savefig(OUT / "nccn_a6_polygons_by_park_map.png", dpi=140, bbox_inches="tight")
     plt.close(fig)
@@ -183,15 +188,19 @@ def export_glkn():
     g1.to_csv(OUT / "glkn_a2_dataset_summary.csv", index=False)
     print("wrote glkn_a2_dataset_summary.csv")
 
+    glkn_aois = load_glkn_aois(glkn.crs)
+
     fig, axes = plt.subplots(2, 4, figsize=(16, 8))
     for ax, park in zip(axes.flat, GLKN_PARKS):
         sub = glkn[glkn["park_code"] == park]
         sub.plot(ax=ax, color="#4575b4", edgecolor="none", alpha=0.6)
+        gpd.GeoSeries([glkn_aois[park]], crs=glkn.crs).plot(
+            ax=ax, facecolor="none", edgecolor="#333333", linewidth=0.9, linestyle="--")
         ax.set_title(f"{park} (n={len(sub):,})", fontsize=9)
         ax.set_aspect("equal")
         ax.set_xticks([]); ax.set_yticks([])
     axes.flat[-1].axis("off")
-    fig.suptitle("GLKN confirmed disturbance polygons, per park (full dataset, no boundary overlay)")
+    fig.suptitle("GLKN confirmed disturbance polygons, per park, with authoritative analysis AOI outline")
     fig.tight_layout()
     fig.savefig(OUT / "glkn_a6_polygons_by_park_map.png", dpi=140, bbox_inches="tight")
     plt.close(fig)

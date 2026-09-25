@@ -114,7 +114,7 @@ The MORA difference is primarily associated with the 2017 fire attribution. The 
 
 ![Figure 1. NCCN attributed landscape-change polygons by subregion](figures/figure1_nccn_polygons_by_subregion.png)
 
-**Figure 1. NCCN attributed landscape-change polygons by subregion.** Full attributed dataset per park (MORA, NOCA, OLYM, LEWI), shown without boundary overlay.
+**Figure 1. NCCN attributed landscape-change polygons by subregion.** Full attributed dataset per park (MORA, NOCA, OLYM, LEWI). The dashed outline is each subregion's authoritative analysis AOI (Table 2), not a park administrative boundary; attributed polygons are not clipped to it and may extend outside, most visibly for MORA (88.2% of attributed area within the AOI; see Section 3.2).
 
 **Table 2. NCCN authoritative study areas and reference-data containment**
 
@@ -185,7 +185,7 @@ As with NCCN, the analysis-area boundaries are used here to document the geograp
 
 ![Figure 4. GLKN confirmed disturbance polygons by subregion](figures/figure4_glkn_polygons_by_subregion.png)
 
-**Figure 4. GLKN confirmed disturbance polygons by subregion.** Full confirmed-disturbance dataset per park, shown without boundary overlay.
+**Figure 4. GLKN confirmed disturbance polygons by subregion.** Full confirmed-disturbance dataset per park. The dashed outline is each subregion's authoritative LandTrendr analysis AOI (Table 4), not a park administrative boundary; attributed polygons are not clipped to it. Containment is essentially complete for all seven parks (100.0%, or 99.99% for ISRO; see Section 4.2), so little to no attributed area falls outside the outline shown.
 
 **Table 4. GLKN LandTrendr analysis areas and reference-data containment**
 
