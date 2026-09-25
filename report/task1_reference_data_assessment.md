@@ -76,6 +76,8 @@ Native-class distributions are summarized using spatial prevalence. For a given 
 
 Because multiple valid attributions can occur at the same location and time, class prevalence percentages are not constrained to sum to 100%. This is particularly relevant for ADS, where overlapping observations are part of the source-data structure, and for GLKN when secondary and tertiary attributed agents are considered.
 
+The spatial-prevalence heatmaps in this report distinguish two cases that can otherwise look identical at a glance. A blank cell indicates that no 30 m reference-grid pixels were assigned to that class after rasterization; this does not necessarily mean the class was absent from the original vector data. A displayed value of 0 indicates that one or more reference-grid pixels were assigned to the class, but its spatial prevalence is small enough to round to 0% at the displayed precision.
+
 ### 2.5 Native attribution systems and interpretation
 
 The assessment preserves the attribution terminology supplied by each source. NCCN is characterized using its native landscape-change classes. GLKN uses the primary attributed change agent for the principal assessment while retaining secondary and tertiary agents as additional attribution information. ADS Regions 6 and 10 are characterized primarily using Damage Causal Agent (DCA) information, with Damage Type retained as a complementary, broader description of observed damage.
@@ -133,7 +135,7 @@ These differences also reflect the distinct attribution vocabularies and histori
 
 ![Figure 2. Spatial prevalence of native NCCN change classes by subregion](figures/figure2_nccn_prevalence_heatmap.png)
 
-**Figure 2. Spatial prevalence of native NCCN change classes by subregion.** All years combined; percentages are not constrained to sum to 100% (Section 2.4).
+**Figure 2. Spatial prevalence of native NCCN change classes by subregion.** All years combined; percentages are not constrained to sum to 100% (Section 2.4). Blank cells indicate that no 30 m reference-grid pixels were assigned to that class after rasterization; this does not necessarily mean the class was absent from the original vector data. A displayed value of 0 indicates that one or more reference-grid pixels were assigned to the class, but its spatial prevalence is small enough to round to 0% at the displayed precision.
 
 ### 3.4 Temporal distribution
 
@@ -209,7 +211,7 @@ The observed data contain 10 primary-agent values. Nine correspond to the contro
 
 ![Figure 5. Spatial prevalence of primary GLKN change agents by subregion](figures/figure5_glkn_prevalence_heatmap.png)
 
-**Figure 5. Spatial prevalence of primary GLKN change agents by subregion.** All years combined, primary (agent_01) view; percentages are not constrained to sum to 100% (Section 2.4).
+**Figure 5. Spatial prevalence of primary GLKN change agents by subregion.** All years combined, primary (agent_01) view; percentages are not constrained to sum to 100% (Section 2.4). Blank cells indicate that no 30 m reference-grid pixels were assigned to that class after rasterization; this does not necessarily mean the class was absent from the original vector data. A displayed value of 0 indicates that one or more reference-grid pixels were assigned to the class, but its spatial prevalence is small enough to round to 0% at the displayed precision.
 
 ### 4.4 Temporal distribution
 
@@ -283,7 +285,7 @@ These patterns illustrate that the Region 6 reference dataset contains substanti
 
 ![Figure 8. Spatial prevalence of ADS Region 6 Damage Causal Agents by ecoregion](figures/figure8_r6_dca_prevalence_heatmap.png)
 
-**Figure 8. Spatial prevalence of ADS Region 6 Damage Causal Agents by ecoregion.** All years combined, top 20 of 91 DCA classes shown for legibility; percentages are not constrained to sum to 100% (Section 2.4).
+**Figure 8. Spatial prevalence of ADS Region 6 Damage Causal Agents by ecoregion.** All years combined, top 20 of 91 DCA classes shown for legibility; percentages are not constrained to sum to 100% (Section 2.4). Blank cells indicate that no 30 m reference-grid pixels were assigned to that class after rasterization; this does not necessarily mean the class was absent from the original vector data. A displayed value of 0 indicates that one or more reference-grid pixels were assigned to the class, but its spatial prevalence is small enough to round to 0% at the displayed precision.
 
 ### 5.4 Temporal distribution
 
@@ -363,7 +365,7 @@ Less prevalent agents at the Region 10 scale can nevertheless be important local
 
 ![Figure 12. Spatial prevalence of ADS Region 10 Damage Causal Agents by HUC6](figures/figure12_r10_dca_prevalence_heatmap.png)
 
-**Figure 12. Spatial prevalence of ADS Region 10 Damage Causal Agents by HUC6.** All years combined, top 20 of 67 DCA classes shown for legibility; percentages are not constrained to sum to 100% (Section 2.4).
+**Figure 12. Spatial prevalence of ADS Region 10 Damage Causal Agents by HUC6.** All years combined, top 20 of 67 DCA classes shown for legibility; percentages are not constrained to sum to 100% (Section 2.4). Blank cells indicate that no 30 m reference-grid pixels were assigned to that class after rasterization; this does not necessarily mean the class was absent from the original vector data. A displayed value of 0 indicates that one or more reference-grid pixels were assigned to the class, but its spatial prevalence is small enough to round to 0% at the displayed precision.
 
 The source data contain 68 distinct named DCA classes. The quantitative HUC6 assessment contains 67 because the two source polygons attributed to Rhizosphaera needle disease of fir fall entirely outside the 20 project subregions. The source also contains 71 numeric DCA codes; three of those differences reflect historical code changes for otherwise equivalent named agents. The named DCA attribution, rather than the numeric code alone, is therefore used to characterize the native taxonomy in this assessment.
 
