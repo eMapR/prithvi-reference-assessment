@@ -56,10 +56,6 @@ These study areas are distinct from the attributed change data themselves. Study
 
 Similarly, areas within a study boundary that do not contain an attributed polygon were not assumed to represent stable or unchanged conditions. Absence of an attribution in these datasets is not, by itself, evidence of no change.
 
-![Figure 1. Reference-data assessment framework](figures/figure1_reference_data_assessment_framework.png)
-
-**Figure 1. Reference-data assessment framework.** Authoritative study areas provide geographic context, while published attributed polygons provide change labels. Attributed geometries are characterized on a project-defined 30 m reference grid by subregion, year, and native attribution class. Study-area boundaries are not used to clip published labels, and unlabeled portions of a study area are not interpreted as no-change observations.
-
 ### 2.3 30 m reference-grid characterization
 
 Published attributed polygons were converted to a consistent 30 m reference grid to provide a common spatial unit for quantitative characterization. A pixel was assigned an attribution when its center fell within the corresponding polygon (all_touched=False). Grid alignment was anchored deterministically to 30 m multiples of the native coordinate-system origin so that repeated processing of a source produces the same pixel alignment.
@@ -114,9 +110,9 @@ The authoritative study-area boundaries show close correspondence with the publi
 
 The MORA difference is primarily associated with the 2017 fire attribution. The source methodology documents that these fire patches were intentionally retained beyond the nominal study-area boundary. Clipping the reference data to the Protected Areas boundary would remove approximately 14% of MORA's Fire-class reference pixels and nearly 12% of its total attributed pixel-years. The complete published fire geometries were therefore retained in this assessment, consistent with the treatment of authoritative study areas as geographic context rather than label boundaries.
 
-![Figure 2. NCCN attributed landscape-change polygons by subregion](figures/figure2_nccn_polygons_by_subregion.png)
+![Figure 1. NCCN attributed landscape-change polygons by subregion](figures/figure1_nccn_polygons_by_subregion.png)
 
-**Figure 2. NCCN attributed landscape-change polygons by subregion.** Full attributed dataset per park (MORA, NOCA, OLYM, LEWI), shown without boundary overlay.
+**Figure 1. NCCN attributed landscape-change polygons by subregion.** Full attributed dataset per park (MORA, NOCA, OLYM, LEWI), shown without boundary overlay.
 
 **Table 2. NCCN authoritative study areas and reference-data containment**
 
@@ -135,9 +131,9 @@ OLYM contains a more varied mixture of attributed processes. Fire remains the la
 
 These differences also reflect the distinct attribution vocabularies and histories of the source datasets. Although 16 native classes occur across NCCN as a whole, most are relatively uncommon, and individual parks generally contain only a small number of classes representing substantial portions of their attributed reference information.
 
-![Figure 3. Spatial prevalence of native NCCN change classes by subregion](figures/figure3_nccn_prevalence_heatmap.png)
+![Figure 2. Spatial prevalence of native NCCN change classes by subregion](figures/figure2_nccn_prevalence_heatmap.png)
 
-**Figure 3. Spatial prevalence of native NCCN change classes by subregion.** All years combined; percentages are not constrained to sum to 100% (Section 2.4).
+**Figure 2. Spatial prevalence of native NCCN change classes by subregion.** All years combined; percentages are not constrained to sum to 100% (Section 2.4).
 
 ### 3.4 Temporal distribution
 
@@ -145,9 +141,9 @@ NCCN reference information is also unevenly distributed through time. In MORA an
 
 LEWI shows a different temporal pattern. Clearing remains comparatively persistent across its 1985–2011 record rather than being concentrated in a small number of event years. These temporal differences are important because aggregate class prevalence alone can obscure whether reference information represents recurring change processes or a small number of large events.
 
-![Figure 4. Temporal distribution of native NCCN change classes by subregion](figures/figure4_nccn_temporal_distribution.png)
+![Figure 3. Temporal distribution of native NCCN change classes by subregion](figures/figure3_nccn_temporal_distribution.png)
 
-**Figure 4. Temporal distribution of native NCCN change classes by subregion.** Each panel shows that subregion's own top 3 classes (unioned across parks) plus an "Other" category; stacked bar height is a magnitude view, not a composition metric.
+**Figure 3. Temporal distribution of native NCCN change classes by subregion.** Each panel shows that subregion's own top 3 classes (unioned across parks) plus an "Other" category; stacked bar height is a magnitude view, not a composition metric.
 
 ### 3.5 Considerations for downstream use
 
@@ -185,9 +181,9 @@ Agreement between the analysis areas and the published reference data is essenti
 
 As with NCCN, the analysis-area boundaries are used here to document the geographic context of the source data rather than to redefine the published labels. The complete attributed geometries are retained for the quantitative assessment.
 
-![Figure 5. GLKN confirmed disturbance polygons by subregion](figures/figure5_glkn_polygons_by_subregion.png)
+![Figure 4. GLKN confirmed disturbance polygons by subregion](figures/figure4_glkn_polygons_by_subregion.png)
 
-**Figure 5. GLKN confirmed disturbance polygons by subregion.** Full confirmed-disturbance dataset per park, shown without boundary overlay.
+**Figure 4. GLKN confirmed disturbance polygons by subregion.** Full confirmed-disturbance dataset per park, shown without boundary overlay.
 
 **Table 4. GLKN LandTrendr analysis areas and reference-data containment**
 
@@ -211,9 +207,9 @@ Development dominates the two remaining parks, accounting for approximately 77% 
 
 The observed data contain 10 primary-agent values. Nine correspond to the controlled vocabulary documented in GLKN's source metadata; a tenth, flooding, occurs as a primary attribution in 55 confirmed records. Because flooding occurs directly in the source data and was not introduced during processing, it is retained as a native class in this assessment.
 
-![Figure 6. Spatial prevalence of primary GLKN change agents by subregion](figures/figure6_glkn_prevalence_heatmap.png)
+![Figure 5. Spatial prevalence of primary GLKN change agents by subregion](figures/figure5_glkn_prevalence_heatmap.png)
 
-**Figure 6. Spatial prevalence of primary GLKN change agents by subregion.** All years combined, primary (agent_01) view; percentages are not constrained to sum to 100% (Section 2.4).
+**Figure 5. Spatial prevalence of primary GLKN change agents by subregion.** All years combined, primary (agent_01) view; percentages are not constrained to sum to 100% (Section 2.4).
 
 ### 4.4 Temporal distribution
 
@@ -221,9 +217,9 @@ The temporal composition of GLKN reference information also differs among parks.
 
 These patterns demonstrate that the overall agent distributions summarize reference information that is not uniformly distributed through time. Both the dominant process and the amount of attributed information available for a particular process can vary substantially by park and year.
 
-![Figure 7. Temporal distribution of primary GLKN change agents by subregion](figures/figure7_glkn_temporal_distribution.png)
+![Figure 6. Temporal distribution of primary GLKN change agents by subregion](figures/figure6_glkn_temporal_distribution.png)
 
-**Figure 7. Temporal distribution of primary GLKN change agents by subregion.** Each panel shows that park's own top 3 agents (unioned across parks) plus an "Other" category; stacked bar height is a magnitude view, not a composition metric.
+**Figure 6. Temporal distribution of primary GLKN change agents by subregion.** Each panel shows that park's own top 3 agents (unioned across parks) plus an "Other" category; stacked bar height is a magnitude view, not a composition metric.
 
 ### 4.5 Primary and additional attributed agents
 
@@ -271,9 +267,9 @@ Approximately 97.0% of the attributed area in the Region 6 source data intersect
 
 Because ADS observations recur annually, cumulative attributed area should not be interpreted as unique physical area affected over the full record. The same location may legitimately be mapped in multiple years, and cumulative attributed pixel-years can consequently exceed the physical area of an ecoregion.
 
-![Figure 8. ADS Region 6 observations and project analysis subregions](figures/figure8_r6_ecoregion_map.png)
+![Figure 7. ADS Region 6 observations and project analysis subregions](figures/figure7_r6_ecoregion_map.png)
 
-**Figure 8. ADS Region 6 observations and project analysis subregions.** The seven dissolved EPA Level III ecoregions used as Task 1 analysis subregions.
+**Figure 7. ADS Region 6 observations and project analysis subregions.** The seven dissolved EPA Level III ecoregions used as Task 1 analysis subregions.
 
 ### 5.3 Damage Causal Agent distribution
 
@@ -285,9 +281,9 @@ Other agents are strongly associated with particular portions of the Region 6 as
 
 These patterns illustrate that the Region 6 reference dataset contains substantial geographic structure in both the amount and type of attributed forest damage.
 
-![Figure 9. Spatial prevalence of ADS Region 6 Damage Causal Agents by ecoregion](figures/figure9_r6_dca_prevalence_heatmap.png)
+![Figure 8. Spatial prevalence of ADS Region 6 Damage Causal Agents by ecoregion](figures/figure8_r6_dca_prevalence_heatmap.png)
 
-**Figure 9. Spatial prevalence of ADS Region 6 Damage Causal Agents by ecoregion.** All years combined, top 20 of 91 DCA classes shown for legibility; percentages are not constrained to sum to 100% (Section 2.4).
+**Figure 8. Spatial prevalence of ADS Region 6 Damage Causal Agents by ecoregion.** All years combined, top 20 of 91 DCA classes shown for legibility; percentages are not constrained to sum to 100% (Section 2.4).
 
 ### 5.4 Temporal distribution
 
@@ -295,9 +291,9 @@ The amount and composition of ADS Region 6 reference information vary considerab
 
 Individual causal agents also show temporally concentrated patterns. For example, mountain pine beetle becomes substantially more prevalent in the Eastern Cascades Slopes and Foothills and Cascades during the early 2020s relative to its longer-term representation. As with the other reference sources, all-years summaries therefore combine disturbance information that may be concentrated within particular multi-year episodes.
 
-![Figure 10. Temporal distribution of ADS Region 6 Damage Causal Agents](figures/figure10_r6_dca_temporal_distribution.png)
+![Figure 9. Temporal distribution of ADS Region 6 Damage Causal Agents](figures/figure9_r6_dca_temporal_distribution.png)
 
-**Figure 10. Temporal distribution of ADS Region 6 Damage Causal Agents.** Each panel shows that ecoregion's own top 3 DCA classes (unioned across ecoregions) plus an "Other" category; stacked bar height is a magnitude view, not a composition metric.
+**Figure 9. Temporal distribution of ADS Region 6 Damage Causal Agents.** Each panel shows that ecoregion's own top 3 DCA classes (unioned across ecoregions) plus an "Other" category; stacked bar height is a magnitude view, not a composition metric.
 
 ### 5.5 Damage Type as a complementary attribution
 
@@ -305,9 +301,9 @@ ADS also records Damage Type, a broader description of the observed effect on ve
 
 Mortality is the dominant Damage Type across the Region 6 dataset. Compared with DCA, the Damage Type distribution is less differentiated geographically and provides a coarser characterization of the available reference information. For this reason, DCA is used as the primary taxonomy for the Task 1 quantitative summaries, while Damage Type is retained as an additional source attribute that may be useful in subsequent model design.
 
-![Figure 11. Spatial prevalence of ADS Region 6 Damage Types by ecoregion](figures/figure11_r6_damagetype_prevalence.png)
+![Figure 10. Spatial prevalence of ADS Region 6 Damage Types by ecoregion](figures/figure10_r6_damagetype_prevalence.png)
 
-**Figure 11. Overall spatial prevalence of ADS Region 6 Damage Types.** All 7 ecoregions combined; secondary taxonomy, complementary to DCA.
+**Figure 10. Overall spatial prevalence of ADS Region 6 Damage Types.** All 7 ecoregions combined; secondary taxonomy, complementary to DCA.
 
 ### 5.6 Overlapping observations and rasterization
 
@@ -353,9 +349,9 @@ Approximately 90.5% of the attributed area in the Region 10 source data intersec
 
 As with Region 6, repeated annual observations mean that cumulative attributed pixel-years represent reference information through both space and time rather than unique physical area affected at least once.
 
-![Figure 12. ADS Region 10 observations and HUC6 project analysis subregions](figures/figure12_r10_huc6_map.png)
+![Figure 11. ADS Region 10 observations and HUC6 project analysis subregions](figures/figure11_r10_huc6_map.png)
 
-**Figure 12. ADS Region 10 observations and HUC6 project analysis subregions.** The 20 HUC6 watershed basins used as Task 1 analysis subregions.
+**Figure 11. ADS Region 10 observations and HUC6 project analysis subregions.** The 20 HUC6 watershed basins used as Task 1 analysis subregions.
 
 ### 6.3 Damage Causal Agent distribution
 
@@ -365,9 +361,9 @@ The dominant agents differ substantially across Alaska. Aspen leafminer is parti
 
 Less prevalent agents at the Region 10 scale can nevertheless be important locally. Larch sawfly accounts for more than half of attributed pixel-years in the Upper Kuskokwim River basin despite ranking well below the leading agents dataset-wide. Birch leafroller similarly represents a substantial portion of attributed reference information in the Outlet Yukon River and Lower Kuskokwim River basins while contributing relatively little to the Region 10 total. These patterns illustrate the importance of retaining geographic context when evaluating the availability of reference information.
 
-![Figure 13. Spatial prevalence of ADS Region 10 Damage Causal Agents by HUC6](figures/figure13_r10_dca_prevalence_heatmap.png)
+![Figure 12. Spatial prevalence of ADS Region 10 Damage Causal Agents by HUC6](figures/figure12_r10_dca_prevalence_heatmap.png)
 
-**Figure 13. Spatial prevalence of ADS Region 10 Damage Causal Agents by HUC6.** All years combined, top 20 of 67 DCA classes shown for legibility; percentages are not constrained to sum to 100% (Section 2.4).
+**Figure 12. Spatial prevalence of ADS Region 10 Damage Causal Agents by HUC6.** All years combined, top 20 of 67 DCA classes shown for legibility; percentages are not constrained to sum to 100% (Section 2.4).
 
 The source data contain 68 distinct named DCA classes. The quantitative HUC6 assessment contains 67 because the two source polygons attributed to Rhizosphaera needle disease of fir fall entirely outside the 20 project subregions. The source also contains 71 numeric DCA codes; three of those differences reflect historical code changes for otherwise equivalent named agents. The named DCA attribution, rather than the numeric code alone, is therefore used to characterize the native taxonomy in this assessment.
 
@@ -379,9 +375,9 @@ To summarize these patterns legibly across all 20 HUC6 basins, the report figure
 
 The figure is intentionally a simplified view of the temporal data. Secondary and co-occurring agents are not shown, and the dominant class displayed for a basin should not be interpreted as its only attributed change agent. Full multi-class temporal distributions are retained in the supporting analysis.
 
-![Figure 14. Temporal prevalence of the dominant DCA class within each ADS Region 10 HUC6 basin](figures/figure14_r10_dominant_class_temporal_heatmap.png)
+![Figure 13. Temporal prevalence of the dominant DCA class within each ADS Region 10 HUC6 basin](figures/figure13_r10_dominant_class_temporal_heatmap.png)
 
-**Figure 14. Temporal prevalence of the dominant DCA class within each ADS Region 10 HUC6 basin.** Each row shows ONLY that basin's own single most-prevalent DCA class (named at left); secondary and co-occurring classes are not shown in this figure. The full multi-class breakdown for each basin is retained in the supporting notebook.
+**Figure 13. Temporal prevalence of the dominant DCA class within each ADS Region 10 HUC6 basin.** Each row shows ONLY that basin's own single most-prevalent DCA class (named at left); secondary and co-occurring classes are not shown in this figure. The full multi-class breakdown for each basin is retained in the supporting notebook.
 
 ### 6.5 Damage Type as a complementary attribution
 
@@ -389,9 +385,9 @@ Region 10 contains 13 Damage Type classes. Unlike Region 6, where mortality domi
 
 This broader pattern is consistent with the prevalence of several defoliating insect agents in the DCA data. Damage Type therefore provides a useful complementary description of the observed effect, while DCA remains the primary taxonomy used to characterize causal attribution.
 
-![Figure 15. Spatial prevalence of ADS Region 10 Damage Types by HUC6](figures/figure15_r10_damagetype_prevalence.png)
+![Figure 14. Spatial prevalence of ADS Region 10 Damage Types by HUC6](figures/figure14_r10_damagetype_prevalence.png)
 
-**Figure 15. Overall spatial prevalence of ADS Region 10 Damage Types.** All 20 HUC6 basins combined; secondary taxonomy, complementary to DCA.
+**Figure 14. Overall spatial prevalence of ADS Region 10 Damage Types.** All 20 HUC6 basins combined; secondary taxonomy, complementary to DCA.
 
 ### 6.6 Overlapping observations and rasterization
 
