@@ -25,9 +25,6 @@ Principal Task 1 products:
 | [`notebooks/reference_data_assessment.ipynb`](notebooks/reference_data_assessment.ipynb) | Detailed, reproducible analysis (the analytical source of truth) |
 | [`outputs/qa/`](outputs/qa/) | Source-specific quantitative summaries and QA products underlying the report |
 
-A DOCX build of the report has intentionally been removed while the report
-content is under revision; it is not a current deliverable.
-
 ## What was assessed
 
 Four existing reference-data sources, each kept in its own native
