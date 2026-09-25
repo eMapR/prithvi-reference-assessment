@@ -440,6 +440,37 @@ def export_cross_source():
     print("wrote cross_source_summary_table.csv")
 
 
+def export_multilabel_comparison():
+    """Same-year multi-label attributed-pixel rate by source/view.
+
+    Computed directly from the authoritative *_multilabel_qa.csv files
+    (attributed_pixels, multi_label_pixels per subregion x year), not
+    hardcoded -- overall rate = sum(multi_label_pixels) / sum(attributed_pixels)
+    across all subregions/years. ADS uses the DCA view (the report's primary
+    ADS taxonomy), not Damage Type.
+    """
+    specs = [
+        ("NCCN", QA_DIR / "nccn_multilabel_qa.csv"),
+        ("GLKN (primary, agent_01)", QA_DIR / "glkn_multilabel_qa_primary.csv"),
+        ("GLKN (all agents, 01+02+03)", QA_DIR / "glkn_multilabel_qa_allagents.csv"),
+        ("ADS R6 (DCA)", QA_DIR / "ads_r6_subregion_year_dca_multilabel_qa.csv"),
+        ("ADS R10 (DCA)", QA_DIR / "ads_r10_subregion_year_dca_multilabel_qa.csv"),
+    ]
+    rates = {}
+    for label, path in specs:
+        df = pd.read_csv(path)
+        attributed = df["attributed_pixels"].sum()
+        multi = df["multi_label_pixels"].sum()
+        rates[label] = 100 * multi / attributed
+    series = pd.Series(rates)
+    series.to_csv(OUT / "cross_source_multilabel_pct.csv", header=["same_year_multilabel_pct"])
+    print("wrote cross_source_multilabel_pct.csv")
+
+    bar(series, "Same-year multi-label attributed pixels (%)",
+        "Same-year multi-label attribution rate by source / attribution view",
+        "cross_source_multilabel_bar.png", figsize=(8, 4))
+
+
 def export_methods_figure():
     """Hand-built schematic, not derived from notebook data. See docstring."""
     fig, ax = plt.subplots(figsize=(14, 15.5))
@@ -542,6 +573,7 @@ def main():
     export_ads_r6()
     export_ads_r10()
     export_cross_source()
+    export_multilabel_comparison()
     export_methods_figure()
     print(f"\nAll report assets written to {OUT}")
 

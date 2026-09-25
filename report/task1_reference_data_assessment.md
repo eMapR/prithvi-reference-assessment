@@ -497,6 +497,10 @@ This heterogeneity is important for subsequent model development because the com
 
 The sources also differ in the extent to which multiple labels can occur at the same location and time. Same-year multi-label attribution is uncommon in NCCN and in GLKN's primary-agent representation but occurs more frequently when additional GLKN agents are retained and is an inherent feature of the ADS observation structure. Region 6 has the highest multi-label rate among the four assessments, while Region 10 contains a smaller but still meaningful amount of overlapping attribution.
 
+![Figure 15. Same-year multi-label attribution rate by source and attribution view](figures/figure15_cross_source_multilabel.png)
+
+**Figure 15. Same-year multi-label attribution rate by source and attribution view.** Percentage of same-year attributed 30 m reference-grid pixels assigned more than one native-class label. Multiple native attributions are retained rather than forced into a single class, so these rates describe source attribution structure rather than error. GLKN primary (agent_01) is single-label by construction; the all-agents view additionally includes secondary and tertiary agents (Section 4.5). ADS values use DCA, the primary ADS taxonomy used in this assessment.
+
 These differences reinforce the decision not to force the reference information into mutually exclusive classes during Task 1. Independent class rasterization preserves the attribution structure of the source datasets and allows later modeling decisions to determine whether multi-label observations should be retained, simplified, or excluded for a particular experiment.
 
 The 30 m reference grid similarly provides a consistent basis for characterizing the source information without defining the final imagery or model sampling framework. Small source geometries can be omitted under pixel-center rasterization, particularly in ADS, and alignment with HLS and the eventual Prithvi chip framework remains a subsequent modeling decision.
