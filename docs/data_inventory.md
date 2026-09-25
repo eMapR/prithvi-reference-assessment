@@ -360,7 +360,7 @@ No intersections or regional summaries were run — this was inspection and iden
 ## 7. Missing / ambiguous — needs a decision, not a guess
 
 - Whether NCCN's V2.1.1 supersedes V2B for NOCA/OLYM (strong signal yes; unconfirmed).
-- Which NCCN study-area definition (park boundary vs. broader "Protected Areas" area) is the intended summarization unit.
+- Which NCCN study-area definition (park boundary vs. broader "Protected Areas" area) is the intended summarization unit. **Update 2026-09-24: both candidate AOIs are now in hand and assessed — see §18. Still an open decision, not yet resolved.**
 - LEWI's `Star_2km`; why V2.1.1 dropped `Model` from `Event_type`.
 - Whether the 30%-populated GLKN `agent_01` (vs. 70% explicit no-change) reflects a systematic sampling design (e.g., a fixed grid of candidate points, only some of which changed) — worth confirming with Al, since it changes how "reference data availability" should be interpreted for GLKN specifically.
 - Whether `BugNet_R6_Regions`/`BugNet_R10_Regions` are in fact the intended final ADS analysis regions, or provisional/example files — not documented in the ZIP itself.
@@ -432,7 +432,7 @@ Exploratory test, `src/nccn_huc_fit_test.py`, full report `outputs/qa/nccn_huc_f
 
 ## 13. Suggested next small tasks (updated)
 
-**NCCN status (2026-09-23): blocked, waiting on Natasha for the original "Protected Areas" study-area boundary (§12.1/§12 Section 7.2 classification C/D). No further NCCN work planned until that's resolved.**
+**NCCN status (2026-09-23): blocked, waiting on Natasha for the original "Protected Areas" study-area boundary (§12.1/§12 Section 7.2 classification C/D). No further NCCN work planned until that's resolved.** **Update 2026-09-24: received — see §18.** Still not adopted as the analysis subregion pending a decision.
 
 1. Confirm whether `BugNet_R6_Regions`/`BugNet_R10_Regions` are the intended final ADS boundaries.
 2. Get GLKN HUC12 boundary polygons (geometry, not just the attribute — needed for any future GLKN HUC10-level map/summary; see §14.4).
@@ -484,7 +484,7 @@ Checked `GLKN_metadata.rtf`, the Kirschbaum SLBE report, and the GDB's `SCH_DATA
 
 Investigation paused here per instruction, before completing spatial-coherence/hierarchy analysis or attempting to source a Canadian boundary/code dataset — reverse-engineering the exact code semantics is not worth further time right now.
 
-**FINAL ANALYSIS BOUNDARY PENDING: standard US HUC boundaries alone are insufficient for ISRO/VOYA, because attributed data for those two parks extend into Canada**, where no standard-format HUC code (and no HUC boundary geometry, US or Canadian, currently in this project) exists. Any future GLKN analysis-region work for ISRO/VOYA must account for this gap explicitly rather than silently excluding the Canadian portion.
+**FINAL ANALYSIS BOUNDARY PENDING: standard US HUC boundaries alone are insufficient for ISRO/VOYA, because attributed data for those two parks extend into Canada**, where no standard-format HUC code (and no HUC boundary geometry, US or Canadian, currently in this project) exists. Any future GLKN analysis-region work for ISRO/VOYA must account for this gap explicitly rather than silently excluding the Canadian portion. **Update 2026-09-24: the newly-received `GLKN_LandTrendr_AOIs` per-park AOI (§18) contains 99.99%/100% of ISRO's and VOYA's existing attributed area respectively**, including their Canadian-portion records — this AOI appears to already have been drawn to include whatever generated the non-standard-HUC rows, without requiring us to source or reconstruct a Canadian boundary ourselves. **Decided 2026-09-24 (§18.4): documented as study-area context, not adopted as a pixel-clipping boundary** — `park_code` remains the subregion identity and Task 1's pixel counts are not AOI-constrained.
 
 ## 15. ADS Region 6 processing (simplified approach — ecoregions as landscape containers)
 
@@ -526,11 +526,98 @@ Full detail: `outputs/qa/ads_r10_processing_report.md`, produced by `src/process
 
 **Not done, by design:** no cross-source class harmonization, no reconstruction of ADS's historical analysis boundaries, no final reference-data summary statistics.
 
+### 16.1 Native DCA class-count reconciliation (2026-09-24) — 71 vs. 68 vs. 67
+
+While preparing polished-report assets, three different "how many native DCA classes does R10 have" numbers turned up across different parts of this project. Reconciled directly from the files, not assumed:
+
+- **71** = `r10["DCA_CODE"].nunique()` on the raw vector data. `DCA_CODE` is the internal numeric code field — **not** the taxonomy field this project reports as `native_class` anywhere else. Checking `(DCA_CODE, DCA_COMMON_NAME)` pairs shows a clean 1:1 mapping except 3 name values that each have 2 codes (`large-spored spruce-Labrador tea rust`: 25013/26017; `spruce broom rust`: 27001/26029; `yellow-cedar decline`: 24001/29001) — almost certainly a mid-survey code renumbering for the same real causal agent, not 3 genuinely distinct classes. **71 should not be used as "the number of native classes" anywhere.**
+- **68** = `r10["DCA_COMMON_NAME"].nunique()` on the raw vector data. `DCA_COMMON_NAME` is the correct taxonomy field (matches what `native_class` is built from throughout `src/rasterize_ads_r10.py` and `src/build_pixel_summary_tables.py`). This is the real diversity of the *source* dataset.
+- **67** = `ads_r10_dca_subregion_class_summary.csv["native_class"].nunique()` — the rasterized, subregion-assigned Part B universe (what the B.4/B.5 figures already say, e.g. "top 20 of 67 DCA codes"). One class, **"Rhizosphaera needle disease of fir"** (exactly 2 polygons, `huc6_code` null for both — i.e. entirely outside all 20 HUC6 subregions, confirmed **not** a small-polygon pixel-dropout case since both polygons are 5.2 km² and 9.0 km², far above the dropout-check threshold), never appears in any subregion and so has zero rows in the subregion-level summary.
+
+**Which number belongs where:** 68 (`DCA_COMMON_NAME`) is correct when characterizing the raw source dataset's native diversity (Part A). 67 is correct when describing what's actually characterized in this report's quantitative (rasterized, per-subregion) assessment (Part B) — and for report-wide consistency, the compact A.2-style summary table also reports 67, so a reader never sees two different "native class count" numbers for the same source. See `src/export_report_assets.py` for the reconciliation code (asserted at export time, not hand-typed).
+
 ## 17. Suggested next small tasks (updated 2026-09-23)
 
 1. ~~Review ADS R6 findings (§15) before deciding on ADS R10.~~ — **done; R10 complete, see §16.**
 2. Look more closely at the 3.0% of ADS R6 area (§15) and 9.45% of ADS R10 area (§16) falling outside their respective candidate regions before treating any one region's numbers as complete.
 3. GLKN per-park HUC-based analysis boundaries remain deferred (§14.7) — not blocking.
-4. NCCN remains blocked on Natasha for the "Protected Areas" boundary (§13) — no further NCCN work planned.
+4. NCCN remains blocked on Natasha for the "Protected Areas" boundary (§13) — **received and assessed 2026-09-24, see §18.**
 5. Confirm whether `BugNet_R6_Regions`/`BugNet_R10_Regions` are the intended final ADS boundaries — now more load-bearing given both are in active use.
-6. **Next major step (per instruction): zoom out and review NCCN + GLKN + ADS R6 + ADS R10 together to decide what cross-source tables/figures are needed for the Objective 1 assessment.** No further source-specific investigation until that review happens.
+6. **Next major step (per instruction): zoom out and review NCCN + GLKN + ADS R6 + ADS R10 together to decide what cross-source tables/figures are needed for the Objective 1 assessment.** No further source-specific investigation until that review happens. *(This was subsequently completed — see the Objective 1 Task 1 reference-data assessment report, `notebooks/reference_data_assessment.ipynb`.)*
+7. **Decide whether to adopt either NCCN AOI generation or the GLKN LandTrendr AOI as the analysis subregion definition** (§18) — assessed but explicitly not yet decided; Objective 1 Task 1's report currently still uses `park_code` for both NCCN and GLKN.
+
+## 18. Natasha's NCCN study-area AOIs + GLKN LandTrendr AOI — received and assessed (2026-09-24)
+
+Two independent authoritative-boundary gaps that were open throughout §12-§14 (NCCN: no agreed containing boundary for every park; GLKN: HUC boundaries investigated but rejected, no boundary geometry for the Canadian portion of ISRO/VOYA) are both addressed by new data received this session. **This section is characterization only — no subregion definition, rasterization, or pixel-summary methodology has been changed as a result.** Full containment numbers: `outputs/qa/nccn_natasha_aoi_containment_qa.csv`, `outputs/qa/glkn_landtrendr_aoi_containment_qa.csv` (produced by `src/qa_new_aoi_containment.py`).
+
+### 18.1 NCCN — two study-area generations, both supplied
+
+Natasha Antonova (`CREATED_BY`/`SOURCE` attributes confirm authorship) supplied both generations of NCCN's original study-area boundary, matching the two-era history already documented in §2.0:
+
+- **Original analysis (1985-2009/10/11): 10-mile buffer.** `LPa01_LEWI_MORA_NOCA_OLYM.shp`, one dissolved polygon per park (LEWI split into north/south units, `PARK_CODE`/`FULL_NAME`/`AREA_SQKM`/`SOURCE`/`CREATED_BY`/`DATE_AOA` fields, "NCCN Landscape Dynamics Monitoring Protocol" as source). Areas are 3-40x each park's core NPS unit size, consistent with a ~10-mile (16.1 km) buffer around park boundaries (LEWI's small, scattered historic-site units show the largest multiple, as expected).
+- **Later analysis (1987-2017): "Protected Areas."** `{MORA,NOCA,OLYM}_USFS_NPS_StudyArea.shp` — parcel-level (24-55 features per park), attributed by `Agency`/`Owner`/`Manager` (National Park Service, U.S. Forest Service, and for NOCA also British Columbia and "National Recreation Area" parcels, reflecting the North Cascades complex's Ross Lake/Lake Chelan NRAs and Canadian border). **No LEWI file exists in this set**, consistent with Natasha's description that the later, narrower extent excluded areas NPS did not intend to track private-property change on — LEWI's small, scattered, non-wilderness-adjacent units apparently never received a "Protected Areas" study-area redefinition.
+
+**Which generation our currently-used reference data corresponds to (confirmed from `source_dataset`, not assumed):** MORA/NOCA/OLYM's currently-used files are the `*_1987_2017_V2_1_1_UTM` vintage (later/"Protected Areas" generation); **LEWI's currently-used file is `LEWI_1985_2011_Report_UTM` — the original/10-mile-buffer generation**, matching the absence of a LEWI Protected Areas file. LEWI is on a different generation than the other three parks, not an oversight — the raw data itself has no later-vintage LEWI file to use instead (§2.1/§7).
+
+**Containment (`outputs/qa/nccn_natasha_aoi_containment_qa.csv`):**
+
+| Park | Attributed area (ha) | % area in LPa01 (10-mi buffer) | % area in Protected Areas |
+|---|---|---|---|
+| MORA | 23,549.5 | 99.54% | 88.22% |
+| NOCA | 48,536.2 | 88.24% | 98.12% |
+| OLYM | 7,923.3 | 100.00% | 97.81% |
+| LEWI | 23,360.4 | 99.94% | n/a (no file) |
+
+Polygon-count intersection is 100% for every park against both AOIs except NOCA-vs-LPa01 (91.74%). MORA and OLYM fit their generation's AOI closely (area-in-matching-AOI ≥97.8%, with the small remainder plausibly attributable to the 2017-fire patches the documentation says are "deliberately not clipped to the study area," §2.3/§data_inventory.md line 74). **NOCA is the one anomaly**: its area-in-LPa01 (88.24%) is measurably *lower* than its area-in-Protected-Areas (98.12%) — i.e. the narrower, later-era boundary contains NOCA's data better than the wider, earlier-era buffer does. **Resolved in §18.3**: this is a cross-generation comparison artifact (476 of 518 non-contained polygons are genuinely, not just marginally, outside LPa01 by up to 13.5 km) caused by NOCA's Protected Areas AOI being only 96.34% nested inside its LPa01 AOI (vs. 100% for MORA/OLYM) — not a data-quality problem, and it disappears when NOCA V2.1.1 is checked only against its own proper-generation AOI.
+
+Both AOI shapefiles have one ring-self-intersection geometry each (NOCA's "Glacier Peak Wilderness" USFS Wilderness parcel; trivially fixed with `buffer(0)` for the containment check, raw file itself untouched).
+
+### 18.2 GLKN — LandTrendr per-park analysis-area AOI
+
+`GLKN_LandTrendr_AOIs.shp`: 9 features (`park`, `Shape_Leng`, `Shape_Area`, `acres`), one per GLKN network unit — the 7 `park_code` values already used in this project (APIS, INDU, ISRO, MISS, SACN, SLBE, VOYA), plus **PIRO (Pictured Rocks National Lakeshore) and GRPO (Grand Portage National Monument)**, which have no reference disturbance data in `glkn_confirmed_standardized.parquet` (i.e. GLKN monitors 9 units; our reference dataset only has confirmed disturbance rows for 7 of them). Areas are 1.9-330x each park's core NPS unit size — this is not a park-boundary layer.
+
+**This is confirmed authoritative, not inferred from area alone.** The shapefile's embedded FGDC/Esri lineage records its build history directly: individual `{PARK}_LandTrendr_analysis_area` shapefiles created/appended 2011 (APIS) through 2022 (SACN), progressively merged into `LandTrendr_analysis_areas_by_park`, exported to the delivered file 2026-04-22. This is literally the AOI the GLKN LandTrendr change-detection analysis was run within per park — i.e., the boundary that generated the reference disturbance dataset in the first place, not a boundary being tested as a candidate summarization unit after the fact.
+
+**Containment (`outputs/qa/glkn_landtrendr_aoi_containment_qa.csv`): 99.99-100% of existing attributed area and 100% of polygon count falls inside the matching park's AOI, for all 7 parks with reference data** — including ISRO (99.99% area) and VOYA (100% area), the two parks whose non-standard-HUC-code Canadian-portion records (§14.7) could not be assigned any HUC boundary at all. This AOI appears to already encompass whatever generated those Canadian-portion rows, without our needing to source or reconstruct a Canadian boundary dataset ourselves. One ring-self-intersection (ISRO's 588-part multipolygon) was trivially fixed with `buffer(0)` for the check; raw file untouched. `apis`/`sacn` touch at a shared vertex (0 area); `miss`/`sacn` have a small (~140 ha) real overlap — negligible relative to either park's total attributed area, not investigated further.
+
+### 18.3 Verified per-dataset generation mapping (2026-09-24 follow-up)
+
+Natasha's expected mapping (MORA/NOCA/OLYM V2.1.1 -> Protected Areas; LEWI's older dataset -> the original 10-mile-buffer AOI) was **verified directly from the files, not assumed** — `src/qa_nccn_aoi_generation_mapping.py`, `outputs/qa/nccn_aoi_generation_mapping_qa.csv` (per-dataset summary) and `outputs/qa/nccn_aoi_generation_mapping_outside_polygons.csv` (every not-fully-contained polygon, with a corrected metric — see caveat below).
+
+**Confirmed correct for all 4 currently-used Task 1 datasets**, each checked only against its own proper-generation AOI:
+
+| Dataset (source_dataset) | Park | Years | Generation | Proper AOI | % area in AOI | % count in AOI | Polygons not fully within | ...with a genuinely-outside centroid |
+|---|---|---|---|---|---|---|---|---|
+| `MORA_1987_2017_V2_1_1_UTM` | MORA | 1987-2017 | later (Protected Areas) | MORA Protected Areas | 88.22% | 100.00% | 145 | **0** |
+| `NOCA_1987_2017_V2_1_1_UTM` | NOCA | 1987-2017 | later (Protected Areas) | NOCA Protected Areas | 98.12% | 100.00% | 223 | **1** (4.2 m) |
+| `OLYM_1987_2017_V2_1_1_UTM` | OLYM | 1987-2017 | later (Protected Areas) | OLYM Protected Areas | 97.81% | 100.00% | 73 | **0** |
+| `LEWI_1985_2011_Report_UTM` | LEWI | 1985-2011 | original (10-mi buffer) | LPa01 (LEWI N+S union) | 99.94% | 100.00% | 120 | **1** (19.4 m) |
+
+Every "not fully within" polygon above is a **boundary-straddling event polygon** (a fire, defoliation, or riparian-change patch whose footprint legitimately crosses a parcel/buffer edge — dominant `change_class` values are Defoliation/Fire/Riparian Change/Clearing, exactly the classes expected not to respect ownership boundaries), not evidence of a wrong-generation pairing: centroids sit inside the AOI in 900 of 902 cases, and the 2 exceptions are 4.2 m and 19.4 m outside — floating-point/digitizing-precision scale, not real displacement.
+
+**The NOCA anomaly is resolved, and disappears once the proper generation pairing is used.** The earlier (§18.1) cross-generation check — comparing NOCA V2.1.1 against the *wrong*-generation LPa01 AOI — showed only 88.24% area containment with **476 of 518 non-contained polygons having a genuinely-outside centroid, up to 13.5 km away**: a real, substantial mismatch, not a rounding artifact. That mismatch vanishes (down to the single 4.2 m case above) once NOCA V2.1.1 is checked against its own proper AOI (Protected Areas, 98.12% area, 1 negligible outlier). Root cause: Protected Areas is only 96.34% geometrically nested inside LPa01 for NOCA specifically (100% nested for MORA and OLYM) — North Cascades' more spatially complex protected-lands footprint (Ross Lake/Lake Chelan NRA parcels, adjacency to the Canadian border) extends beyond the 2013-drawn 10-mile buffer in places that MORA's and OLYM's simpler, more compact footprints don't. The anomaly was a cross-generation comparison artifact, not a NCCN data-quality problem.
+
+**Where the superseded V2B/V2B-2 legacy datasets fit** (loaded directly from `data/raw/nccn/`, excluded from Task 1 per instruction): checked against both AOIs for confirmation —
+
+| Dataset | Years | % area in LPa01 (proper) | % area in Protected Areas (wrong) | Genuinely-outside centroids vs. Protected Areas |
+|---|---|---|---|---|
+| `NOCA_1985_2009_V2B_UTM` | 1985-2009 | **100.00%** | 35.17% | 6,508 of 9,980 (up to 39.1 km) |
+| `OLYM_1985_2010_V2B_UTM` | 1985-2010 | **100.00%** | 2.78% | 20,877 of 22,553 (up to 29.0 km) |
+
+Both legacy files fit their proper (original/10-mile-buffer) generation at essentially 100% area with zero genuine outliers, and are overwhelmingly, genuinely outside Protected Areas — an unambiguous confirmation that V2B/V2B-2 belong to the original generation, not the one MORA/NOCA/OLYM's current V2.1.1 files use. This corroborates the V2.1.1-supersedes-V2B hypothesis from §7/§12 from a completely independent angle (AOI generation, not just file-naming/date evidence) and reconfirms they should stay excluded from Task 1's quantitative results.
+
+**Caveat on method:** an initial pass used Hausdorff distance between each polygon's outside-portion and the AOI as a "how far outside" metric, and produced spurious tens-of-km values for polygons a direct centroid check confirmed were 0 m outside — a GEOS artifact on the difference() of complex multi-part (24-55 parcel) unioned geometries, not a real excursion. The corrected metric (used throughout this section) is centroid-distance-to-AOI plus % of each polygon's own area outside; see the docstring in `src/qa_nccn_aoi_generation_mapping.py` for detail. Don't reintroduce a Hausdorff-based distance for this kind of check without re-verifying against a direct centroid spot check first.
+
+### 18.4 What is and isn't resolved
+
+**Resolved (verified from the actual files, not assumed):**
+- What generation each currently-used NCCN reference dataset belongs to, and which AOI it should be checked against — confirmed exactly as Natasha described (§18.3).
+- Whether the GLKN LandTrendr AOI is genuinely authoritative (yes, confirmed by embedded lineage) and whether it represents all 7 in-use `park_code` values (yes) plus 2 more with no reference data (PIRO, GRPO).
+- Whether NCCN/GLKN attributed polygons fall well inside their respective new, PROPERLY-PAIRED AOIs (yes: 88-100% area for NCCN's 4 current datasets, each against its own generation; 99.99-100% for GLKN).
+- The NOCA LPa01-vs-Protected-Areas anomaly — resolved; it was a cross-generation comparison artifact (§18.3), not a data problem, and disappears under proper pairing.
+- Where the superseded V2B/V2B-2 datasets fit (original generation, confirmed independently via AOI containment) — correctly excluded from Task 1.
+- **Whether to AOI-clip Task 1's pixel counts — decided 2026-09-24: no.** Before deciding, the methodological choice was quantified: an AOI-constrained rasterization (same grid, same pixel-center rule, `src/qa_aoi_constrained_pixel_comparison.py`) was compared against the existing source-assigned counts for every NCCN/GLKN subregion (`outputs/qa/nccn_glkn_aoi_constraint_comparison_subregion.csv`, `..._class.csv`). GLKN is negligible either way (≤0.01% at the subregion level). NCCN's one meaningful case, MORA (-11.79% attributed pixel-years if AOI-clipped), is dominated by a single, already-documented, deliberate exception (the 2017 fire event, -14.4% of MORA's Fire-class pixels specifically) that NCCN's own methodology intentionally did not clip to the study boundary. **Decision: Task 1 retains the complete published attributed-polygon geometry for both sources; the AOIs are documented as study-area/provenance context (notebook Part B.1, Appendix A.6/B.6), not used to constrain pixel membership.** Each AOI's own 30 m reference-grid pixel count/area is also now documented (`outputs/qa/nccn_glkn_aoi_total_pixel_counts.csv`) as a study-area denominator for context only — it is not used as the spatial-prevalence denominator, and unlabeled AOI pixels are not interpreted as no-change.
+- Whether adopting either boundary would change any Part B (30 m reference-grid) rasterization, spatial-prevalence, or pixel-summary result currently in the Objective 1 Task 1 report — **tested and decided against**: see the AOI-clipping comparison above. The existing spatial-prevalence calculation (annual: unique attributed pixels; all-years: attributed pixel-years) is unchanged.
+
+**Not resolved / explicitly out of scope:**
+- No cross-source class harmonization, no diversity scoring, no subregion ranking or focal-area selection — unaffected by this AOI work, per standing instruction.

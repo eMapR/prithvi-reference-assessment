@@ -1,0 +1,7 @@
+dataset,park,feature_count,total_area_ha,year_range,pct_area_in_lpa01_10mi_buffer,pct_count_in_lpa01_10mi_buffer,n_outside_lpa01_10mi_buffer,n_centroid_outside_lpa01_10mi_buffer,max_centroid_dist_outside_m_lpa01_10mi_buffer,max_pct_own_area_outside_lpa01_10mi_buffer,pct_area_in_protected_areas,pct_count_in_protected_areas,n_outside_protected_areas,n_centroid_outside_protected_areas,max_centroid_dist_outside_m_protected_areas,max_pct_own_area_outside_protected_areas,generation,used_in_task1
+MORA_1987_2017_V2_1_1_UTM,MORA,2234,23549.5,1987-2017,99.54,100.0,26,0,0.0,50.5,88.22,100.0,145.0,0.0,0.0,65.6,later (Protected Areas),True
+NOCA_1987_2017_V2_1_1_UTM,NOCA,5547,48536.2,1987-2017,88.24,91.74,518,476,13493.8,100.0,98.12,100.0,223.0,1.0,4.2,69.6,later (Protected Areas),True
+OLYM_1987_2017_V2_1_1_UTM,OLYM,2043,7923.3,1987-2017,100.0,100.0,3,0,0.0,0.0,97.81,100.0,73.0,0.0,0.0,67.1,later (Protected Areas),True
+LEWI_1985_2011_Report_UTM,LEWI,2806,23360.4,1985-2011,99.94,100.0,120,1,19.4,23.5,,,,,,,original (10-mi buffer),True
+"NOCA_1985_2009_V2B_UTM (legacy, superseded)",NOCA,9980,59314.8,1985-2009,100.0,100.0,103,0,0.0,0.1,35.17,35.34,6590.0,6508.0,39060.8,100.0,original (10-mi buffer) -- legacy vintage,False
+"OLYM_1985_2010_V2B_UTM (legacy, superseded)",OLYM,22553,159479.1,1985-2010,100.0,100.0,35,0,0.0,4.9,2.78,8.34,20916.0,20877.0,28979.1,100.0,original (10-mi buffer) -- legacy vintage,False

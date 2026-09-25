@@ -1,0 +1,8 @@
+source,primary_taxonomy,subregions,subregion_type,years,native_classes,attributed_pixel_years,derived_area_ha,multi_label_pct
+NCCN,change_class,4,park_code,1985-2017,16,1130380,101734.2,0.12
+"GLKN (primary, agent_01)",agent_01,7,park_code,1990-2021,10,4077926,367013.3,0.0
+"GLKN (all agents, 01+02+03)",agent_01/02/03,7,park_code,1990-2021,10,4077926,367013.3,1.66
+ADS R6 (DCA),DCA_CODE,7,dissolved EPA L3 ecoregion,1997-2025,91,196383063,17674475.7,8.21
+ADS R6 (Damage Type),DAMAGE_TYP,7,dissolved EPA L3 ecoregion,1997-2025,16,196383063,17674475.7,3.43
+ADS R10 (DCA),DCA_COMMON_NAME,20,HUC6 basin,1997-2025,67,95700410,8613036.9,1.98
+ADS R10 (Damage Type),DAMAGE_TYPE,20,HUC6 basin,1997-2025,13,95700410,8613036.9,2.54

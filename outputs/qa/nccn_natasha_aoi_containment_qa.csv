@@ -1,0 +1,5 @@
+park,total_count,total_area_ha,pct_area_in_lpa01_10mi_buffer,pct_count_intersect_lpa01_10mi_buffer,pct_area_in_protected_areas,pct_count_intersect_protected_areas
+MORA,2234,23549.5,99.54,100.0,88.22,100.0
+NOCA,5547,48536.2,88.24,91.74,98.12,100.0
+OLYM,2043,7923.3,100.0,100.0,97.81,100.0
+LEWI,2806,23360.4,99.94,100.0,,

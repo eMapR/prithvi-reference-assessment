@@ -1,0 +1,5 @@
+park,dataset,generation,authoritative_aoi,aoi_pixel_count,aoi_area_ha,pct_attributed_area_in_aoi
+MORA,MORA_1987_2017_V2_1_1_UTM,later (Protected Areas),MORA Protected Areas,2005862,180527.6,88.22
+NOCA,NOCA_1987_2017_V2_1_1_UTM,later (Protected Areas),NOCA Protected Areas,7159382,644344.4,98.12
+OLYM,OLYM_1987_2017_V2_1_1_UTM,later (Protected Areas),OLYM Protected Areas,4487910,403911.9,97.81
+LEWI,LEWI_1985_2011_Report_UTM,original (10-mi buffer),LPa01 LEWI (N+S union),787250,70852.5,99.94

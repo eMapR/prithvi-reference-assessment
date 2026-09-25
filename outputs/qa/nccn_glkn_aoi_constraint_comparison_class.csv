@@ -1,0 +1,93 @@
+source,subregion,native_class,existing_pixel_count,aoi_constrained_pixel_count,abs_diff,pct_diff
+NCCN,LEWI,Agricultural Clearing,1158,1158,0,0.0
+NCCN,LEWI,Clearing,203495,203395,-100,-0.049
+NCCN,LEWI,Coastal,453,429,-24,-5.298
+NCCN,LEWI,Development,4396,4396,0,0.0
+NCCN,LEWI,Mass Movement,60,60,0,0.0
+NCCN,LEWI,Progressive Defoliation,45,45,0,0.0
+NCCN,LEWI,Tree Toppling,8782,8778,-4,-0.046
+NCCN,LEWI,Wetland Restoration,21,21,0,0.0
+NCCN,LEWI,Windthrow Salvage,40886,40864,-22,-0.054
+NCCN,MORA,Avalanche,1430,1422,-8,-0.559
+NCCN,MORA,Blowdown,1183,1180,-3,-0.254
+NCCN,MORA,Clearing,13,13,0,0.0
+NCCN,MORA,Defoliation,56171,53377,-2794,-4.974
+NCCN,MORA,Development,10,10,0,0.0
+NCCN,MORA,Fire,194203,166250,-27953,-14.394
+NCCN,MORA,Mass Movement,586,586,0,0.0
+NCCN,MORA,Riparian Change,8237,8127,-110,-1.335
+NCCN,NOCA,Avalanche,25056,24845,-211,-0.842
+NCCN,NOCA,Blowdown,925,905,-20,-2.162
+NCCN,NOCA,Clearing,1087,1043,-44,-4.048
+NCCN,NOCA,Defoliation,51487,50985,-502,-0.975
+NCCN,NOCA,Development,238,204,-34,-14.286
+NCCN,NOCA,Fire,432329,423085,-9244,-2.138
+NCCN,NOCA,Mass Movement,8358,8324,-34,-0.407
+NCCN,NOCA,Riparian Change,6774,6742,-32,-0.472
+NCCN,OLYM,Avalanche,10045,10045,0,0.0
+NCCN,OLYM,Blowdown,7792,7754,-38,-0.488
+NCCN,OLYM,Clearing,45,41,-4,-8.889
+NCCN,OLYM,Coastal Change,39,29,-10,-25.641
+NCCN,OLYM,Defoliation,390,382,-8,-2.051
+NCCN,OLYM,Development,40,40,0,0.0
+NCCN,OLYM,Fire,44488,42852,-1636,-3.677
+NCCN,OLYM,Ice Damage,115,115,0,0.0
+NCCN,OLYM,Mass Movement,3388,3387,-1,-0.03
+NCCN,OLYM,Riparian Change,18043,17832,-211,-1.169
+GLKN-primary,APIS,agriculture,5052,5052,0,0.0
+GLKN-primary,APIS,beaver,5723,5723,0,0.0
+GLKN-primary,APIS,blowdown,2872,2872,0,0.0
+GLKN-primary,APIS,development,44160,44160,0,0.0
+GLKN-primary,APIS,fire,5421,5421,0,0.0
+GLKN-primary,APIS,flooding,54,54,0,0.0
+GLKN-primary,APIS,harvest,575591,575591,0,0.0
+GLKN-primary,APIS,insect_disease_defo,532857,532857,0,0.0
+GLKN-primary,APIS,insect_disease_mort,120,120,0,0.0
+GLKN-primary,APIS,unknown,1858,1858,0,0.0
+GLKN-primary,INDU,agriculture,302,302,0,0.0
+GLKN-primary,INDU,development,11646,11646,0,0.0
+GLKN-primary,INDU,flooding,543,543,0,0.0
+GLKN-primary,INDU,harvest,1490,1490,0,0.0
+GLKN-primary,INDU,unknown,1130,1130,0,0.0
+GLKN-primary,ISRO,agriculture,3400,3400,0,0.0
+GLKN-primary,ISRO,beaver,20266,20266,0,0.0
+GLKN-primary,ISRO,blowdown,646,601,-45,-6.966
+GLKN-primary,ISRO,development,40345,40300,-45,-0.112
+GLKN-primary,ISRO,fire,217,217,0,0.0
+GLKN-primary,ISRO,harvest,634627,634624,-3,-0.0
+GLKN-primary,ISRO,insect_disease_defo,588932,588852,-80,-0.014
+GLKN-primary,ISRO,insect_disease_mort,1437,1437,0,0.0
+GLKN-primary,ISRO,unknown,472,472,0,0.0
+GLKN-primary,MISS,agriculture,906,906,0,0.0
+GLKN-primary,MISS,blowdown,31,31,0,0.0
+GLKN-primary,MISS,development,199393,199393,0,0.0
+GLKN-primary,MISS,fire,28,28,0,0.0
+GLKN-primary,MISS,flooding,335,335,0,0.0
+GLKN-primary,MISS,harvest,217,217,0,0.0
+GLKN-primary,MISS,insect_disease_mort,328,328,0,0.0
+GLKN-primary,MISS,unknown,701,701,0,0.0
+GLKN-primary,SACN,agriculture,6021,6021,0,0.0
+GLKN-primary,SACN,beaver,4283,4283,0,0.0
+GLKN-primary,SACN,blowdown,7657,7657,0,0.0
+GLKN-primary,SACN,development,112499,112499,0,0.0
+GLKN-primary,SACN,flooding,422,422,0,0.0
+GLKN-primary,SACN,harvest,413583,413583,0,0.0
+GLKN-primary,SACN,insect_disease_mort,196,196,0,0.0
+GLKN-primary,SACN,unknown,3200,3200,0,0.0
+GLKN-primary,SLBE,agriculture,14957,14957,0,0.0
+GLKN-primary,SLBE,blowdown,5553,5553,0,0.0
+GLKN-primary,SLBE,development,54714,54714,0,0.0
+GLKN-primary,SLBE,flooding,41,41,0,0.0
+GLKN-primary,SLBE,harvest,117749,117749,0,0.0
+GLKN-primary,SLBE,insect_disease_mort,2108,2108,0,0.0
+GLKN-primary,SLBE,unknown,843,843,0,0.0
+GLKN-primary,VOYA,agriculture,1245,1245,0,0.0
+GLKN-primary,VOYA,beaver,17374,17374,0,0.0
+GLKN-primary,VOYA,blowdown,22076,22076,0,0.0
+GLKN-primary,VOYA,development,5177,5177,0,0.0
+GLKN-primary,VOYA,fire,6529,6529,0,0.0
+GLKN-primary,VOYA,flooding,318,318,0,0.0
+GLKN-primary,VOYA,harvest,570130,570130,0,0.0
+GLKN-primary,VOYA,insect_disease_defo,28364,28364,0,0.0
+GLKN-primary,VOYA,insect_disease_mort,1480,1480,0,0.0
+GLKN-primary,VOYA,unknown,307,307,0,0.0
