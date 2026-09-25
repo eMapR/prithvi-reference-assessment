@@ -432,6 +432,53 @@ These differences reflect the underlying monitoring programs and should not be i
 
 Native-class counts refer to the classes represented in each source's Task 1 quantitative assessment. The attribution systems differ among sources and are not directly equivalent; source-specific taxonomy details are described in Sections 3–6.
 
+Table 7 summarizes native-class counts at the source level. Table 8 extends this to the subregion level, providing a compact numerical view of the amount and composition of reference information available within each of the 38 subregions evaluated across the four sources. This table is descriptive: it summarizes the reference information currently available in each subregion to support the project's subsequent focal-domain selection (Task 2). It does not rank subregions, score their diversity, or identify a preferred or "best" location for later modeling work.
+
+**Table 8. Per-subregion reference-data summary across all four sources**
+
+| Source | Subregion | Attributed pixel-years | Native classes represented | Leading native class (%) | Second native class (%) | Third native class (%) |
+|---|---|---|---|---|---|---|
+| NCCN | MORA | 261,833 | 8 | Fire (74.2%) | Defoliation (21.5%) | Riparian Change (3.1%) |
+| NCCN | NOCA | 524,866 | 8 | Fire (82.4%) | Defoliation (9.8%) | Avalanche (4.8%) |
+| NCCN | OLYM | 84,385 | 10 | Fire (52.7%) | Riparian Change (21.4%) | Avalanche (11.9%) |
+| NCCN | LEWI | 259,296 | 9 | Clearing (78.5%) | Windthrow Salvage (15.8%) | Tree Toppling (3.4%) |
+| GLKN | APIS | 1,173,708 | 10 | harvest (49.0%) | insect_disease_defo (45.4%) | development (3.8%) |
+| GLKN | INDU | 15,111 | 5 | development (77.1%) | harvest (9.9%) | unknown (7.5%) |
+| GLKN | ISRO | 1,290,342 | 9 | harvest (49.2%) | insect_disease_defo (45.6%) | development (3.1%) |
+| GLKN | MISS | 201,939 | 8 | development (98.7%) | agriculture (0.4%) | unknown (0.3%) |
+| GLKN | SACN | 547,861 | 8 | harvest (75.5%) | development (20.5%) | blowdown (1.4%) |
+| GLKN | SLBE | 195,965 | 7 | harvest (60.1%) | development (27.9%) | agriculture (7.6%) |
+| GLKN | VOYA | 653,000 | 10 | harvest (87.3%) | insect_disease_defo (4.3%) | blowdown (3.4%) |
+| ADS Region 6 | Blue Mountains | 38,875,415 | 48 | fir engraver (37.3%) | mountain pine beetle (16.9%) | western pine beetle (14.6%) |
+| ADS Region 6 | Cascades | 30,176,076 | 63 | mountain pine beetle (24.4%) | bears (21.7%) | fir engraver (17.5%) |
+| ADS Region 6 | Eastern Cascades Slopes and Foothills | 41,252,991 | 61 | mountain pine beetle (40.8%) | western spruce budworm (22.3%) | fir engraver (21.9%) |
+| ADS Region 6 | Coast Range | 26,775,328 | 61 | Swiss needle cast (44.7%) | bears (35.4%) | unknown (4.0%) |
+| ADS Region 6 | North Cascades | 32,797,665 | 60 | western spruce budworm (37.2%) | mountain pine beetle (28.0%) | fir engraver (8.2%) |
+| ADS Region 6 | Northern Rockies | 18,937,156 | 56 | mountain pine beetle (22.4%) | fir engraver (22.2%) | western spruce budworm (17.6%) |
+| ADS Region 6 | Klamath Mountains/California High North Coast Range | 7,568,432 | 48 | flatheaded fir borer (49.7%) | fir engraver (21.7%) | western pine beetle (15.0%) |
+| ADS Region 10 | Tanana River | 21,594,522 | 39 | aspen leafminer (68.5%) | willow leaf blotchminer (7.7%) | spruce budworm (4.3%) |
+| ADS Region 10 | Susitna River | 12,781,148 | 34 | spruce beetle (68.0%) | birch aphid (9.5%) | defoliators (8.5%) |
+| ADS Region 10 | Central Southeast Alaska | 8,176,237 | 29 | western blackheaded budworm (48.8%) | hemlock sawfly (31.9%) | yellow-cedar decline (15.5%) |
+| ADS Region 10 | Porcupine River | 7,458,390 | 22 | aspen leafminer (59.3%) | willow leaf blotchminer (27.6%) | fire (8.1%) |
+| ADS Region 10 | Kenai Peninsula | 6,448,326 | 36 | spruce beetle (71.4%) | birch leafminer (11.4%) | unknown defoliator (3.9%) |
+| ADS Region 10 | Beaver Creek-Yukon River | 6,127,694 | 31 | aspen leafminer (46.9%) | willow leaf blotchminer (39.7%) | spruce budworm (4.0%) |
+| ADS Region 10 | Upper Kuskokwim River | 5,810,761 | 27 | larch sawfly (55.8%) | spruce beetle (9.9%) | aspen leafminer (8.2%) |
+| ADS Region 10 | Knik Arm | 3,880,835 | 28 | birch leafminer (47.0%) | spruce beetle (32.3%) | defoliators (8.4%) |
+| ADS Region 10 | Southern Southeast Alaska | 3,156,635 | 21 | western blackheaded budworm (30.6%) | hemlock sawfly (29.7%) | yellow-cedar decline (28.7%) |
+| ADS Region 10 | Copper River | 3,110,013 | 32 | spruce beetle (41.1%) | aspen leafminer (27.1%) | defoliators (13.7%) |
+| ADS Region 10 | Outlet Yukon River | 2,967,230 | 23 | birch leafroller (23.2%) | unknown defoliator (20.1%) | larch sawfly (17.8%) |
+| ADS Region 10 | Melozitna River-Yukon River | 2,773,597 | 26 | aspen leafminer (24.5%) | spruce budworm (18.6%) | willow leaf blotchminer (17.5%) |
+| ADS Region 10 | Nushagak River | 2,669,249 | 25 | defoliators (30.4%) | western blackheaded budworm (27.4%) | large-spored spruce-Labrador tea rust (13.7%) |
+| ADS Region 10 | Northern Southeast Alaska | 2,091,624 | 39 | western blackheaded budworm (38.9%) | hemlock sawfly (12.0%) | spruce aphid (11.8%) |
+| ADS Region 10 | Chandalar-Christian River | 1,940,278 | 22 | willow leaf blotchminer (43.0%) | aspen leafminer (27.7%) | spruce budworm (10.9%) |
+| ADS Region 10 | Fortymile River-Yukon River | 1,331,358 | 28 | aspen leafminer (51.7%) | willow leaf blotchminer (30.9%) | northern spruce engraver (4.2%) |
+| ADS Region 10 | Koyukuk River | 1,299,948 | 27 | aspen leafminer (39.6%) | willow leaf blotchminer (27.6%) | unknown defoliator (10.6%) |
+| ADS Region 10 | Lower Kuskokwim River | 1,038,575 | 17 | birch leafroller (38.2%) | defoliators (16.0%) | spruce beetle (13.8%) |
+| ADS Region 10 | Prince William Sound | 580,153 | 20 | western blackheaded budworm (71.9%) | defoliators (7.0%) | spruce aphid (5.5%) |
+| ADS Region 10 | Kobuk-Selawik Rivers | 463,837 | 21 | aspen leafminer (59.5%) | unknown defoliator (10.2%) | willow leaf blotchminer (6.7%) |
+
+Attributed pixel-years use the same unique per-subregion, per-year denominator as Sections 3–6: a pixel attributed to more than one native class in the same year is counted once, not once per class. Leading, second, and third native classes are drawn from the same all-years spatial-prevalence calculation underlying Figures 3, 6, 9, and 13; native-class counts reflect only classes with actual rasterized representation in that subregion. As elsewhere in this report, native terminology is preserved exactly and not harmonized across sources — GLKN's lowercase agent names (e.g., `harvest`, `insect_disease_defo`) and ADS's DCA common names are shown as they occur in the source-derived data. This table is reproducibly derived from `outputs/report/task1_master_pixel_summary.csv` and the corresponding per-subregion multi-label QA files (`src/build_subregion_results_table.py`; see Appendix A).
+
 ### 7.2 Differences in attribution structure
 
 The four datasets do not describe landscape change in the same way. NCCN uses interpreted landscape-change classes representing processes such as fire, clearing, defoliation, avalanche, and riparian change. GLKN assigns causal agents to confirmed LandTrendr disturbance patches, with the ability to retain multiple agents for a disturbance. ADS uses a substantially larger Damage Causal Agent vocabulary and also records the broader type of observed vegetation damage.
@@ -503,6 +550,7 @@ This report presents the principal Task 1 findings. The complete reproducible an
 | Topic | Supporting material |
 |---|---|
 | Complete reproducible Task 1 analysis | `notebooks/reference_data_assessment.ipynb` |
+| Master per-subregion, per-class pixel-summary table (all four sources, all-years) | `outputs/report/task1_master_pixel_summary.csv`, built by `src/build_master_pixel_summary.py`; Table 8's per-subregion denominators and leading classes are derived from this file by `src/build_subregion_results_table.py` |
 | 30 m reference-grid and rasterization parameters | `src/rasterize_common.py`; `outputs/qa/nccn_rasterize_metadata.json`, `glkn_rasterize_metadata.json`, `ads_r6_rasterize_metadata.json`, `ads_r10_rasterize_metadata.json` |
 | NCCN study-area generation mapping and containment QA | Notebook Appendix A.6; `outputs/qa/nccn_aoi_generation_mapping_qa.csv`, `nccn_aoi_generation_mapping_outside_polygons.csv`, `nccn_natasha_aoi_containment_qa.csv` |
 | GLKN LandTrendr analysis-area provenance and containment QA | Notebook Appendix B.6; `outputs/qa/glkn_landtrendr_aoi_containment_qa.csv`, `nccn_glkn_aoi_total_pixel_counts.csv`, `nccn_glkn_aoi_constraint_comparison_subregion.csv`, `nccn_glkn_aoi_constraint_comparison_class.csv` |
