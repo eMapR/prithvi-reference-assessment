@@ -1,139 +1,121 @@
 # Prithvi Reference-Data Assessment
 
-Reference-data assessment for "Prithvi-Based Landscape Change Attribution
-Service in Support of National Park Service and National Forest Monitoring
-Needs" (NASA-funded, PI Robert Kennedy, Oregon State University).
+NASA-funded project: *A Prithvi-based landscape change attribution service in
+support of National Park Service and National Forest monitoring needs* (PI
+Robert Kennedy, Oregon State University).
 
-This repo covers the **reference-data assessment stage only**: characterizing
-existing attributed landscape-change polygons (NCCN, GLKN, USFS ADS) against
-existing geographic regions, before any Prithvi-EO-2.0 modeling work begins.
+This repository contains the completed **Objective 1, Task 1 — Reference
+Data Assessment**. Task 1 characterizes the existing landscape-change
+reference data available from four sources (NCCN, GLKN, USFS ADS Region 6,
+USFS ADS Region 10) before the project's focal sub-domains are selected and
+subsequent Prithvi-EO-2.0 experimental design begins. **It does not select
+or rank focal regions** — that is later project work, informed by these
+results.
 
-## Sources and their analysis regions (subregions)
+## Start here
 
-| Source | Reference data | Subregions |
-|---|---|---|
-| NCCN (NPS) | Attributed disturbance polygons, North Coast and Cascades Network | The source's own `park_code` identity (MORA, NOCA, OLYM, LEWI) -- subregion identity comes directly from the source attribute, not a spatial join against a boundary layer. Authoritative study-area AOIs exist for both analysis generations (10-mile-buffer original; NPS+USFS-Wilderness "Protected Areas" later, verified per-park mapping in `outputs/qa/nccn_aoi_generation_mapping_qa.csv`) and are documented as spatial/provenance context (notebook Part B.1, Appendix A.6) -- **Task 1 retains each park's complete published attributed geometry and does not clip pixels to the AOI** |
-| GLKN (NPS) | Al's attributed disturbance data, Great Lakes Network | The source's own `park_code` identity (APIS, INDU, ISRO, MISS, SACN, SLBE, VOYA) -- HUC boundaries were investigated as a candidate but not adopted (HUC boundary *geometry* is missing for GLKN, and ISRO/VOYA data extend into Canada where no boundary exists in this project). A per-park LandTrendr analysis-area AOI (the boundary the reference data was actually generated within, `outputs/qa/glkn_landtrendr_aoi_containment_qa.csv`, 99.99-100% containment) is documented as context (notebook Part B.1, Appendix B.6) -- `park_code` remains the subregion identity and pixel counts are not AOI-clipped |
-| USFS ADS Region 6 | Aerial Detection Survey polygons | The 7 dissolved EPA Level III ecoregions (`BugNet_R6` boundaries, actual boundary geometry, not centroid-assigned) |
-| USFS ADS Region 10 | Aerial Detection Survey polygons | The 20 HUC6 watershed basins (`BugNet_R10` boundaries, actual boundary geometry, not centroid-assigned) |
+**[Read the Task 1 Reference Data Assessment](report/task1_reference_data_assessment.md)**
 
-Do not assume any of the above class schemas, field names, or region
-boundary datasets match across sources. Each source gets inspected on its
-own before any shared logic is written against it. **Native source
-taxonomies (NCCN `change_class`, GLKN `agent_01`/`agent_02`/`agent_03`, ADS
-`DCA_CODE`/`DAMAGE_TYPE`) are preserved as delivered and are not mapped onto
-a shared/harmonized vocabulary at this stage** -- see `docs/data_inventory.md`
-and the QA reports under `outputs/qa/` for the full per-source rationale.
+Principal Task 1 products:
 
-## Processing environment
+| Product | What it is |
+|---|---|
+| [`report/task1_reference_data_assessment.md`](report/task1_reference_data_assessment.md) | Human-readable Task 1 report — start here |
+| [`outputs/report/task1_master_pixel_summary.csv`](outputs/report/task1_master_pixel_summary.csv) | Principal machine-readable all-years subregion × native-class summary |
+| [`notebooks/reference_data_assessment.ipynb`](notebooks/reference_data_assessment.ipynb) | Detailed, reproducible analysis (the analytical source of truth) |
+| [`outputs/qa/`](outputs/qa/) | Source-specific quantitative summaries and QA products underlying the report |
 
-The authoritative pipeline runs **locally in Python** (GeoPandas / Shapely /
-Fiona / Pyogrio / Pandas / Rasterio), not Google Earth Engine.
+A DOCX build of the report has intentionally been removed while the report
+content is under revision; it is not a current deliverable.
 
-Reference-label characterization is now done at two levels: (1) vector-level
-region/subregion summaries (record counts, attributed area, per-class
-composition -- `src/process_*.py`, `src/*_regional_summary.py`), and (2) a
-**30 m reference-grid rasterization** of each source's native classes,
-independently per subregion x year (`src/rasterize_*.py`,
-`src/build_pixel_summary_tables.py`). This 30 m grid is a *project-defined*
-reference grid used only to quantify the spatial amount and distribution of
-attributed labels at a consistent Landsat-scale resolution -- it is **not**
-verified against the Prithvi model's actual HLS ingestion grid, and that
-alignment must be revisited before these pixels are used to generate real
-training/eval samples. See the metadata JSONs in `outputs/qa/` for the exact
-CRS/resolution/alignment convention used per source.
+## What was assessed
 
-`gee_exploratory/` holds two **retired** Earth Engine POCs (an arbitrary
-224/112/56-pixel chip-grid approach, and an earlier region-summary sketch).
-Both are superseded by the current local-Python design above (existing
-source regions/subregions instead of an arbitrary chip grid, and the 30 m
-reference-grid rasterization instead of GEE) -- kept only for historical
-reference, not as active pipeline code.
+Four existing reference-data sources, each kept in its own native
+attribution system (no cross-source harmonization at this stage):
 
-## Directory structure
+| Source | Subregions | Primary attribution view | Native classes |
+|---|---|---|---|
+| NCCN (NPS) | 4 parks (MORA, NOCA, OLYM, LEWI) | Native landscape-change class | 16 |
+| GLKN (NPS) | 7 parks (APIS, INDU, ISRO, MISS, SACN, SLBE, VOYA) | Primary attributed agent (`agent_01`); secondary/tertiary agents retained separately | 10 |
+| USFS ADS Region 6 | 7 EPA Level III ecoregions | Damage Causal Agent (DCA) | 91 |
+| USFS ADS Region 10 | 20 HUC6 watershed basins | Damage Causal Agent (DCA) | 67 |
+
+NCCN and GLKN each have an **authoritative study-area AOI** documented as
+spatial/provenance context — it is not used to clip the published attributed
+polygons. The ADS Region 6 ecoregions and Region 10 HUC6 basins are
+**project-defined analysis subregions** (adopted from the existing BugNet
+framework), not historical ADS survey-area boundaries.
+
+## Task 1 methodology
 
 ```
-data/
-    raw/                 Original source data, exactly as received. Never modified.
-        nccn/
-        glkn/
-        ads/
-            r6/
-            r10/
-        boundaries/      Region boundary datasets -- kept separate from reference
-                         data even where one source (e.g. NCCN) is its main user.
-            nps/
-            ads_r6/
-            ads_r10/
-            other/       Source packages that don't map to one boundary category alone.
-    processed/            Anything WE create: repaired geometry, standardized
-                         GeoParquet, filtered subsets, reprojected boundaries.
-                         Mirrors data/raw/'s source-based layout. Nothing here yet.
-    README.md             Full explanation of the raw/processed/boundaries distinction.
-docs/
-    data_inventory.md      Full technical inventory (fields, CRS, counts, cross-checks).
-    DATA_STATUS.md         Quick human-readable acquisition/status tracker.
-    DATA_MANIFEST.md       Flat source-to-canonical-path lookup.
-    source_docs/            Documentation that came with the source datasets
-                         (reports, FGDC/RTF metadata, certification forms) --
-                         not the geospatial data itself.
-        nccn/  glkn/  ads/
+published attributed polygons
+  -> project-defined 30 m reference grid
+  -> subregion x year x native class
+  -> pixel counts / pixel-derived area / spatial prevalence
+```
+
+- The 30 m grid is a **Task 1 characterization grid**, not a verified
+  HLS/Prithvi training-sampling grid; that alignment is a subsequent design
+  decision.
+- **Unlabeled ≠ no-change.** Absence of an attributed polygon is never
+  interpreted as a stable/no-change observation.
+- Native attribution taxonomies are **preserved, not harmonized**, across
+  sources.
+- Valid same-year multiple attributions are **retained**, not collapsed to
+  one class.
+- All-years totals are **attributed pixel-years** (a location attributed in
+  more than one year contributes once per year), not unique physical area.
+- Because of multi-label attribution, native-class spatial prevalence can
+  **sum above 100%** within a subregion/year.
+
+## Master pixel-summary table
+
+[`outputs/report/task1_master_pixel_summary.csv`](outputs/report/task1_master_pixel_summary.csv)
+combines the four primary all-years quantitative views (NCCN; GLKN primary
+agent; ADS R6 DCA; ADS R10 DCA) into one table, without harmonizing native
+classes across sources. Built reproducibly by
+[`src/build_master_pixel_summary.py`](src/build_master_pixel_summary.py)
+from the underlying per-source summary CSVs in `outputs/qa/`.
+
+Schema: `source | subregion | subregion_name | native_class | pixel_count | area_ha | spatial_prevalence_pct`
+
+## Repository structure
+
+```
+report/                        Task 1 deliverables
+    task1_reference_data_assessment.md   Human-readable report
+    figures/                    Report figure assets
 outputs/
-    tables/         Long-format region summary CSVs.
-    spatial/        Spatial analytical products (e.g. dissolved/derived geometries).
-    maps/           QA maps/figures.
-    qa/             QA reports (see below).
-src/                 Processing, inspection, and 30 m reference-grid rasterization scripts.
-gee_exploratory/      Retired GEE POCs, superseded by the local-Python design above.
+    report/                     Principal Task 1 outputs
+        task1_master_pixel_summary.csv   Master pixel-summary table
+        assets/                 Source figure exports used to build the report
+    qa/                         Per-source quantitative summaries and QA products
+    tables/  spatial/  maps/    Reserved subdirectories, currently empty
+notebooks/
+    reference_data_assessment.ipynb   Detailed reproducible analysis
+src/                            Processing, rasterization, and summary-table scripts
+docs/
+    data_inventory.md           Full technical inventory (fields, CRS, counts, cross-checks)
+    DATA_STATUS.md               Acquisition/status tracker
+    DATA_MANIFEST.md             Source-to-canonical-path lookup
+    source_docs/                 Documentation shipped with the source datasets
+data/
+    raw/                        Original source data, exactly as received. Never modified.
+    processed/                   Repaired/standardized geometry derived from raw data
+                                 (NCCN, GLKN, ADS R6/R10, boundaries)
+gee_exploratory/                Retired Earth Engine proof-of-concept (historical only, see below)
 ```
 
-Raw and processed data, and generated outputs, are gitignored (structure is
-tracked via `.gitkeep`; contents are not committed to git). See `data/README.md`
-for the full rules governing this structure, and `docs/DATA_MANIFEST.md` for
-the exact canonical path of every source package received so far.
+Raw data, processed data, and generated `outputs/` contents are gitignored
+(directory structure is tracked via `.gitkeep`; the master pixel-summary CSV
+is a deliberate, explicit exception — see `.gitignore`). See `data/README.md`
+for the full raw/processed rules and `docs/DATA_MANIFEST.md` for the
+canonical path of every source package received.
 
-## Design principles
+## Reproducing the analysis
 
-- **Preserve originals.** Raw geodatabases/shapefiles/GeoPackages are never
-  modified in place. Read `.gdb` directly where possible rather than
-  converting everything to shapefile; prefer GeoPackage or GeoParquet for
-  any processed/intermediate vector product.
-- **Unlabeled ≠ no change.** Region area with no attributed polygon is
-  reported as `unlabeled`, never as `no_change`, unless a source contains an
-  explicit stable/no-change class. Existing attribution databases are known
-  to omit real disturbance.
-- **Overlaps are surfaced, not resolved.** Same-class overlapping polygons
-  are dissolved before computing area (so duplicate/overlapping
-  digitizations of one event don't double-count). Cross-class overlaps
-  (and, once relevant, cross-year and cross-source overlaps) are reported
-  as their own explicit quantity, not silently allowed to overwrite one
-  another or resolved by an arbitrary priority rule, until we've actually
-  looked at how much overlap exists and what it represents.
-- **CRS is never assumed.** Every source's native CRS is inspected before
-  any area is calculated. Area is always computed in an explicit, documented,
-  appropriate projected/equal-area CRS — never directly from geographic
-  (lat/lon) coordinates.
-- **Every run produces QA output**, not just a CSV: input feature/area
-  counts, regions and years covered, area assigned vs. unassigned to a
-  region, potential overlap area, and any invalid geometries encountered.
-
-## Workflow for a new dataset
-
-1. Run `src/inspect_dataset.py` against the raw file first (read-only —
-   never modifies the source). It reports layers, geometry types, CRS,
-   feature counts, fields, heuristic guesses at ID/class/year/region
-   fields, unique categorical values, year ranges, geometry validity, and
-   an approximate self-overlap signal.
-2. Look at the output by eye. Confirm or correct the field guesses.
-3. Decide which subregion identity (a source attribute, e.g. `park_code`,
-   or a boundary dataset, e.g. dissolved ecoregions/HUCs) summarizes it.
-   Native class taxonomies are preserved as-is at this stage -- no mapping
-   onto a shared/harmonized vocabulary is done here.
-4. Build/extend the region-summary logic in `src/` against that one
-   dataset + its subregion definition as a single end-to-end check before
-   generalizing to the next source.
-
-## Setup
+### Setup
 
 ```
 conda env create -f environment.yml
@@ -147,15 +129,63 @@ conda-forge than pip):
 pip install -r requirements.txt
 ```
 
-## Usage
+### Key scripts
+
+Reference-label characterization runs at two levels:
+
+1. **Vector-level summaries** — record counts, attributed area, per-class
+   composition (`src/process_*.py`, `src/*_regional_summary.py`).
+2. **30 m reference-grid rasterization** of each source's native classes,
+   independently per subregion x year:
+   - [`src/rasterize_common.py`](src/rasterize_common.py) — shared grid/rasterization logic
+   - `src/rasterize_nccn.py`, `src/rasterize_glkn.py`, `src/rasterize_ads_r6.py`, `src/rasterize_ads_r10.py` — per-source rasterization
+   - [`src/build_pixel_summary_tables.py`](src/build_pixel_summary_tables.py) — per-source subregion x year x class summary tables
+   - [`src/build_master_pixel_summary.py`](src/build_master_pixel_summary.py) — combines the four primary summaries into the master table above
+
+See the metadata JSONs in `outputs/qa/` for the exact CRS/resolution/
+alignment convention used per source.
+
+To inspect a new/raw dataset (read-only, never modifies the source):
 
 ```
 python src/inspect_dataset.py data/raw/ads/r6/ADS_R6_Damage_allyears.shp
-python src/inspect_dataset.py data/raw/nccn/NCCN_Landscape_Change_LPa01_1987-2017_V2_1_1_DISTRIBUTION/MORA_1987_2017_V2_1_1_UTM.shp --save
 python src/inspect_dataset.py /vsizip/$(pwd)/data/raw/ads/r10/AK_Region10_AllYears.gdb.zip   # zipped GDB, no extraction needed
 ```
 
 `data/raw/glkn/LandTrendr` is a real File Geodatabase without a `.gdb`
 extension (preserved exactly as received — see `docs/DATA_MANIFEST.md` "GDB
-extension note"); GDAL needs a `.gdb`-suffixed copy to open it, e.g.
-`cp -R data/raw/glkn/LandTrendr /tmp/LandTrendr.gdb` before inspecting.
+extension note"); GDAL needs a `.gdb`-suffixed copy to open it.
+
+### Design principles
+
+- **Preserve originals.** Raw geodatabases/shapefiles/GeoPackages are never
+  modified in place.
+- **Unlabeled ≠ no change.** Absence of an attributed polygon is never
+  treated as a stable/no-change observation.
+- **Overlaps are surfaced, not resolved.** Same-class overlapping polygons
+  are dissolved before computing area; cross-class/cross-year overlaps are
+  reported as their own explicit quantity rather than resolved by an
+  arbitrary priority rule.
+- **CRS is never assumed.** Every source's native CRS is inspected before
+  any area is calculated, in an explicit, documented, appropriate
+  projected/equal-area CRS.
+- **Every run produces QA output** — input feature/area counts, regions and
+  years covered, and any invalid geometries encountered — not just a
+  results CSV.
+
+### Historical context: `gee_exploratory/`
+
+`gee_exploratory/` holds two **retired** Earth Engine proof-of-concept
+scripts (an arbitrary 224/112/56-pixel chip-grid approach, and an earlier
+region-summary sketch) from before the project moved to the local-Python,
+existing-source-region design used throughout this repository. Kept for
+historical reference only — not active pipeline code.
+
+## Current boundary and next step
+
+Task 1 is **descriptive**. It characterizes the amount, composition, spatial
+distribution, and temporal distribution of the reference information
+currently available from each source. It does not rank subregions, score
+their diversity, or select a focal region. These results are intended to
+support the project's subsequent focal-domain selection and experimental-
+design work.
