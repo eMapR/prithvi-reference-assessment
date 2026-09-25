@@ -18,6 +18,11 @@ outputs/**
 !outputs/**/
 !outputs/**/.gitkeep
 
+# Exception: the master pixel-summary table is a small, reproducible,
+# report-adjacent deliverable (src/build_master_pixel_summary.py), not a
+# bulk intermediate QA export -- tracked like report/figures assets.
+!outputs/report/task1_master_pixel_summary.csv
+
 # Source documentation (reports, FGDC/RTF metadata, certification forms) is
 # often large binary content shipped by data providers -- same reasoning as
 # raw data above: preserved on disk, tracked by structure, not committed.
